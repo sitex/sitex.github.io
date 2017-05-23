@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Конспект МК Интернет-магазин на Yii2 - урок 1</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=a93c731b7d" />
+
+
+    <link rel="canonical" href="https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/amp/" />
+    
+    <meta property="og:site_name" content="Amazing Technology" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Конспект МК Интернет-магазин на Yii2 - урок 1" />
+    <meta property="og:description" content="Установка и настройка Установка фреймворка Инициализация конфигурации Переход на Asset Packagist Виртуальная машина VirtualBox + Vagrant Настройка IDE Рабочие директории Composer Codeception Git SSH Запуск тестов с виртуальной машины Настройка приложения Единая аутентификация Единый кеш Разделение UrlManager ЧПУ Шаблон AdminLTE для панели администратора Установка yii2-app-advanced 0:30 yii2-app-advanced на github  0:" />
+    <meta property="og:url" content="https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/" />
+    <meta property="article:published_time" content="2017-05-15T15:30:00.000Z" />
+    <meta property="article:modified_time" content="2017-05-23T15:48:37.000Z" />
+    <meta property="article:tag" content="php" />
+    <meta property="article:tag" content="conspect" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Конспект МК Интернет-магазин на Yii2 - урок 1" />
+    <meta name="twitter:description" content="Установка и настройка Установка фреймворка Инициализация конфигурации Переход на Asset Packagist Виртуальная машина VirtualBox + Vagrant Настройка IDE Рабочие директории Composer Codeception Git SSH Запуск тестов с виртуальной машины Настройка приложения Единая аутентификация Единый кеш Разделение UrlManager ЧПУ Шаблон AdminLTE для панели администратора Установка yii2-app-advanced 0:30 yii2-app-advanced на github  0:" />
+    <meta name="twitter:url" content="https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Ivan" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="php, conspect" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Amazing Technology",
+        "logo": "https://stefanscherer.github.io/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Ivan",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s=250&d=mm&r=x",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://stefanscherer.github.io/author/ivan/",
+        "sameAs": []
+    },
+    "headline": "Конспект МК Интернет-магазин на Yii2 - урок 1",
+    "url": "https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/",
+    "datePublished": "2017-05-15T15:30:00.000Z",
+    "dateModified": "2017-05-23T15:48:37.000Z",
+    "keywords": "php, conspect",
+    "description": "Установка и настройка Установка фреймворка Инициализация конфигурации Переход на Asset Packagist Виртуальная машина VirtualBox + Vagrant Настройка IDE Рабочие директории Composer Codeception Git SSH Запуск тестов с виртуальной машины Настройка приложения Единая аутентификация Единый кеш Разделение UrlManager ЧПУ Шаблон AdminLTE для панели администратора Установка yii2-app-advanced 0:30 yii2-app-advanced на github  0:",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://stefanscherer.github.io"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11" />
+    <link rel="alternate" type="application/rss+xml" title="Amazing Technology" href="https://stefanscherer.github.io/rss/" />
+</head>
+<body class="post-template tag-php tag-conspect nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav--"><a href="https://stefanscherer.github.io/">Фантастические технологии</a></li>
+            <li class="nav--"><a href="https://stefanscherer.github.io/tag/tools/">Полезные инструменты</a></li>
+            <li class="nav--"><a href="https://stefanscherer.github.io/tag/math/">Занимательная математика</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="https://stefanscherer.github.io/rss/">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-php tag-conspect">
+
+        <header class="post-header">
+            <h1 class="post-title">Конспект МК Интернет-магазин на Yii2 - урок 1</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2017-05-15">15 May 2017</time>  on <a href="../../../../tag/php/">php</a>, <a href="../../../../tag/conspect/">conspect</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <h1 id="">Установка и настройка</h1>
+
+<ul>
+<li>Установка фреймворка
+<ul><li>Инициализация конфигурации</li>
+<li>Переход на Asset Packagist</li></ul></li>
+<li>Виртуальная машина VirtualBox + Vagrant</li>
+<li>Настройка IDE
+<ul><li>Рабочие директории</li>
+<li>Composer</li>
+<li>Codeception</li>
+<li>Git</li>
+<li>SSH</li>
+<li>Запуск тестов с виртуальной машины</li></ul></li>
+<li>Настройка приложения
+<ul><li>Единая аутентификация</li>
+<li>Единый кеш</li>
+<li>Разделение UrlManager</li>
+<li>ЧПУ</li></ul></li>
+<li>Шаблон AdminLTE для панели администратора</li>
+</ul>
+
+<h3 id="yii2appadvanced">Установка yii2-app-advanced</h3>
+
+<p>0:30 yii2-app-advanced на github <br />
+0:33 Installer with Composer <br />
+0:36 Программа урока <br />
+0:44 git init <br />
+0:48 Settings - Version Control - Git <br />
+0:50 PHPStorm настройка папок <br />
+0:57 PHPStorm настройка - PHP, Composer и include папок <br />
+1:03 PHPStorm настройка - Codeception</p>
+
+<h3 id="">Инициация конфигурации</h3>
+
+<p>1:09 Про fxp/composer-asset-plugin. Как работает, плюсы и минусы. <br />
+1:20 asset-packagist.com <br />
+1:27 Настройка assets для Yii <br />
+1:34 Yii скрипт init <br />
+1:38 Различия Dev и Prod версий для Yii <br />
+1:44 Перерыв</p>
+
+<h3 id="">Виртуальная машина</h3>
+
+<p>2:00 VirtualBox <br />
+2:07 Vagrant <br />
+2:22 Vagrant change system hosts <br />
+2:27 Vagrant config <br />
+2:31 Vagrant Up <br />
+2:34 Vagrant SSH + MC <br />
+2:43 Включить ЧПУ адреса <br />
+2:50 Общий Access Control для Yii. Event beforeAction. <br />
+2:53 Подключение Behaviors в конфиге <br />
+2:57 Запуск тестов с VM <br />
+2:59 Тесты БД внутри VM <br />
+3:02 PHPStorm Настройка Remote PHP из Vagrant <br />
+3:09 Yii. Универсальная общая аутентификация (frontend и backend) <br />
+3:17 Yii. urlManager для frontend и backend <br />
+3:35 Yii. Cache <br />
+3:38 Memcached <br />
+3:45 Vagrant vs Docker <br />
+4:01 Yii. Контейнер внедрения зависимостей. Настройка</p>
+
+<h3 id="adminlte">Admin LTE</h3>
+
+<p>4:10 Yii. Admin LTE <br />
+4:20 Yii. Установка темы <br />
+4:28 Итоги <br />
+4:34 Ответы на вопросы <br />
+4:36 Приемущества Memcached > Memcache <br />
+5:04 pause</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../../../../author/ivan/" style="background-image: url(http://www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s&)"><span class="hidden">Ivan's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../../../../author/ivan/">Ivan</a></h4>
+
+                    <p>Read <a href="../../../../author/ivan/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%D0%9A%D0%BE%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%9C%D0%9A%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%BD%D0%B0%20Yii2%20-%20%D1%83%D1%80%D0%BE%D0%BA%201&amp;url=https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://stefanscherer.github.io/2017/05/15/conspect-yii2-1/"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../../17/conspect-yii2-2/">
+        <section class="post">
+            <h2>Конспект МК Интернет-магазин на Yii2 - урок 2</h2>
+            <p>Архитектура и пользователи Подготовка архитектуры Разделение ответственностей Выделение доменного ядра Введение репозиториев Выделение сервисов Управление доменными событиями Пользователи Сущность&hellip;</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../../01/pano-guru/">
+        <section class="post">
+            <h2>Pano Guru</h2>
+            <p>Help with your 360×180° panos https://www.pano-guru.com/cat/tutorials/&hellip;</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="https://stefanscherer.github.io">Amazing Technology</a> &copy; 2017</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=a93c731b7d"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=a93c731b7d"></script>
+
+</body>
+</html>
