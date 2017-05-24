@@ -1,43 +1,42 @@
-<!DOCTYPE html>
-<html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Магазин на Yii2 - урок 4</title>
-    <meta name="description" content="" />
+    <meta name="description" content="">
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="../../../../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=a93c731b7d" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=106a5934b5">
 
 
-    <link rel="canonical" href="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/" />
-    <meta name="referrer" content="no-referrer-when-downgrade" />
-    <link rel="amphtml" href="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/amp/" />
+    <link rel="canonical" href="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/amp/">
     
-    <meta property="og:site_name" content="Amazing Technology" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Магазин на Yii2 - урок 4" />
-    <meta property="og:description" content="Администрирование и шаблон Администрирование товаров Бренды Метки Характеристики Товары Шаблон магазина Натяжка вёрстки Регистрация CSS и JS Разделение подшаблонов 3:23 Создание продукта  3:25 Создание продукта. Категории  3:27 Создание продукта. Теги  3:31 Создание продукта. Характеристики  3:35 Создание продукта. Фото  3:36 Создание продукта. Демонстрация  3:43" />
-    <meta property="og:url" content="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/" />
-    <meta property="article:published_time" content="2017-05-22T15:38:00.000Z" />
-    <meta property="article:modified_time" content="2017-05-23T18:11:23.000Z" />
-    <meta property="article:tag" content="php" />
-    <meta property="article:tag" content="conspect" />
+    <meta property="og:site_name" content="Amazing Technology">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Магазин на Yii2 - урок 4">
+    <meta property="og:description" content="Администрирование и шаблон Администрирование товаров Бренды Метки Характеристики Товары Шаблон магазина Натяжка вёрстки Регистрация CSS и JS Разделение подшаблонов 3:23 Создание продукта  3:25 Создание продукта. Категории  3:27 Создание продукта. Теги  3:31 Создание продукта. Характеристики  3:35 Создание продукта. Фото  3:36 Создание продукта. Демонстрация  3:43">
+    <meta property="og:url" content="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/">
+    <meta property="article:published_time" content="2017-05-22T15:38:00.000Z">
+    <meta property="article:modified_time" content="2017-05-23T18:11:23.000Z">
+    <meta property="article:tag" content="php">
+    <meta property="article:tag" content="conspect">
     
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Магазин на Yii2 - урок 4" />
-    <meta name="twitter:description" content="Администрирование и шаблон Администрирование товаров Бренды Метки Характеристики Товары Шаблон магазина Натяжка вёрстки Регистрация CSS и JS Разделение подшаблонов 3:23 Создание продукта  3:25 Создание продукта. Категории  3:27 Создание продукта. Теги  3:31 Создание продукта. Характеристики  3:35 Создание продукта. Фото  3:36 Создание продукта. Демонстрация  3:43" />
-    <meta name="twitter:url" content="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Ivan" />
-    <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="php, conspect" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Магазин на Yii2 - урок 4">
+    <meta name="twitter:description" content="Администрирование и шаблон Администрирование товаров Бренды Метки Характеристики Товары Шаблон магазина Натяжка вёрстки Регистрация CSS и JS Разделение подшаблонов 3:23 Создание продукта  3:25 Создание продукта. Категории  3:27 Создание продукта. Теги  3:31 Создание продукта. Характеристики  3:35 Создание продукта. Фото  3:36 Создание продукта. Демонстрация  3:43">
+    <meta name="twitter:url" content="https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Ivan">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="php, conspect">
     
     <script type="application/ld+json">
 {
@@ -73,8 +72,8 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 0.11" />
-    <link rel="alternate" type="application/rss+xml" title="Amazing Technology" href="https://stefanscherer.github.io/rss/" />
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Amazing Technology" href="https://stefanscherer.github.io/rss/">
 </head>
 <body class="post-template tag-php tag-conspect nav-closed">
 
@@ -130,18 +129,18 @@
 <li>Разделение подшаблонов</li></ul></li>
 </ul>
 
-<p>3:23 Создание продукта <br />
-3:25 Создание продукта. Категории <br />
-3:27 Создание продукта. Теги <br />
-3:31 Создание продукта. Характеристики <br />
-3:35 Создание продукта. Фото <br />
-3:36 Создание продукта. Демонстрация <br />
-3:43 Просмотр товара в админке <br />
-3:50 Product->price для редактирования цены <br />
-3:50 Widget DetailView <br />
-3:53 Модификации <br />
-4:04 Просмотр товара. Фото <br />
-4:08 Редактирование товара в админке <br />
+<p>3:23 Создание продукта <br>
+3:25 Создание продукта. Категории <br>
+3:27 Создание продукта. Теги <br>
+3:31 Создание продукта. Характеристики <br>
+3:35 Создание продукта. Фото <br>
+3:36 Создание продукта. Демонстрация <br>
+3:43 Просмотр товара в админке <br>
+3:50 Product-&gt;price для редактирования цены <br>
+3:50 Widget DetailView <br>
+3:53 Модификации <br>
+4:04 Просмотр товара. Фото <br>
+4:08 Редактирование товара в админке <br>
 4:14 Импорт товаров</p>
         </section>
 
@@ -149,7 +148,7 @@
 
 
             <figure class="author-image">
-                <a class="img" href="../../../../author/ivan/" style="background-image: url(http://www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s&)"><span class="hidden">Ivan's Picture</span></a>
+                <a class="img" href="../../../../author/ivan/" style="background-image: url(http://www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s&amp;)"><span class="hidden">Ivan's Picture</span></a>
             </figure>
 
             <section class="author">
@@ -165,16 +164,13 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%BD%D0%B0%20Yii2%20-%20%D1%83%D1%80%D0%BE%D0%BA%204&amp;url=https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%BD%D0%B0%20Yii2%20-%20%D1%83%D1%80%D0%BE%D0%BA%204&amp;url=https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/"
-                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://stefanscherer.github.io/2017/05/22/conspect-yii2-4/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -189,13 +185,13 @@
     <a class="read-next-story no-cover" href="../../23/welcome-to-ghost/">
         <section class="post">
             <h2>Welcome to Ghost</h2>
-            <p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you&hellip;</p>
+            <p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you…</p>
         </section>
     </a>
     <a class="read-next-story prev no-cover" href="../joyful-development-with-symfony-3/">
         <section class="post">
             <h2>Joyful Development with Symfony 3</h2>
-            <p>In this screencast, we start building an application from the ground-up, exploring the most fundamental parts of the application:&hellip;</p>
+            <p>In this screencast, we start building an application from the ground-up, exploring the most fundamental parts of the application:…</p>
         </section>
     </a>
 </aside>
@@ -203,7 +199,7 @@
 
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="https://stefanscherer.github.io">Amazing Technology</a> &copy; 2017</section>
+            <section class="copyright"><a href="https://stefanscherer.github.io">Amazing Technology</a> © 2017</section>
             <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
         </footer>
 
@@ -211,8 +207,7 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     
-    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=a93c731b7d"></script>
-    <script type="text/javascript" src="../../../../assets/js/index.js?v=a93c731b7d"></script>
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=106a5934b5"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=106a5934b5"></script>
 
 </body>
-</html>

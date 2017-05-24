@@ -1,43 +1,42 @@
-<!DOCTYPE html>
-<html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Магазин на Yii2 - урок 2</title>
-    <meta name="description" content="" />
+    <meta name="description" content="">
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="../../../../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=a93c731b7d" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=106a5934b5">
 
 
-    <link rel="canonical" href="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/" />
-    <meta name="referrer" content="no-referrer-when-downgrade" />
-    <link rel="amphtml" href="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/amp/" />
+    <link rel="canonical" href="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/amp/">
     
-    <meta property="og:site_name" content="Amazing Technology" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Магазин на Yii2 - урок 2" />
-    <meta property="og:description" content="Архитектура и пользователи Подготовка архитектуры Разделение ответственностей Выделение доменного ядра Введение репозиториев Выделение сервисов Управление доменными событиями Пользователи Сущность User Подтверждение регистрации по Email Регистрация через соцсети Новый пользователь Привязка соцсетей к существующему Личный кабинет пользователя Администрирование пользователей 2:04 continue  2:16 PasswordResetService  2:16 (&quot;throw new \Exception&quot; vs" />
-    <meta property="og:url" content="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/" />
-    <meta property="article:published_time" content="2017-05-17T15:39:00.000Z" />
-    <meta property="article:modified_time" content="2017-05-23T18:11:50.000Z" />
-    <meta property="article:tag" content="php" />
-    <meta property="article:tag" content="conspect" />
+    <meta property="og:site_name" content="Amazing Technology">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Магазин на Yii2 - урок 2">
+    <meta property="og:description" content='Архитектура и пользователи Подготовка архитектуры Разделение ответственностей Выделение доменного ядра Введение репозиториев Выделение сервисов Управление доменными событиями Пользователи Сущность User Подтверждение регистрации по Email Регистрация через соцсети Новый пользователь Привязка соцсетей к существующему Личный кабинет пользователя Администрирование пользователей 2:04 continue  2:16 PasswordResetService  2:16 ("throw new \Exception" vs'>
+    <meta property="og:url" content="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/">
+    <meta property="article:published_time" content="2017-05-17T15:39:00.000Z">
+    <meta property="article:modified_time" content="2017-05-23T18:11:50.000Z">
+    <meta property="article:tag" content="php">
+    <meta property="article:tag" content="conspect">
     
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Магазин на Yii2 - урок 2" />
-    <meta name="twitter:description" content="Архитектура и пользователи Подготовка архитектуры Разделение ответственностей Выделение доменного ядра Введение репозиториев Выделение сервисов Управление доменными событиями Пользователи Сущность User Подтверждение регистрации по Email Регистрация через соцсети Новый пользователь Привязка соцсетей к существующему Личный кабинет пользователя Администрирование пользователей 2:04 continue  2:16 PasswordResetService  2:16 (&quot;throw new \Exception&quot; vs" />
-    <meta name="twitter:url" content="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Ivan" />
-    <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="php, conspect" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Магазин на Yii2 - урок 2">
+    <meta name="twitter:description" content='Архитектура и пользователи Подготовка архитектуры Разделение ответственностей Выделение доменного ядра Введение репозиториев Выделение сервисов Управление доменными событиями Пользователи Сущность User Подтверждение регистрации по Email Регистрация через соцсети Новый пользователь Привязка соцсетей к существующему Личный кабинет пользователя Администрирование пользователей 2:04 continue  2:16 PasswordResetService  2:16 ("throw new \Exception" vs'>
+    <meta name="twitter:url" content="https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Ivan">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="php, conspect">
     
     <script type="application/ld+json">
 {
@@ -73,8 +72,8 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 0.11" />
-    <link rel="alternate" type="application/rss+xml" title="Amazing Technology" href="https://stefanscherer.github.io/rss/" />
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Amazing Technology" href="https://stefanscherer.github.io/rss/">
 </head>
 <body class="post-template tag-php tag-conspect nav-closed">
 
@@ -135,53 +134,53 @@
 <li>Администрирование пользователей</li>
 </ul>
 
-<p>2:04 continue <br />
-2:16 PasswordResetService <br />
-2:16 ("throw new \Exception" vs "return false") <br />
-2:34 Контейнер Внедрения Зависимостей <br />
-2:51 Через конструктор Контроллера <br />
-2:53 PasswordResetService _construct with Mailer <br />
-2:56 ContactForm - Service <br />
-3:05 (Private vs Protected) <br />
-3:07 Instance:of('') <br />
-3:13 Подтверждение регистрации по Email <br />
-3:21 Промежуточный обзор - что получили <br />
-3:25 Подготовка к использованию Репозиториев <br />
-3:28 UserRepository <br />
-3:33 LoginForm рефакторинг -> LoginService <br />
-3:39 Структура проекта, которая получилась <br />
-3:42 Новая папка <code>shop</code> с ядром проекта <br />
-3:47 <code>common</code> vs <code>shop</code> <br />
-3:48 Много зависимостей в конструкторе у SiteController <br />
-3:50 Делим SiteController на мелкие Контроллеры <br />
-3:54 Маршрутизация мелких Контроллеров <br />
+<p>2:04 continue <br>
+2:16 PasswordResetService <br>
+2:16 ("throw new \Exception" vs "return false") <br>
+2:34 Контейнер Внедрения Зависимостей <br>
+2:51 Через конструктор Контроллера <br>
+2:53 PasswordResetService _construct with Mailer <br>
+2:56 ContactForm - Service <br>
+3:05 (Private vs Protected) <br>
+3:07 Instance:of('') <br>
+3:13 Подтверждение регистрации по Email <br>
+3:21 Промежуточный обзор - что получили <br>
+3:25 Подготовка к использованию Репозиториев <br>
+3:28 UserRepository <br>
+3:33 LoginForm рефакторинг -&gt; LoginService <br>
+3:39 Структура проекта, которая получилась <br>
+3:42 Новая папка <code>shop</code> с ядром проекта <br>
+3:47 <code>common</code> vs <code>shop</code> <br>
+3:48 Много зависимостей в конструкторе у SiteController <br>
+3:50 Делим SiteController на мелкие Контроллеры <br>
+3:54 Маршрутизация мелких Контроллеров <br>
 3:57 Представление писем по папкам</p>
 
 <h4 id="">Регистрация через соцсети</h4>
 
-<p>3:59 Регистрация через соц.сети <br />
-4:08 <a href="https://github.com/webmozart/assert">https://github.com/webmozart/assert</a> <br />
-4:09 Создание вместе User и Network <br />
-4:10 Yii2-save-relations-behavior <br />
-4:15 Создание таблицы Networks <br />
-4:16 Аутентификация из соц.сети signupByNetwork() <br />
-4:19 NetworkService <br />
-4:24 yii2-authclient <br />
-4:31 NetworkController <br />
-4:34 Demo Network Login <br />
-4:38 Demo Network Login - check DB <br />
+<p>3:59 Регистрация через соц.сети <br>
+4:08 <a href="https://github.com/webmozart/assert">https://github.com/webmozart/assert</a> <br>
+4:09 Создание вместе User и Network <br>
+4:10 Yii2-save-relations-behavior <br>
+4:15 Создание таблицы Networks <br>
+4:16 Аутентификация из соц.сети signupByNetwork() <br>
+4:19 NetworkService <br>
+4:24 yii2-authclient <br>
+4:31 NetworkController <br>
+4:34 Demo Network Login <br>
+4:38 Demo Network Login - check DB <br>
 4:41 Кабинет пользователя с другими соц.сетями</p>
 
 <h4 id="">Администрирование пользователей</h4>
 
-<p>4:50 CRUD пользователей через gii, allowedIPs <br />
-4:55 Настройка полученного CRUD <br />
-4:57 Модель поиска и GridView <br />
-5:03 UserHelper для View <br />
-5:08 DatePicker <br />
-5:15 Создание, Редактирование пользователя (через формы) <br />
-5:19 UserCreateForm <br />
-5:21 UserEditForm с текущим пользователем <br />
+<p>4:50 CRUD пользователей через gii, allowedIPs <br>
+4:55 Настройка полученного CRUD <br>
+4:57 Модель поиска и GridView <br>
+5:03 UserHelper для View <br>
+5:08 DatePicker <br>
+5:15 Создание, Редактирование пользователя (через формы) <br>
+5:19 UserCreateForm <br>
+5:21 UserEditForm с текущим пользователем <br>
 5:28 Ответы на вопросы</p>
         </section>
 
@@ -189,7 +188,7 @@
 
 
             <figure class="author-image">
-                <a class="img" href="../../../../author/ivan/" style="background-image: url(http://www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s&)"><span class="hidden">Ivan's Picture</span></a>
+                <a class="img" href="../../../../author/ivan/" style="background-image: url(http://www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s&amp;)"><span class="hidden">Ivan's Picture</span></a>
             </figure>
 
             <section class="author">
@@ -205,16 +204,13 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%BD%D0%B0%20Yii2%20-%20%D1%83%D1%80%D0%BE%D0%BA%202&amp;url=https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%BD%D0%B0%20Yii2%20-%20%D1%83%D1%80%D0%BE%D0%BA%202&amp;url=https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/"
-                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://stefanscherer.github.io/2017/05/17/conspect-yii2-2/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -229,13 +225,13 @@
     <a class="read-next-story no-cover" href="../../18/webmozart-assert/">
         <section class="post">
             <h2>webmozart/assert</h2>
-            <p>Assertions to validate method input/output with nice error messages. Installation composer require webmozart/assert Example use Webmozart\Assert\&hellip;</p>
+            <p>Assertions to validate method input/output with nice error messages. Installation composer require webmozart/assert Example use Webmozart\Assert\…</p>
         </section>
     </a>
     <a class="read-next-story prev no-cover" href="../../15/conspect-yii2-1/">
         <section class="post">
             <h2>Магазин на Yii2 - урок 1</h2>
-            <p>Установка и настройка Установка фреймворка Инициализация конфигурации Переход на Asset Packagist Виртуальная машина VirtualBox + Vagrant Настройка IDE Рабочие директории&hellip;</p>
+            <p>Установка и настройка Установка фреймворка Инициализация конфигурации Переход на Asset Packagist Виртуальная машина VirtualBox + Vagrant Настройка IDE Рабочие директории…</p>
         </section>
     </a>
 </aside>
@@ -243,7 +239,7 @@
 
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="https://stefanscherer.github.io">Amazing Technology</a> &copy; 2017</section>
+            <section class="copyright"><a href="https://stefanscherer.github.io">Amazing Technology</a> © 2017</section>
             <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
         </footer>
 
@@ -251,8 +247,7 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     
-    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=a93c731b7d"></script>
-    <script type="text/javascript" src="../../../../assets/js/index.js?v=a93c731b7d"></script>
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=106a5934b5"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=106a5934b5"></script>
 
 </body>
-</html>
