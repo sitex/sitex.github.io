@@ -1,0 +1,202 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>2080 Ti TensorFlow GPU benchmarks</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=9ac97992cf">
+
+
+    <link rel="canonical" href="https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/amp/">
+    
+    <meta property="og:site_name" content="Amazing Technology">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="2080 Ti TensorFlow GPU benchmarks">
+    <meta property="og:description" content="The 2080 Ti comes out on top as the best GPU in 2018 for training neural nets. Results summary As of October 8, 2018, the NVIDIA RTX 2080 Ti is the best GPU for deep learning research on a single GPU system running TensorFlow. A typical single GPU system with">
+    <meta property="og:url" content="https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/">
+    <meta property="article:published_time" content="2018-10-15T03:49:00.000Z">
+    <meta property="article:modified_time" content="2018-10-22T03:57:40.000Z">
+    <meta property="article:tag" content="hardware">
+    <meta property="article:tag" content="ML">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="2080 Ti TensorFlow GPU benchmarks">
+    <meta name="twitter:description" content="The 2080 Ti comes out on top as the best GPU in 2018 for training neural nets. Results summary As of October 8, 2018, the NVIDIA RTX 2080 Ti is the best GPU for deep learning research on a single GPU system running TensorFlow. A typical single GPU system with">
+    <meta name="twitter:url" content="https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Blogger">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="hardware, ML">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Amazing Technology",
+        "logo": "https://stefanscherer.github.io/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Blogger",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s=250&d=mm&r=x",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://stefanscherer.github.io/author/blogger/",
+        "sameAs": []
+    },
+    "headline": "2080 Ti TensorFlow GPU benchmarks",
+    "url": "https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/",
+    "datePublished": "2018-10-15T03:49:00.000Z",
+    "dateModified": "2018-10-22T03:57:40.000Z",
+    "keywords": "hardware, ML",
+    "description": "The 2080 Ti comes out on top as the best GPU in 2018 for training neural nets. Results summary As of October 8, 2018, the NVIDIA RTX 2080 Ti is the best GPU for deep learning research on a single GPU system running TensorFlow. A typical single GPU system with",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://stefanscherer.github.io"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Amazing Technology" href="https://stefanscherer.github.io/rss/">
+</head>
+<body class="post-template tag-hardware tag-ml nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav--"><a href="https://stefanscherer.github.io/">Фантастические технологии</a></li>
+            <li class="nav--"><a href="https://stefanscherer.github.io/tag/tools/">Полезные инструменты</a></li>
+            <li class="nav--"><a href="https://stefanscherer.github.io/tag/math/">Занимательная математика</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="https://stefanscherer.github.io/rss/">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-hardware tag-ml">
+
+        <header class="post-header">
+            <h1 class="post-title">2080 Ti TensorFlow GPU benchmarks</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2018-10-15">15 October 2018</time>  on <a href="../../../../tag/hardware/">hardware</a>, <a href="../../../../tag/ml/">ML</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>The 2080 Ti comes out on top as the best GPU in 2018 for training neural nets.</p>
+
+<h4 id="resultssummary">Results summary</h4>
+
+<p>As of October 8, 2018, the NVIDIA RTX <code>2080 Ti</code> is the best GPU for deep learning research on a single GPU system running TensorFlow. A typical single GPU system with this GPU will be:</p>
+
+<ul>
+<li>37% faster than the <code>1080 Ti</code> with FP32, 62% faster with FP16</li>
+<li>35% faster than the <code>2080</code> with FP32, 47% faster with FP16</li>
+<li>96% as fast as the <code>Titan V</code> with FP32, 3% faster with FP16</li>
+<li>80% as fast as the <code>Tesla V100</code> with FP32, 82% as fast with FP16</li>
+</ul>
+
+<p>Note that all experiments utilized Tensor Cores when available and are priced out on a complete single GPU system cost. As a system builder and AI research company, we're trying to make benchmarks that are scientific, reproducible, correlate with real world training scenarios, and have accurate prices. </p>
+
+<p><a href="https://lambdalabs.com/blog/best-gpu-tensorflow-2080-ti-vs-v100-vs-titan-v-vs-1080-ti-benchmark/">https://lambdalabs.com/blog/best-gpu-tensorflow-2080-ti-vs-v100-vs-titan-v-vs-1080-ti-benchmark/</a></p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../../../../author/blogger/" style="background-image: url(http://www.gravatar.com/avatar/51e23cf1e6b11e5cc63752a15f4e9c53?s&amp;)"><span class="hidden">Blogger's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../../../../author/blogger/">Blogger</a></h4>
+
+                    <p>Read <a href="../../../../author/blogger/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=2080%20Ti%20TensorFlow%20GPU%20benchmarks&amp;url=https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://stefanscherer.github.io/2018/10/15/2080-ti-tensorflow-gpu-benchmarks/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../ffmpeg-using-cuda/">
+        <section class="post">
+            <h2>FFmpeg using Cuda</h2>
+            <p>Configure ./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(../../../../content/images/2018/10/10676326_852285034822177_5077541371215568844_n.png)" href="../fashion-from-tv-shows/">
+        <section class="post">
+            <h2>Fashion from TV Shows</h2>
+            <p>Homepage: Worn on TV Search by Show: Supernatural Search by Person: Olivia Pope…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="https://stefanscherer.github.io">Amazing Technology</a> © 2018</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=9ac97992cf"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=9ac97992cf"></script>
+
+</body>
