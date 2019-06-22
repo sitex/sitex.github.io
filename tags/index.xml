@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Amazing Technology</title>
-    <link>http://example.com/tags/</link>
+    <link>https://sitex.github.io/tags/</link>
     <description>Recent content in Tags on Amazing Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 06 Mar 2019 14:15:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sitex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Amazon</title>
-      <link>http://example.com/tags/amazon/</link>
+      <link>https://sitex.github.io/tags/amazon/</link>
       <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/amazon/</guid>
+      <guid>https://sitex.github.io/tags/amazon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Audio</title>
-      <link>http://example.com/tags/audio/</link>
+      <link>https://sitex.github.io/tags/audio/</link>
       <pubDate>Wed, 06 Feb 2019 18:36:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/audio/</guid>
+      <guid>https://sitex.github.io/tags/audio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Auth</title>
-      <link>http://example.com/tags/auth/</link>
+      <link>https://sitex.github.io/tags/auth/</link>
       <pubDate>Wed, 06 Feb 2019 18:35:03 +0000</pubDate>
       
-      <guid>http://example.com/tags/auth/</guid>
+      <guid>https://sitex.github.io/tags/auth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dotscale</title>
-      <link>http://example.com/tags/dotscale/</link>
+      <link>https://sitex.github.io/tags/dotscale/</link>
       <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
       
-      <guid>http://example.com/tags/dotscale/</guid>
+      <guid>https://sitex.github.io/tags/dotscale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Event</title>
-      <link>http://example.com/tags/event/</link>
+      <link>https://sitex.github.io/tags/event/</link>
       <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
       
-      <guid>http://example.com/tags/event/</guid>
+      <guid>https://sitex.github.io/tags/event/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jupyter</title>
-      <link>http://example.com/tags/jupyter/</link>
+      <link>https://sitex.github.io/tags/jupyter/</link>
       <pubDate>Tue, 05 Mar 2019 14:20:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/jupyter/</guid>
+      <guid>https://sitex.github.io/tags/jupyter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laravel</title>
-      <link>http://example.com/tags/laravel/</link>
+      <link>https://sitex.github.io/tags/laravel/</link>
       <pubDate>Thu, 07 Mar 2019 14:35:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/laravel/</guid>
+      <guid>https://sitex.github.io/tags/laravel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Php</title>
-      <link>http://example.com/tags/php/</link>
+      <link>https://sitex.github.io/tags/php/</link>
       <pubDate>Sun, 24 Dec 2017 00:07:02 +0000</pubDate>
       
-      <guid>http://example.com/tags/php/</guid>
+      <guid>https://sitex.github.io/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sketchnote</title>
-      <link>http://example.com/tags/sketchnote/</link>
+      <link>https://sitex.github.io/tags/sketchnote/</link>
       <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
       
-      <guid>http://example.com/tags/sketchnote/</guid>
+      <guid>https://sitex.github.io/tags/sketchnote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminal</title>
-      <link>http://example.com/tags/terminal/</link>
+      <link>https://sitex.github.io/tags/terminal/</link>
       <pubDate>Thu, 07 Mar 2019 14:19:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/terminal/</guid>
+      <guid>https://sitex.github.io/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>http://example.com/tags/ubuntu/</link>
+      <link>https://sitex.github.io/tags/ubuntu/</link>
       <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/ubuntu/</guid>
+      <guid>https://sitex.github.io/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>http://example.com/tags/windows/</link>
+      <link>https://sitex.github.io/tags/windows/</link>
       <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/windows/</guid>
+      <guid>https://sitex.github.io/tags/windows/</guid>
       <description></description>
     </item>
     

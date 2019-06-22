@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal on Amazing Technology</title>
-    <link>http://example.com/tags/terminal/</link>
+    <link>https://sitex.github.io/tags/terminal/</link>
     <description>Recent content in Terminal on Amazing Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Thu, 07 Mar 2019 14:19:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sitex.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All Files and Folders Recursively via Terminal</title>
-      <link>http://example.com/posts/all-files-and-folders-recursively-via-terminal/</link>
+      <link>https://sitex.github.io/posts/all-files-and-folders-recursively-via-terminal/</link>
       <pubDate>Thu, 07 Mar 2019 14:19:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/all-files-and-folders-recursively-via-terminal/</guid>
+      <guid>https://sitex.github.io/posts/all-files-and-folders-recursively-via-terminal/</guid>
       <description>find . -type f &amp;gt; ../files-all.txt  </description>
     </item>
     
     <item>
       <title>All files in Amazon S3</title>
-      <link>http://example.com/posts/all-files-in-amazon-s3/</link>
+      <link>https://sitex.github.io/posts/all-files-in-amazon-s3/</link>
       <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/all-files-in-amazon-s3/</guid>
+      <guid>https://sitex.github.io/posts/all-files-in-amazon-s3/</guid>
       <description>$ s3cmd ls -r s3://yourbucket/ | awk &#39;{print $4}&#39; &amp;gt; objects_in_bucket  </description>
     </item>
     
