@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel on Amazing Technology</title>
+    <link>http://example.com/tags/laravel/</link>
+    <description>Recent content in Laravel on Amazing Technology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Thu, 07 Mar 2019 14:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Queue::failing Mail Notification</title>
+      <link>http://example.com/posts/queue-failing-mail-notification/</link>
+      <pubDate>Thu, 07 Mar 2019 14:35:00 +0000</pubDate>
+      
+      <guid>http://example.com/posts/queue-failing-mail-notification/</guid>
+      <description>Add to boot() in AppServiceProvider.php
+Queue::failing(function (JobFailed $event) { // $event-&amp;gt;connectionName // $event-&amp;gt;job // $event-&amp;gt;exception $data[&#39;jobName&#39;] = $event-&amp;gt;job-&amp;gt;getName(); $data[&#39;jsonEncodedData&#39;] = json_encode($event-&amp;gt;job-&amp;gt;payload()); $data[&#39;exception&#39;] = $event-&amp;gt;exception; // Add current timestring $data[&#39;timeString&#39;] = Carbon::now()-&amp;gt;toDayDateTimeString(); Mail::send([&#39;text&#39; =&amp;gt; &#39;emails.alert.queueFailing&#39;], $data, function ($msg) { $msg-&amp;gt;to(config(&#39;mail.support&#39;)) -&amp;gt;from(config(&#39;mail.from&#39;)) -&amp;gt;subject(&#39;Queue Error Detected&#39;); }); });  </description>
+    </item>
+    
+    <item>
+      <title>Laravel mailing from terminal</title>
+      <link>http://example.com/posts/laravel-mailing-from-terminal/</link>
+      <pubDate>Fri, 01 Mar 2019 14:29:00 +0000</pubDate>
+      
+      <guid>http://example.com/posts/laravel-mailing-from-terminal/</guid>
+      <description>Run:
+php artisan tinker  and then:
+Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&#39;youremail@domain.com&#39;)-&amp;gt;subject(&#39;Testing email&#39;); });  Change emails.test to point to a blade that works and populate the email you want to test.
+Source: https://www.gregoryvarghese.com/tag/email/</description>
+    </item>
+    
+    <item>
+      <title>13 Laravel Admin Panel Generators</title>
+      <link>http://example.com/posts/13-laravel-admin-panel-generators/</link>
+      <pubDate>Fri, 10 Feb 2017 17:07:00 +0000</pubDate>
+      
+      <guid>http://example.com/posts/13-laravel-admin-panel-generators/</guid>
+      <description>https://laravel-news.com/13-laravel-admin-panel-generators</description>
+    </item>
+    
+  </channel>
+</rss>

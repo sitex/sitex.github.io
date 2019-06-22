@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Amazing Technology</title>
+    <link>http://example.com/tags/</link>
+    <description>Recent content in Tags on Amazing Technology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 14:15:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amazon</title>
+      <link>http://example.com/tags/amazon/</link>
+      <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/amazon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio</title>
+      <link>http://example.com/tags/audio/</link>
+      <pubDate>Wed, 06 Feb 2019 18:36:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auth</title>
+      <link>http://example.com/tags/auth/</link>
+      <pubDate>Wed, 06 Feb 2019 18:35:03 +0000</pubDate>
+      
+      <guid>http://example.com/tags/auth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dotscale</title>
+      <link>http://example.com/tags/dotscale/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://example.com/tags/dotscale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event</title>
+      <link>http://example.com/tags/event/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://example.com/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>http://example.com/tags/jupyter/</link>
+      <pubDate>Tue, 05 Mar 2019 14:20:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>http://example.com/tags/laravel/</link>
+      <pubDate>Thu, 07 Mar 2019 14:35:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>http://example.com/tags/php/</link>
+      <pubDate>Sun, 24 Dec 2017 00:07:02 +0000</pubDate>
+      
+      <guid>http://example.com/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sketchnote</title>
+      <link>http://example.com/tags/sketchnote/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://example.com/tags/sketchnote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://example.com/tags/terminal/</link>
+      <pubDate>Thu, 07 Mar 2019 14:19:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>http://example.com/tags/ubuntu/</link>
+      <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://example.com/tags/windows/</link>
+      <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
