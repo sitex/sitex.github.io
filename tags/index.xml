@@ -1,122 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Amazing Technology</title>
-    <link>https://sitex.github.io/tags/</link>
-    <description>Recent content in Tags on Amazing Technology</description>
+    <title>Tags on </title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Wed, 06 Mar 2019 14:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2019 14:35:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sitex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Amazon</title>
-      <link>https://sitex.github.io/tags/amazon/</link>
-      <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
-      
-      <guid>https://sitex.github.io/tags/amazon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audio</title>
-      <link>https://sitex.github.io/tags/audio/</link>
-      <pubDate>Wed, 06 Feb 2019 18:36:00 +0000</pubDate>
-      
-      <guid>https://sitex.github.io/tags/audio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Auth</title>
-      <link>https://sitex.github.io/tags/auth/</link>
-      <pubDate>Wed, 06 Feb 2019 18:35:03 +0000</pubDate>
-      
-      <guid>https://sitex.github.io/tags/auth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dotscale</title>
-      <link>https://sitex.github.io/tags/dotscale/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>https://sitex.github.io/tags/dotscale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Event</title>
-      <link>https://sitex.github.io/tags/event/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>https://sitex.github.io/tags/event/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jupyter</title>
-      <link>https://sitex.github.io/tags/jupyter/</link>
-      <pubDate>Tue, 05 Mar 2019 14:20:00 +0000</pubDate>
-      
-      <guid>https://sitex.github.io/tags/jupyter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laravel</title>
-      <link>https://sitex.github.io/tags/laravel/</link>
+      <title>laravel</title>
+      <link>/tags/laravel/</link>
       <pubDate>Thu, 07 Mar 2019 14:35:00 +0000</pubDate>
       
-      <guid>https://sitex.github.io/tags/laravel/</guid>
+      <guid>/tags/laravel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Php</title>
-      <link>https://sitex.github.io/tags/php/</link>
-      <pubDate>Sun, 24 Dec 2017 00:07:02 +0000</pubDate>
-      
-      <guid>https://sitex.github.io/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sketchnote</title>
-      <link>https://sitex.github.io/tags/sketchnote/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>https://sitex.github.io/tags/sketchnote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://sitex.github.io/tags/terminal/</link>
+      <title>terminal</title>
+      <link>/tags/terminal/</link>
       <pubDate>Thu, 07 Mar 2019 14:19:00 +0000</pubDate>
       
-      <guid>https://sitex.github.io/tags/terminal/</guid>
+      <guid>/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://sitex.github.io/tags/ubuntu/</link>
-      <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
+      <title>amazon</title>
+      <link>/tags/amazon/</link>
+      <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
       
-      <guid>https://sitex.github.io/tags/ubuntu/</guid>
+      <guid>/tags/amazon/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Windows</title>
-      <link>https://sitex.github.io/tags/windows/</link>
+      <title>jupyter</title>
+      <link>/tags/jupyter/</link>
+      <pubDate>Tue, 05 Mar 2019 14:20:00 +0000</pubDate>
+      
+      <guid>/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audio</title>
+      <link>/tags/audio/</link>
+      <pubDate>Wed, 06 Feb 2019 18:36:00 +0000</pubDate>
+      
+      <guid>/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>auth</title>
+      <link>/tags/auth/</link>
+      <pubDate>Wed, 06 Feb 2019 18:35:03 +0000</pubDate>
+      
+      <guid>/tags/auth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>/tags/ubuntu/</link>
       <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
       
-      <guid>https://sitex.github.io/tags/windows/</guid>
+      <guid>/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>/tags/php/</link>
+      <pubDate>Sun, 24 Dec 2017 00:07:02 +0000</pubDate>
+      
+      <guid>/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotScale</title>
+      <link>/tags/dotscale/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>/tags/dotscale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>event</title>
+      <link>/tags/event/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sketchnote</title>
+      <link>/tags/sketchnote/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>/tags/sketchnote/</guid>
       <description></description>
     </item>
     
