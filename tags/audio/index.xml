@@ -12,10 +12,10 @@
     
     <item>
       <title>Sonic Candle</title>
-      <link>/posts/sonic-candle/</link>
+      <link>/post/sonic-candle/</link>
       <pubDate>Wed, 06 Feb 2019 18:36:00 +0000</pubDate>
       
-      <guid>/posts/sonic-candle/</guid>
+      <guid>/post/sonic-candle/</guid>
       <description>Given a music file, generates a video file with a visualization of frequency spectrum bars generated for the music. Outputs high-quality, rendered video. Intended for publishing your own music on YouTube and stuff.
 http://soniccandle.sourceforge.net/</description>
     </item>

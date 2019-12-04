@@ -12,10 +12,10 @@
     
     <item>
       <title>App for multi-factor auth</title>
-      <link>/posts/app-for-multi-factor-auth/</link>
+      <link>/post/app-for-multi-factor-auth/</link>
       <pubDate>Wed, 06 Feb 2019 18:35:03 +0000</pubDate>
       
-      <guid>/posts/app-for-multi-factor-auth/</guid>
+      <guid>/post/app-for-multi-factor-auth/</guid>
       <description>A simple application for multi-factor authentication, written in HTML using jQuery Mobile, jsSHA, LocalStorage and Application Cache.
 It implements the TOTP (Time-Based One-Time Password) algorithm according to RFC6238 and has been tested to work with Google Authenticator, Dropbox, Dreamhost, Amazon, Linode, Okta and many other services.
 https://github.com/gbraad/gauth/</description>

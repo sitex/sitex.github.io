@@ -8,18 +8,28 @@
   </url>
   
   <url>
-    <loc>/posts/intel-ax200ngw/</loc>
+    <loc>/tags/hardware/</loc>
     <lastmod>2019-12-03T17:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/post/intel-ax200ngw/</loc>
+    <lastmod>2019-12-03T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
     <lastmod>2019-12-03T17:30:00+00:00</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/posts/small-sharp-software-tools/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-03T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/small-sharp-software-tools/</loc>
     <lastmod>2019-12-02T17:30:00+00:00</lastmod>
   </url>
   
@@ -29,27 +39,32 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-12-02T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/programmer-book-com/</loc>
+    <loc>/tags/links/</loc>
     <lastmod>2019-12-01T17:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ssh-download/</loc>
+    <loc>/post/programmer-book-com/</loc>
+    <lastmod>2019-12-01T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ssh-download/</loc>
     <lastmod>2019-11-10T17:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/software/</loc>
+    <loc>/tags/terminal/</loc>
+    <lastmod>2019-11-10T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/software/</loc>
     <lastmod>2019-10-06T07:05:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/vertical-reordering-of-blocks-with-css/</loc>
+    <loc>/post/vertical-reordering-of-blocks-with-css/</loc>
     <lastmod>2019-10-02T18:39:00+00:00</lastmod>
   </url>
   
@@ -59,27 +74,22 @@
   </url>
   
   <url>
-    <loc>/posts/queue-failing-mail-notification/</loc>
+    <loc>/post/queue-failing-mail-notification/</loc>
     <lastmod>2019-03-07T14:35:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/all-files-and-folders-recursively-via-terminal/</loc>
+    <loc>/post/all-files-and-folders-recursively-via-terminal/</loc>
     <lastmod>2019-03-07T14:19:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/terminal/</loc>
-    <lastmod>2019-03-07T14:19:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/all-files-from-subfolders-to-parent-folder/</loc>
+    <loc>/post/all-files-from-subfolders-to-parent-folder/</loc>
     <lastmod>2019-03-06T14:17:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/all-files-in-amazon-s3/</loc>
+    <loc>/post/all-files-in-amazon-s3/</loc>
     <lastmod>2019-03-06T14:15:00+00:00</lastmod>
   </url>
   
@@ -89,7 +99,7 @@
   </url>
   
   <url>
-    <loc>/posts/expose-jupyter-notebook/</loc>
+    <loc>/post/expose-jupyter-notebook/</loc>
     <lastmod>2019-03-05T14:20:00+00:00</lastmod>
   </url>
   
@@ -99,7 +109,7 @@
   </url>
   
   <url>
-    <loc>/posts/laravel-mailing-from-terminal/</loc>
+    <loc>/post/laravel-mailing-from-terminal/</loc>
     <lastmod>2019-03-01T14:29:00+00:00</lastmod>
   </url>
   
@@ -109,12 +119,12 @@
   </url>
   
   <url>
-    <loc>/posts/sonic-candle/</loc>
+    <loc>/post/sonic-candle/</loc>
     <lastmod>2019-02-06T18:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/app-for-multi-factor-auth/</loc>
+    <loc>/post/app-for-multi-factor-auth/</loc>
     <lastmod>2019-02-06T18:35:03+00:00</lastmod>
   </url>
   
@@ -124,57 +134,57 @@
   </url>
   
   <url>
-    <loc>/posts/webpagetest/</loc>
+    <loc>/post/webpagetest/</loc>
     <lastmod>2019-02-03T17:43:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/compose-key-in-ubuntu/</loc>
+    <loc>/post/compose-key-in-ubuntu/</loc>
     <lastmod>2019-02-02T17:46:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/whatsapp-db/</loc>
+    <loc>/post/whatsapp-db/</loc>
     <lastmod>2019-01-21T18:25:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/find-my-samsung/</loc>
+    <loc>/post/find-my-samsung/</loc>
     <lastmod>2019-01-11T18:22:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/pro-son/</loc>
+    <loc>/post/pro-son/</loc>
     <lastmod>2019-01-03T18:18:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/deblurgan/</loc>
+    <loc>/post/deblurgan/</loc>
     <lastmod>2018-12-31T19:11:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/super-slomo/</loc>
+    <loc>/post/super-slomo/</loc>
     <lastmod>2018-12-31T19:05:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/php-compatibility-check-for-php_codesniffer/</loc>
+    <loc>/post/php-compatibility-check-for-php_codesniffer/</loc>
     <lastmod>2018-12-29T17:52:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/game-hitman-2-fastrun/</loc>
+    <loc>/post/game-hitman-2-fastrun/</loc>
     <lastmod>2018-12-25T17:59:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/pomodoro-timer-for-ubuntu/</loc>
+    <loc>/post/pomodoro-timer-for-ubuntu/</loc>
     <lastmod>2018-12-25T17:56:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/catboost-vs-light-gbm-vs-xgboost/</loc>
+    <loc>/post/catboost-vs-light-gbm-vs-xgboost/</loc>
     <lastmod>2018-12-18T18:58:00+00:00</lastmod>
   </url>
   
@@ -184,7 +194,7 @@
   </url>
   
   <url>
-    <loc>/posts/ubuntu-gui-on-windows-10/</loc>
+    <loc>/post/ubuntu-gui-on-windows-10/</loc>
     <lastmod>2018-12-17T18:59:00+00:00</lastmod>
   </url>
   
@@ -194,157 +204,157 @@
   </url>
   
   <url>
-    <loc>/posts/linux-infrared-remote-control-library/</loc>
+    <loc>/post/linux-infrared-remote-control-library/</loc>
     <lastmod>2018-12-16T18:56:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/catboost/</loc>
+    <loc>/post/catboost/</loc>
     <lastmod>2018-12-13T18:52:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/integrate-firebase-with-php/</loc>
+    <loc>/post/integrate-firebase-with-php/</loc>
     <lastmod>2018-12-05T18:49:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/twitch-urls-extactor/</loc>
+    <loc>/post/twitch-urls-extactor/</loc>
     <lastmod>2018-11-05T03:02:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/c-tutorials/</loc>
+    <loc>/post/c-tutorials/</loc>
     <lastmod>2018-10-22T04:34:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/corsair-scimitar-pro-rgb/</loc>
+    <loc>/post/corsair-scimitar-pro-rgb/</loc>
     <lastmod>2018-10-20T03:41:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/cloud-speech-to-text/</loc>
+    <loc>/post/cloud-speech-to-text/</loc>
     <lastmod>2018-10-19T03:45:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/unzip-unicode-files/</loc>
+    <loc>/post/unzip-unicode-files/</loc>
     <lastmod>2018-10-19T03:43:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/project-twitch-videos/</loc>
+    <loc>/post/project-twitch-videos/</loc>
     <lastmod>2018-10-19T02:41:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/project-url-to-youtube/</loc>
+    <loc>/post/project-url-to-youtube/</loc>
     <lastmod>2018-10-19T02:38:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/docker-default-images-location/</loc>
+    <loc>/post/docker-default-images-location/</loc>
     <lastmod>2018-10-15T23:15:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ffmpeg-using-cuda/</loc>
+    <loc>/post/ffmpeg-using-cuda/</loc>
     <lastmod>2018-10-15T03:59:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2080-ti-tensorflow-gpu-benchmarks/</loc>
+    <loc>/post/2080-ti-tensorflow-gpu-benchmarks/</loc>
     <lastmod>2018-10-15T03:49:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/fashion-from-tv-shows/</loc>
+    <loc>/post/fashion-from-tv-shows/</loc>
     <lastmod>2018-10-14T21:55:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/the-wonder-shaper/</loc>
+    <loc>/post/the-wonder-shaper/</loc>
     <lastmod>2018-10-12T22:05:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/trickle/</loc>
+    <loc>/post/trickle/</loc>
     <lastmod>2018-10-12T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/youtube-upload/</loc>
+    <loc>/post/youtube-upload/</loc>
     <lastmod>2018-09-11T22:16:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/block-tor-from-your-website/</loc>
+    <loc>/post/block-tor-from-your-website/</loc>
     <lastmod>2018-07-11T22:44:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/error-eperm-operation-not-permitted/</loc>
+    <loc>/post/error-eperm-operation-not-permitted/</loc>
     <lastmod>2018-04-23T15:07:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/accelerated-mobile-pages/</loc>
+    <loc>/post/accelerated-mobile-pages/</loc>
     <lastmod>2018-04-21T15:59:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/peek-an-animated-gif-recorder/</loc>
+    <loc>/post/peek-an-animated-gif-recorder/</loc>
     <lastmod>2018-04-19T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/mysqldump-fix-emojis/</loc>
+    <loc>/post/mysqldump-fix-emojis/</loc>
     <lastmod>2018-04-16T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/wget-yandex-disk/</loc>
+    <loc>/post/wget-yandex-disk/</loc>
     <lastmod>2018-04-16T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/matiematichieskii-analiz/</loc>
+    <loc>/post/matiematichieskii-analiz/</loc>
     <lastmod>2018-04-16T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/wordpress-forms-plugin/</loc>
+    <loc>/post/wordpress-forms-plugin/</loc>
     <lastmod>2018-04-09T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/gitignore-for-wordpress/</loc>
+    <loc>/post/gitignore-for-wordpress/</loc>
     <lastmod>2018-04-08T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/styled-components/</loc>
+    <loc>/post/styled-components/</loc>
     <lastmod>2018-04-08T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/php-replacement-for-intl-extension/</loc>
+    <loc>/post/php-replacement-for-intl-extension/</loc>
     <lastmod>2018-03-10T05:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/proxy-by-amazon-ec2/</loc>
+    <loc>/post/proxy-by-amazon-ec2/</loc>
     <lastmod>2017-12-25T01:27:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/amazon-lightsail/</loc>
+    <loc>/post/amazon-lightsail/</loc>
     <lastmod>2017-12-24T01:46:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/react-table/</loc>
+    <loc>/post/react-table/</loc>
     <lastmod>2017-12-24T00:12:14+00:00</lastmod>
   </url>
   
@@ -354,272 +364,272 @@
   </url>
   
   <url>
-    <loc>/posts/php-7-2-for-ubuntu/</loc>
+    <loc>/post/php-7-2-for-ubuntu/</loc>
     <lastmod>2017-12-24T00:07:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/auryn-dependency-injector/</loc>
+    <loc>/post/auryn-dependency-injector/</loc>
     <lastmod>2017-12-19T02:01:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/virtualenv/</loc>
+    <loc>/post/virtualenv/</loc>
     <lastmod>2017-12-10T01:55:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/pywatch/</loc>
+    <loc>/post/pywatch/</loc>
     <lastmod>2017-12-10T00:59:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/deploy-php-series/</loc>
+    <loc>/post/deploy-php-series/</loc>
     <lastmod>2017-11-18T00:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/spintax/</loc>
+    <loc>/post/spintax/</loc>
     <lastmod>2017-11-08T06:22:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/python-seo-analyzer/</loc>
+    <loc>/post/python-seo-analyzer/</loc>
     <lastmod>2017-11-08T06:19:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/bem/</loc>
+    <loc>/post/bem/</loc>
     <lastmod>2017-08-27T21:27:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/frozentimelocal-for-cakephp/</loc>
+    <loc>/post/frozentimelocal-for-cakephp/</loc>
     <lastmod>2017-08-13T20:07:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/online-convert/</loc>
+    <loc>/post/online-convert/</loc>
     <lastmod>2017-08-09T21:19:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/megatools-for-mega-nz/</loc>
+    <loc>/post/megatools-for-mega-nz/</loc>
     <lastmod>2017-08-05T07:37:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ekstriemalnoie-proghrammirovaniie/</loc>
+    <loc>/post/ekstriemalnoie-proghrammirovaniie/</loc>
     <lastmod>2017-08-04T18:51:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/rieghuliarnyie-vyrazhieniia-osnovy/</loc>
+    <loc>/post/rieghuliarnyie-vyrazhieniia-osnovy/</loc>
     <lastmod>2017-08-04T18:42:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ssl-on-shared-hosting/</loc>
+    <loc>/post/ssl-on-shared-hosting/</loc>
     <lastmod>2017-08-02T11:18:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/chromium-browser-url/</loc>
+    <loc>/post/chromium-browser-url/</loc>
     <lastmod>2017-08-02T11:13:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/http-react-semantic-ui-com-introduction/</loc>
+    <loc>/post/http-react-semantic-ui-com-introduction/</loc>
     <lastmod>2017-08-02T05:42:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/mysql-innodb-primary-key-choice-guid-uuid-vs-integer-insert-performance/</loc>
+    <loc>/post/mysql-innodb-primary-key-choice-guid-uuid-vs-integer-insert-performance/</loc>
     <lastmod>2017-06-30T05:37:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/emoji-in-mysql/</loc>
+    <loc>/post/emoji-in-mysql/</loc>
     <lastmod>2017-05-23T22:32:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/avtomashiny-i-samoliet/</loc>
+    <loc>/post/avtomashiny-i-samoliet/</loc>
     <lastmod>2017-05-23T09:06:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/welcome-to-ghost/</loc>
+    <loc>/post/welcome-to-ghost/</loc>
     <lastmod>2017-05-23T07:18:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/conspect-yii2-4/</loc>
+    <loc>/post/conspect-yii2-4/</loc>
     <lastmod>2017-05-22T15:38:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/joyful-development-with-symfony-3/</loc>
+    <loc>/post/joyful-development-with-symfony-3/</loc>
     <lastmod>2017-05-22T13:18:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/conspect-yii2-3/</loc>
+    <loc>/post/conspect-yii2-3/</loc>
     <lastmod>2017-05-19T15:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/cakephp-adminlte-theme/</loc>
+    <loc>/post/cakephp-adminlte-theme/</loc>
     <lastmod>2017-05-17T18:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/figma/</loc>
+    <loc>/post/figma/</loc>
     <lastmod>2017-05-17T18:14:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/webmozart-assert/</loc>
+    <loc>/post/webmozart-assert/</loc>
     <lastmod>2017-05-17T18:05:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/conspect-yii2-2/</loc>
+    <loc>/post/conspect-yii2-2/</loc>
     <lastmod>2017-05-17T15:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/conspect-yii2-1/</loc>
+    <loc>/post/conspect-yii2-1/</loc>
     <lastmod>2017-05-15T15:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/mysqldump/</loc>
+    <loc>/post/mysqldump/</loc>
     <lastmod>2017-05-09T05:07:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/polyglot-french/</loc>
+    <loc>/post/polyglot-french/</loc>
     <lastmod>2017-05-07T18:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/pano-guru/</loc>
+    <loc>/post/pano-guru/</loc>
     <lastmod>2017-05-01T13:56:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/imagine-iceland/</loc>
+    <loc>/post/imagine-iceland/</loc>
     <lastmod>2017-04-30T17:21:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/docker-stack/</loc>
+    <loc>/post/docker-stack/</loc>
     <lastmod>2017-04-25T14:01:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/applied-cryptography/</loc>
+    <loc>/post/applied-cryptography/</loc>
     <lastmod>2017-04-24T17:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/https-habrahabr-ru-company-yandex-blog-324866/</loc>
+    <loc>/post/https-habrahabr-ru-company-yandex-blog-324866/</loc>
     <lastmod>2017-04-24T17:35:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/blockchain/</loc>
+    <loc>/post/blockchain/</loc>
     <lastmod>2017-04-16T17:01:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/koh-phangan-in-360/</loc>
+    <loc>/post/koh-phangan-in-360/</loc>
     <lastmod>2017-04-12T18:23:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/coursera-dl/</loc>
+    <loc>/post/coursera-dl/</loc>
     <lastmod>2017-04-06T22:45:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/blogging-with-git-flow/</loc>
+    <loc>/post/blogging-with-git-flow/</loc>
     <lastmod>2017-04-05T06:38:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/taiskoie-chtieniie/</loc>
+    <loc>/post/taiskoie-chtieniie/</loc>
     <lastmod>2017-02-24T09:24:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/how-to-create-a-symbolic-link-in-cpanel/</loc>
+    <loc>/post/how-to-create-a-symbolic-link-in-cpanel/</loc>
     <lastmod>2017-02-15T21:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/13-laravel-admin-panel-generators/</loc>
+    <loc>/post/13-laravel-admin-panel-generators/</loc>
     <lastmod>2017-02-10T17:07:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/cpu-temperature-in-ubuntu/</loc>
+    <loc>/post/cpu-temperature-in-ubuntu/</loc>
     <lastmod>2017-02-03T20:38:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/piat-bazovykh-uprazhnienii/</loc>
+    <loc>/post/piat-bazovykh-uprazhnienii/</loc>
     <lastmod>2017-02-01T09:16:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/xsel/</loc>
+    <loc>/post/xsel/</loc>
     <lastmod>2017-01-28T07:05:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/siraj-raval/</loc>
+    <loc>/post/siraj-raval/</loc>
     <lastmod>2017-01-24T09:45:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/https-tails-boum-org/</loc>
+    <loc>/post/https-tails-boum-org/</loc>
     <lastmod>2017-01-21T15:31:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/whonix/</loc>
+    <loc>/post/whonix/</loc>
     <lastmod>2017-01-21T14:55:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/devtools-for-redux/</loc>
+    <loc>/post/devtools-for-redux/</loc>
     <lastmod>2017-01-21T05:34:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/converting-react-project-from-es5-to-es6-7/</loc>
+    <loc>/post/converting-react-project-from-es5-to-es6-7/</loc>
     <lastmod>2017-01-21T05:32:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/data-to-react-app/</loc>
+    <loc>/post/data-to-react-app/</loc>
     <lastmod>2017-01-21T05:20:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/thunk/</loc>
+    <loc>/post/thunk/</loc>
     <lastmod>2017-01-21T05:12:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/gosha-arinich/</loc>
+    <loc>/post/gosha-arinich/</loc>
     <lastmod>2017-01-21T05:08:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/dropmyemail/</loc>
+    <loc>/post/dropmyemail/</loc>
     <lastmod>2016-05-23T08:55:00+00:00</lastmod>
   </url>
   
@@ -629,7 +639,7 @@
   </url>
   
   <url>
-    <loc>/posts/dotscale-2014-as-a-sketch/</loc>
+    <loc>/post/dotscale-2014-as-a-sketch/</loc>
     <lastmod>2014-07-11T10:54:24+02:00</lastmod>
   </url>
   

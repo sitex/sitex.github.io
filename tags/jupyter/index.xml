@@ -12,10 +12,10 @@
     
     <item>
       <title>Expose jupyter notebook</title>
-      <link>/posts/expose-jupyter-notebook/</link>
+      <link>/post/expose-jupyter-notebook/</link>
       <pubDate>Tue, 05 Mar 2019 14:20:00 +0000</pubDate>
       
-      <guid>/posts/expose-jupyter-notebook/</guid>
+      <guid>/post/expose-jupyter-notebook/</guid>
       <description>The notebook is available over the network with two changes in the configuration file.
 Create configuration file jupyter notebook --generate-config  Config IP c.NotebookApp.ip = &#39;192.168.0.101&#39;.  Config password Run to generate a password:
 from the notebook.auth import passwd; passwd()  Add the password to config:
