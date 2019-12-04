@@ -4,13 +4,43 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-10-06T07:05:00+00:00</lastmod>
+    <lastmod>2019-12-03T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/intel-ax200ngw/</loc>
+    <lastmod>2019-12-03T17:30:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2019-10-06T07:05:00+00:00</lastmod>
+    <lastmod>2019-12-03T17:30:00+00:00</lastmod>
     <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/small-sharp-software-tools/</loc>
+    <lastmod>2019-12-02T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/books/</loc>
+    <lastmod>2019-12-02T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-02T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/programmer-book-com/</loc>
+    <lastmod>2019-12-01T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/ssh-download/</loc>
+    <lastmod>2019-11-10T17:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -30,11 +60,6 @@
   
   <url>
     <loc>/posts/queue-failing-mail-notification/</loc>
-    <lastmod>2019-03-07T14:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-03-07T14:35:00+00:00</lastmod>
   </url>
   

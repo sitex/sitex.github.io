@@ -57,7 +57,7 @@
         <link href="/tags/laravel/index.xml" rel="alternate" type="application/rss+xml" title="laravel &middot; " />
       
     
-    <meta name="generator" content="Hugo 0.58.3" />
+    <meta name="generator" content="Hugo 0.57.2" />
 
     <link rel="canonical" href="/tags/laravel/" />
 
@@ -170,7 +170,8 @@
     <section class="post-excerpt">
         
             <p>Add to boot() in AppServiceProvider.php
-Queue::failing(function (JobFailed $event) { // $event-&gt;connectionName // $event-&gt;job // $event-&gt;exception $data['jobName'] = $event-&gt;job-&gt;getName(); $data['jsonEncodedData'] = json_encode($event-&gt;job-&gt;payload()); $data['exception'] = $event-&gt;exception; // Add current timestring $data['timeString'] = Carbon::now()-&gt;toDayDateTimeString(); Mail::send(['text' =&gt; 'emails.alert.queueFailing'], $data, function ($msg) { $msg-&gt;to(config('mail.support')) -&gt;from(config('mail.from')) -&gt;subject('Queue Error Detected'); }); });   <a class="read-more" href="/posts/queue-failing-mail-notification/">&raquo;</a></p>
+Queue::failing(function (JobFailed $event) { // $event-&gt;connectionName // $event-&gt;job // $event-&gt;exception $data['jobName'] = $event-&gt;job-&gt;getName(); $data['jsonEncodedData'] = json_encode($event-&gt;job-&gt;payload()); $data['exception'] = $event-&gt;exception; // Add current timestring $data['timeString'] = Carbon::now()-&gt;toDayDateTimeString(); Mail::send(['text' =&gt; 'emails.alert.queueFailing'], $data, function ($msg) { $msg-&gt;to(config('mail.support')) -&gt;from(config('mail.from')) -&gt;subject('Queue Error Detected'); }); });  </p>
+            <p style="text-align: right;"><a class="read-more" href="/posts/queue-failing-mail-notification/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -199,7 +200,8 @@ Queue::failing(function (JobFailed $event) { // $event-&gt;connectionName // $ev
             <p>Run:
 php artisan tinker  and then:
 Mail::send('emails.test', [], function($message) { $message-&gt;to('youremail@domain.com')-&gt;subject('Testing email'); });  Change emails.test to point to a blade that works and populate the email you want to test.
-Source: https://www.gregoryvarghese.com/tag/email/ <a class="read-more" href="/posts/laravel-mailing-from-terminal/">&raquo;</a></p>
+Source: https://www.gregoryvarghese.com/tag/email/</p>
+            <p style="text-align: right;"><a class="read-more" href="/posts/laravel-mailing-from-terminal/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -225,7 +227,8 @@ Source: https://www.gregoryvarghese.com/tag/email/ <a class="read-more" href="/p
     </header>
     <section class="post-excerpt">
         
-            <p>https://laravel-news.com/13-laravel-admin-panel-generators <a class="read-more" href="/posts/13-laravel-admin-panel-generators/">&raquo;</a></p>
+            <p>https://laravel-news.com/13-laravel-admin-panel-generators</p>
+            <p style="text-align: right;"><a class="read-more" href="/posts/13-laravel-admin-panel-generators/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
