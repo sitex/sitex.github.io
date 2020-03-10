@@ -109,13 +109,6 @@
     <ul>
         
         
-        
-            
-            <li class="nav-opened" role="presentation">
-            	<a href="/post/dotscale-2014-as-a-sketch/">dotScale 2014 as a sketch</a>
-            </li>
-        
-        
     </ul>
 
     
@@ -135,7 +128,9 @@
     <nav class="main-nav overlay clearfix">
         
         
-            <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+            
+              <a class="menu-button icon-feed" href="">&nbsp;&nbsp;Subscribe</a>
+            
         
     </nav>
     <div class="vertical">
@@ -408,8 +403,6 @@
     
         
     
-        
-    
 
     
 
@@ -433,12 +426,12 @@
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/all-files-from-subfolders-to-parent-folder/">All files from subfolders to parent folder</a></h2>
+        <h2 class="post-title"><a href="/post/2019/all-files-from-subfolders-to-parent-folder/">All files from subfolders to parent folder</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p>find . -mindepth 2 -type f -print -exec mv {} . \;  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/all-files-from-subfolders-to-parent-folder/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/all-files-from-subfolders-to-parent-folder/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -460,12 +453,12 @@
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/all-files-in-amazon-s3/">All files in Amazon S3</a></h2>
+        <h2 class="post-title"><a href="/post/2019/all-files-in-amazon-s3/">All files in Amazon S3</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p>$ s3cmd ls -r s3://yourbucket/ | awk '{print $4}' &gt; objects_in_bucket  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/all-files-in-amazon-s3/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/all-files-in-amazon-s3/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -489,7 +482,7 @@
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/expose-jupyter-notebook/">Expose jupyter notebook</a></h2>
+        <h2 class="post-title"><a href="/post/2019/expose-jupyter-notebook/">Expose jupyter notebook</a></h2>
     </header>
     <section class="post-excerpt">
         
@@ -497,7 +490,7 @@
 Create configuration file jupyter notebook --generate-config  Config IP c.NotebookApp.ip = '192.168.0.101'.  Config password Run to generate a password:
 from the notebook.auth import passwd; passwd()  Add the password to config:
 c.NotebookApp.password = ''  Source: http://kracekumar.com/post/156322146345/expose-jupyter-notebook-over-the-network</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/expose-jupyter-notebook/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/expose-jupyter-notebook/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -519,7 +512,7 @@ c.NotebookApp.password = ''  Source: http://kracekumar.com/post/156322146345/exp
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/laravel-mailing-from-terminal/">Laravel mailing from terminal</a></h2>
+        <h2 class="post-title"><a href="/post/2019/laravel-mailing-from-terminal/">Laravel mailing from terminal</a></h2>
     </header>
     <section class="post-excerpt">
         
@@ -527,7 +520,7 @@ c.NotebookApp.password = ''  Source: http://kracekumar.com/post/156322146345/exp
 php artisan tinker  and then:
 Mail::send('emails.test', [], function($message) { $message-&gt;to('youremail@domain.com')-&gt;subject('Testing email'); });  Change emails.test to point to a blade that works and populate the email you want to test.
 Source: https://www.gregoryvarghese.com/tag/email/</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/laravel-mailing-from-terminal/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/laravel-mailing-from-terminal/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -549,13 +542,13 @@ Source: https://www.gregoryvarghese.com/tag/email/</p>
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/sonic-candle/">Sonic Candle</a></h2>
+        <h2 class="post-title"><a href="/post/2019/sonic-candle/">Sonic Candle</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p>Given a music file, generates a video file with a visualization of frequency spectrum bars generated for the music. Outputs high-quality, rendered video. Intended for publishing your own music on YouTube and stuff.
 http://soniccandle.sourceforge.net/</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/sonic-candle/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/sonic-candle/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -577,14 +570,14 @@ http://soniccandle.sourceforge.net/</p>
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/app-for-multi-factor-auth/">App for multi-factor auth</a></h2>
+        <h2 class="post-title"><a href="/post/2019/app-for-multi-factor-auth/">App for multi-factor auth</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p>A simple application for multi-factor authentication, written in HTML using jQuery Mobile, jsSHA, LocalStorage and Application Cache.
 It implements the TOTP (Time-Based One-Time Password) algorithm according to RFC6238 and has been tested to work with Google Authenticator, Dropbox, Dreamhost, Amazon, Linode, Okta and many other services.
 https://github.com/gbraad/gauth/</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/app-for-multi-factor-auth/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/app-for-multi-factor-auth/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -606,12 +599,12 @@ https://github.com/gbraad/gauth/</p>
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/webpagetest/">webpagetest</a></h2>
+        <h2 class="post-title"><a href="/post/2019/webpagetest/">webpagetest</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p><p>Run a free website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds. Your results will provide rich diagnostic information including</p></p>
-            <p style="text-align: right;"><a class="read-more" href="/post/webpagetest/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/webpagetest/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -633,13 +626,13 @@ https://github.com/gbraad/gauth/</p>
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/compose-key-in-ubuntu/">Compose Key in Ubuntu</a></h2>
+        <h2 class="post-title"><a href="/post/2019/compose-key-in-ubuntu/">Compose Key in Ubuntu</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p>1 First install Tweaks by running sudo apt install gnome-tweaks # or sudo apt install gnome-tweak-tool  2 Then launch Tweaks And go to &ldquo;Keyboard &amp; Mouse&rdquo; section. The &ldquo;Compose Key&rdquo; options is disabled by default. Click on the &ldquo;Disabled&rdquo; button.
 3 Toggle the switch at the top on And then you&rsquo;ll be select the compose key. For example, Caps Lock.</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/compose-key-in-ubuntu/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/compose-key-in-ubuntu/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -657,7 +650,7 @@ https://github.com/gbraad/gauth/</p>
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/whatsapp-db/">WhatsApp DB</a></h2>
+        <h2 class="post-title"><a href="/post/2019/whatsapp-db/">WhatsApp DB</a></h2>
     </header>
     <section class="post-excerpt">
         
@@ -666,7 +659,7 @@ Use a Raspberry Pi as a combined iPhone power adapter / backup https://github.co
 A library to communicate with services of Apple iOS devices https://github.com/libimobiledevice/libimobiledevice
 libimobiledevice installation guide https://askubuntu.com/questions/598940/libimobiledevice-1-2-ios-8-support-for-ubuntu-14-04-trusty/712154#712154
 Reverse Engineering the iOS Backup https://www.richinfante.com/2017/3/16/reverse-engineering-the-ios-backup/</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/whatsapp-db/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/whatsapp-db/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -684,12 +677,12 @@ Reverse Engineering the iOS Backup https://www.richinfante.com/2017/3/16/reverse
     
         <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/find-my-samsung/">Find my Samsung</a></h2>
+        <h2 class="post-title"><a href="/post/2019/find-my-samsung/">Find my Samsung</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p><p>Find My Mobile will help you locate your device and protect your data. You can even use it to unlock your phone if you forget your password or PIN.</p></p>
-            <p style="text-align: right;"><a class="read-more" href="/post/find-my-samsung/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/find-my-samsung/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">

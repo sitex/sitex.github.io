@@ -12,10 +12,10 @@
     
     <item>
       <title>All files in Amazon S3</title>
-      <link>/post/all-files-in-amazon-s3/</link>
+      <link>/post/2019/all-files-in-amazon-s3/</link>
       <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
       
-      <guid>/post/all-files-in-amazon-s3/</guid>
+      <guid>/post/2019/all-files-in-amazon-s3/</guid>
       <description>$ s3cmd ls -r s3://yourbucket/ | awk &#39;{print $4}&#39; &amp;gt; objects_in_bucket  </description>
     </item>
     

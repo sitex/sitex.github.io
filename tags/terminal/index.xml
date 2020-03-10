@@ -12,37 +12,37 @@
     
     <item>
       <title>Download a file through an SSH server</title>
-      <link>/post/ssh-download/</link>
+      <link>/post/2019/ssh-download/</link>
       <pubDate>Sun, 10 Nov 2019 17:30:00 +0000</pubDate>
       
-      <guid>/post/ssh-download/</guid>
+      <guid>/post/2019/ssh-download/</guid>
       <description>&lt;p&gt;Just pipe the file to stdout on the server, and read it from stdin on your workstation.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>All Files and Folders Recursively via Terminal</title>
-      <link>/post/all-files-and-folders-recursively-via-terminal/</link>
+      <link>/post/2019/all-files-and-folders-recursively-via-terminal/</link>
       <pubDate>Thu, 07 Mar 2019 14:19:00 +0000</pubDate>
       
-      <guid>/post/all-files-and-folders-recursively-via-terminal/</guid>
+      <guid>/post/2019/all-files-and-folders-recursively-via-terminal/</guid>
       <description>find . -type f &amp;gt; ../files-all.txt  </description>
     </item>
     
     <item>
       <title>All files from subfolders to parent folder</title>
-      <link>/post/all-files-from-subfolders-to-parent-folder/</link>
+      <link>/post/2019/all-files-from-subfolders-to-parent-folder/</link>
       <pubDate>Wed, 06 Mar 2019 14:17:00 +0000</pubDate>
       
-      <guid>/post/all-files-from-subfolders-to-parent-folder/</guid>
+      <guid>/post/2019/all-files-from-subfolders-to-parent-folder/</guid>
       <description>find . -mindepth 2 -type f -print -exec mv {} . \;  </description>
     </item>
     
     <item>
       <title>All files in Amazon S3</title>
-      <link>/post/all-files-in-amazon-s3/</link>
+      <link>/post/2019/all-files-in-amazon-s3/</link>
       <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
       
-      <guid>/post/all-files-in-amazon-s3/</guid>
+      <guid>/post/2019/all-files-in-amazon-s3/</guid>
       <description>$ s3cmd ls -r s3://yourbucket/ | awk &#39;{print $4}&#39; &amp;gt; objects_in_bucket  </description>
     </item>
     

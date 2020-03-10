@@ -12,10 +12,10 @@
     
     <item>
       <title>Ubuntu GUI on Windows 10</title>
-      <link>/post/ubuntu-gui-on-windows-10/</link>
+      <link>/post/2018/ubuntu-gui-on-windows-10/</link>
       <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
       
-      <guid>/post/ubuntu-gui-on-windows-10/</guid>
+      <guid>/post/2018/ubuntu-gui-on-windows-10/</guid>
       <description>I got it working by installing x11-apps to get the X subsystem, then running a X listener like XMING or XManager on the Windows10 side.
 export DISPLAY=:0  (You also can add export DISPLAY=:0 to the last line of your user&amp;rsquo;s .bashrc file)
 Then run xclock to verify.
