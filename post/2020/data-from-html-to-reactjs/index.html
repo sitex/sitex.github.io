@@ -12,15 +12,15 @@
 
 
 
-<meta name="twitter:title" content="Any Do"/>
+<meta name="twitter:title" content="Data from HTML to ReactJS"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@"/>
 
 
 
-  	<meta property="og:title" content="Any Do &middot; " />
+  	<meta property="og:title" content="Data from HTML to ReactJS &middot; " />
   	<meta property="og:site_name" content="" />
-  	<meta property="og:url" content="/post/2020/any-do/" />
+  	<meta property="og:url" content="/post/2020/data-from-html-to-reactjs/" />
 
     
         
@@ -29,17 +29,17 @@
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2020-03-10T12:00:00Z" />
+    <meta property="article:published_time" content="2020-02-23T12:00:00Z" />
 
     
-    <meta property="article:tag" content="links" />
+    <meta property="article:tag" content="reactjs" />
     
     
 
-    <title>Any Do &middot; </title>
+    <title>Data from HTML to ReactJS &middot; </title>
 
     
-    <meta name="description" content="&lt;p&gt;Organize your tasks, lists and reminders in one easy to-do app. Any.do syncs seamlessly across all of your devices, making your to-do list accessible everywh" />
+    <meta name="description" content="&lt;p&gt;How to pass data into a React app from the HTML to parameterise it.&lt;/p&gt;" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -63,7 +63,7 @@
     
     <meta name="generator" content="Hugo 0.57.2" />
 
-    <link rel="canonical" href="/post/2020/any-do/" />
+    <link rel="canonical" href="/post/2020/data-from-html-to-reactjs/" />
 
     
       
@@ -92,23 +92,23 @@
             
         ]
     },
-    "headline": "Any Do",
-    "name": "Any Do",
-    "wordCount":  30 ,
+    "headline": "Data from HTML to ReactJS",
+    "name": "Data from HTML to ReactJS",
+    "wordCount":  31 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
-    "url": "/post/2020/any-do/",
-    "datePublished": "2020-03-10T12:00Z",
-    "dateModified": "2020-03-10T12:00Z",
+    "url": "/post/2020/data-from-html-to-reactjs/",
+    "datePublished": "2020-02-23T12:00Z",
+    "dateModified": "2020-02-23T12:00Z",
     
-    "keywords": "links",
+    "keywords": "reactjs",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2020/any-do/"
+        "@id": "/post/2020/data-from-html-to-reactjs/"
     }
 }
     </script>
@@ -165,31 +165,37 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">Any Do</h1>
+        <h1 class="post-title">Data from HTML to ReactJS</h1>
         <small></small>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2020-03-10T12:00:00Z">
-            Mar 10, 2020
+          <time class="post-date" datetime="2020-02-23T12:00:00Z">
+            Feb 23, 2020
           </time>
         
          
-          <span class="post-tag small"><a href="/tags/links/">#links</a></span>
+          <span class="post-tag small"><a href="/tags/reactjs/">#reactjs</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>Organize your tasks, lists and reminders in one easy to-do app. Any.do syncs seamlessly across all of your devices, making your to-do list accessible everywhere.</p>
+      <p>How to pass data into a React app from the HTML to parameterise it.</p>
+
+<p>HTML:</p>
+
+<pre><code>&lt;div id=&quot;app&quot; data-feed='custom_feed.json' data-someprop='value'&gt;&lt;/div&gt;
+</code></pre>
+
+<p>JS:</p>
+
+<pre><code>var root = document.getElementById('app');
+ReactDOM.render(&lt;X {...(root.dataset)} /&gt;, root);
+</code></pre>
 
 <ul>
-<li>ORGANIZE</li>
-<li>ACHIEVE</li>
-
-<li><p>COLLABORATE</p></li>
-
-<li><p><a href="https://www.any.do/">Any Do</a></p></li>
+<li><a href="https://stackoverflow.com/questions/36545118/is-there-a-right-way-to-pass-data-into-a-react-component-from-the-html-page/">source &gt; stackoverflow</a></li>
 </ul>
     </section>
 
@@ -205,19 +211,19 @@
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Any%20Do&nbsp;-&nbsp;&amp;url=%2fpost%2f2020%2fany-do%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Data%20from%20HTML%20to%20ReactJS&nbsp;-&nbsp;&amp;url=%2fpost%2f2020%2fdata-from-html-to-reactjs%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2f2020%2fany-do%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2f2020%2fdata-from-html-to-reactjs%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2f2020%2fany-do%2f&amp;description=Any%20Do"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2f2020%2fdata-from-html-to-reactjs%2f&amp;description=Data%20from%20HTML%20to%20ReactJS"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2f2020%2fany-do%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2f2020%2fdata-from-html-to-reactjs%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -241,10 +247,17 @@
 
   <aside class="read-next">
   
-  
-      <a class="read-next-story prev" style="no-cover" href="/post/2020/data-from-html-to-reactjs/">
+      <a class="read-next-story" style="no-cover" href="/post/2020/any-do/">
           <section class="post">
-              <h2>Data from HTML to ReactJS</h2>
+              <h2>Any Do</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="/post/2020/elixir-development-on-windows-10/">
+          <section class="post">
+              <h2>Elixir Development on Windows 10</h2>
           </section>
       </a>
   

@@ -20,6 +20,24 @@
     </item>
     
     <item>
+      <title>Data from HTML to ReactJS</title>
+      <link>/post/2020/data-from-html-to-reactjs/</link>
+      <pubDate>Sun, 23 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/data-from-html-to-reactjs/</guid>
+      <description>&lt;p&gt;How to pass data into a React app from the HTML to parameterise it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Elixir Development on Windows 10</title>
+      <link>/post/2020/elixir-development-on-windows-10/</link>
+      <pubDate>Wed, 12 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/elixir-development-on-windows-10/</guid>
+      <description>&lt;p&gt;You can have a first-rate development environment on a Windows machine.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Capture One 2.0</title>
       <link>/post/2019/capture-one-20/</link>
       <pubDate>Wed, 04 Dec 2019 17:30:00 +0000</pubDate>

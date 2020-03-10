@@ -164,6 +164,54 @@
 	
 	   <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/post/2018/docker-default-images-location/">Docker default images location</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Prepare your new block storage, this will house the moved docker folder
+# format the new block storage device mkfs.ext4 /dev/sdx # create a mount point mkdir /mnt/diskX # mount the file or do equivalent mount in /etc/fstab mount /dev/sdx1 /mnt/diskX # create a new folder to house docker mkdir /mnt/diskX/docker chmod 700 /mnt/diskX/docker  Setup the move
+# stop containers and docker daemon docker ps -q | xargs docker kill service docker stop # if devicemapper exists cd /var/lib/docker/devicemapper/mnt umount .</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2018/docker-default-images-location/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2018-10-15T23:15:05Z">
+            15 Oct 2018
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2018/ffmpeg-using-cuda/">FFmpeg using Cuda</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p> Configure ./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-x86asm  Build make -j 10  Example - Extract Frames ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -vf &quot;hwupload_cuda,thumbnail_cuda=100,hwdownload,format=nv12,fps=1/2&quot; -q:v 2 frames/%05d.jpg  Links  Nvidia Official Page ffmpeg generate thumbnails on GPU  PDF: Nvidia Video Technologies  </p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2018/ffmpeg-using-cuda/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2018-10-15T03:59:00Z">
+            15 Oct 2018
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/post/2018/2080-ti-tensorflow-gpu-benchmarks/">2080 Ti TensorFlow GPU benchmarks</a></h2>
     </header>
     <section class="post-excerpt">
@@ -351,52 +399,6 @@ This will append new lines to your .</p>
         
         <time class="post-date" datetime="2018-04-21T15:59:00Z">
             21 Apr 2018
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/peek-an-animated-gif-recorder/">Peek - an animated GIF recorder</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>Peek makes it easy to create short screencasts of a screen area. It was built for the specific use case of recording screen areas, e.g. for easily showing UI features of your own apps or for showing a bug in bug reports. With Peek, you simply place the Peek window over the area you want to record and press &ldquo;Record&rdquo;. Peek is optimized for generating animated GIFs, but you can also directly record to WebM or MP4 if you prefer.</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/peek-an-animated-gif-recorder/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-04-19T05:00:00Z">
-            19 Apr 2018
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/mysqldump-fix-emojis/">mysqldump fix emojis</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>--default-character-set=utf8mb4</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/mysqldump-fix-emojis/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-04-16T05:00:00Z">
-            16 Apr 2018
         </time>
     </footer>
 </article>

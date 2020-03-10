@@ -403,6 +403,10 @@
     
         
     
+        
+    
+        
+    
 
     
 
@@ -422,6 +426,56 @@
 </nav>
 
     </div>
+
+    
+        <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2018/linux-infrared-remote-control-library/">Linux Infrared Remote Control library</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Controlling LIRC From the Web http://alexba.in/blog/2013/02/23/controlling-lirc-from-the-web/
+lirc_web is a nodejs app that creates a web interface &amp; JSON API for the LIRC project. It uses lirc_node to handle communication between LIRC and nodejs. https://github.com/alexbain/lirc_web
+An internet-enabled air conditioner remote running on the Raspberry Pi. https://github.com/tpudlik/RaspAC</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2018/linux-infrared-remote-control-library/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2018-12-16T18:56:00Z">
+            16 Dec 2018
+        </time>
+    </footer>
+</article>
+
+    
+        <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2018/catboost/">CatBoost</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>CatBoost – это новый метод машинного обучения, основанный на градиентном бустинге. Он внедряется в Яндексе для решения задач ранжирования, предсказания и построения рекомендаций.
+С ее помощью можно эффективно обучать модели на разнородных данных, в том числе таких, которые трудно представить в виде чисел (например, виды облаков или категории товаров).
+https://habr.com/ru/company/yandex/blog/333522/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2018/catboost/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2018-12-13T18:52:00Z">
+            13 Dec 2018
+        </time>
+    </footer>
+</article>
 
     
         <article class="post post">
@@ -611,54 +665,6 @@ Additional options could be provided:
         
         <time class="post-date" datetime="2018-10-19T02:38:19Z">
             19 Oct 2018
-        </time>
-    </footer>
-</article>
-
-    
-        <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/docker-default-images-location/">Docker default images location</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>Prepare your new block storage, this will house the moved docker folder
-# format the new block storage device mkfs.ext4 /dev/sdx # create a mount point mkdir /mnt/diskX # mount the file or do equivalent mount in /etc/fstab mount /dev/sdx1 /mnt/diskX # create a new folder to house docker mkdir /mnt/diskX/docker chmod 700 /mnt/diskX/docker  Setup the move
-# stop containers and docker daemon docker ps -q | xargs docker kill service docker stop # if devicemapper exists cd /var/lib/docker/devicemapper/mnt umount .</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/docker-default-images-location/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-10-15T23:15:05Z">
-            15 Oct 2018
-        </time>
-    </footer>
-</article>
-
-    
-        <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/ffmpeg-using-cuda/">FFmpeg using Cuda</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p> Configure ./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-x86asm  Build make -j 10  Example - Extract Frames ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -vf &quot;hwupload_cuda,thumbnail_cuda=100,hwdownload,format=nv12,fps=1/2&quot; -q:v 2 frames/%05d.jpg  Links  Nvidia Official Page ffmpeg generate thumbnails on GPU  PDF: Nvidia Video Technologies  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/ffmpeg-using-cuda/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-10-15T03:59:00Z">
-            15 Oct 2018
         </time>
     </footer>
 </article>

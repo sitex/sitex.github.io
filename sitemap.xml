@@ -29,6 +29,31 @@
   </url>
   
   <url>
+    <loc>/post/2020/data-from-html-to-reactjs/</loc>
+    <lastmod>2020-02-23T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/reactjs/</loc>
+    <lastmod>2020-02-23T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/elixir/</loc>
+    <lastmod>2020-02-12T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/elixir-development-on-windows-10/</loc>
+    <lastmod>2020-02-12T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2020-02-12T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019/capture-one-20/</loc>
     <lastmod>2019-12-04T17:30:00+00:00</lastmod>
   </url>
@@ -215,11 +240,6 @@
   
   <url>
     <loc>/post/2018/ubuntu-gui-on-windows-10/</loc>
-    <lastmod>2018-12-17T18:59:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/windows/</loc>
     <lastmod>2018-12-17T18:59:00+00:00</lastmod>
   </url>
   
