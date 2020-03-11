@@ -53,6 +53,11 @@ Basic Instant" />
     
 
     
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
 
     
       
@@ -60,7 +65,7 @@ Basic Instant" />
       
       
     
-    <meta name="generator" content="Hugo 0.57.2" />
+    <meta name="generator" content="Hugo 0.67.0" />
 
     <link rel="canonical" href="/post/2017/auryn-dependency-injector/" />
 
@@ -178,14 +183,9 @@ Basic Instant" />
     </header>
 
     <section class="post-content">
-      
-
-<p>A dependency injector resolves the dependencies of your class and makes sure that the correct objects are injected when the class is instantiated.</p>
-
+      <p>A dependency injector resolves the dependencies of your class and makes sure that the correct objects are injected when the class is instantiated.</p>
 <h3 id="basic-instantiation">Basic Instantiation</h3>
-
 <p>If a class only asks for concrete dependencies you can use the Injector to inject them without specifying any injection definitions:</p>
-
 <pre><code>class SomeDep {}
 
 class AnotherDep {}
@@ -201,12 +201,8 @@ class MyClass {
 
 $injector = new Auryn\Injector;
 $myObj = $injector-&gt;make('MyClass');
-</code></pre>
-
-<p>In this scenario you can use the Injector to automatically provision <code>MyClass</code> with the required <code>SomeDependency</code> and <code>AnotherDependency</code> class instances.</p>
-
+</code></pre><p>In this scenario you can use the Injector to automatically provision <code>MyClass</code> with the required <code>SomeDependency</code> and <code>AnotherDependency</code> class instances.</p>
 <h3 id="injection-definitions">Injection Definitions</h3>
-
 <pre><code>interface Engine {}
 
 class V8 implements Engine {}
@@ -220,28 +216,16 @@ class Car {
 //...
 
 $injector-&gt;define('Car', ['engine' =&gt; 'V8']);
-</code></pre>
-
-<p>Because the <code>Car</code> constructor parameter we needed to define was named <code>$engine</code>, our definition specified an <code>engine</code> key whose value was the name of the class (<code>V8</code>) that we want to inject.</p>
-
+</code></pre><p>Because the <code>Car</code> constructor parameter we needed to define was named <code>$engine</code>, our definition specified an <code>engine</code> key whose value was the name of the class (<code>V8</code>) that we want to inject.</p>
 <h4 id="non-class-parameters-raw-values">Non-Class Parameters (Raw values)</h4>
-
 <pre><code>$injector-&gt;define(TemplateDirectory::class, [':rootDirectory' =&gt; ROOT_DIR]);
 // Equals to:
 $injector-&gt;define(TemplateDirectory::class, [ROOT_DIR]);
-</code></pre>
-
-<p>The colon character preceding the parameter names tells the Injector that the associated values ARE NOT class names. If the colons had been omitted above, auryn would attempt to instantiate classes of the names specified in the string and an exception would result.</p>
-
+</code></pre><p>The colon character preceding the parameter names tells the Injector that the associated values ARE NOT class names. If the colons had been omitted above, auryn would attempt to instantiate classes of the names specified in the string and an exception would result.</p>
 <h3 id="alias">Alias</h3>
-
 <pre><code>$injector-&gt;alias('Engine', 'V8');
-</code></pre>
-
-<h3 id="share">Share</h3>
-
+</code></pre><h3 id="share">Share</h3>
 <p>By sharing an instance of a class, Auryn\Injector will always use that instance when provisioning classes that type-hint the shared class.</p>
-
 <pre><code>class Person {
     public $name = 'John Snow';
 }
@@ -257,16 +241,11 @@ $person-&gt;name = 'Arya Stark';
 $anotherPerson = $injector-&gt;make('Person');
 var_dump($anotherPerson-&gt;name); // Arya Stark
 var_dump($person === $anotherPerson); // bool(true) because it's the same instance!
-</code></pre>
-
-<blockquote>
+</code></pre><blockquote>
 <p><strong>NOTE:</strong> Once the Injector caches a shared instance, call-time definitions passed to <code>Auryn\Injector::make</code> will have no effect. Once shared, an instance will always be returned for instantiations of its type until the object is un-shared or refreshed:</p>
 </blockquote>
-
 <h3 id="instantiation-delegates">Instantiation Delegates</h3>
-
 <p>Often factory classes/methods are used to prepare an object for use after instantiation. auryn allows you to integrate factories and builders directly into the injection process by specifying callable instantiation delegates on a per-class basis.</p>
-
 <pre><code>$TwigTemplateRendererFactory = function () use ($injector) {
     $factory = $injector-&gt;make(TwigTemplateRendererFactory::class);
     return $factory-&gt;create();
@@ -276,9 +255,7 @@ $injector-&gt;delegate(
     TemplateRenderer::class,
     $TwigTemplateRendererFactory
 );
-</code></pre>
-
-<p><a href="https://github.com/rdlowrey/auryn">https://github.com/rdlowrey/auryn</a></p>
+</code></pre><p><a href="https://github.com/rdlowrey/auryn">https://github.com/rdlowrey/auryn</a></p>
 
     </section>
 
@@ -350,8 +327,6 @@ $injector-&gt;delegate(
 
     <footer class="site-footer clearfix">
         <section class="copyright"><a href=""></a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
         
     </footer>
     </div>

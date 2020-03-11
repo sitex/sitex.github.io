@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>windows on </title>
@@ -26,7 +26,7 @@
       
       <guid>/post/2018/ubuntu-gui-on-windows-10/</guid>
       <description>I got it working by installing x11-apps to get the X subsystem, then running a X listener like XMING or XManager on the Windows10 side.
-export DISPLAY=:0  (You also can add export DISPLAY=:0 to the last line of your user&amp;rsquo;s .bashrc file)
+export DISPLAY=:0 (You also can add export DISPLAY=:0 to the last line of your user&amp;rsquo;s .bashrc file)
 Then run xclock to verify.
 https://superuser.com/questions/1075659/open-ubuntu-bashs-gui-applications-on-windows-10</description>
     </item>

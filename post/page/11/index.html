@@ -48,6 +48,11 @@
     
 
     
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
 
     
       
@@ -57,7 +62,7 @@
         <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="Publications &middot; " />
       
     
-    <meta name="generator" content="Hugo 0.57.2" />
+    <meta name="generator" content="Hugo 0.67.0" />
 
     <link rel="canonical" href="/post/" />
 
@@ -164,6 +169,29 @@
 	
 	   <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/post/2017/blogging-with-git-flow/">Blogging With Git Flow</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Git Flow is an add-in for Git, that helps us to follow the feature branch process in a standard way. We usually use our Jira ticket number as names for features, bugs, or hotfixes, and we use the Jira Version as a Release name. This makes absolute sense to us and makes the flow pretty transparent. We also use BitBucket to host our Git repositories, which is directly linked to Jira.</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/blogging-with-git-flow/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2017-04-05T06:38:00Z">
+            5 Apr 2017
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/post/2017/taiskoie-chtieniie/">Тайское чтение</a></h2>
     </header>
     <section class="post-excerpt">
@@ -193,7 +221,7 @@
         
             <p>Symlinks, short for symbolic links, are basically shortcuts to individual files or folders. One of the advantages of a symlink is that it can cross filesystems, as it references abstract filenames/directories and not physical locations.
 There is a number of ways to create a symlink in cPanel:
-1. Via SSH  ln -s /path/to/target /path/to/shortcut  2. Cron Using the same command NOTE: Make sure that you delete the cronjob once the symlink has been created.</p>
+1. Via SSH  ln -s /path/to/target /path/to/shortcut 2. Cron Using the same command NOTE: Make sure that you delete the cronjob once the symlink has been created.</p>
             <p style="text-align: right;"><a class="read-more" href="/post/2017/how-to-create-a-symbolic-link-in-cpanel/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
@@ -244,11 +272,11 @@ There is a number of ways to create a symlink in cPanel:
     <section class="post-excerpt">
         
             <p>First step is to install lm-sensors.
-sudo apt-get install lm-sensors  Then, starts the detection of your hardware sensors:
-sudo sensors-detect  Verify that it works:
-sensors  It should display something like:
-coretemp-isa-0000 Adapter: ISA adapter Core 0: +46.0C (high = +76.0C, crit = +100.0C) coretemp-isa-0001 Adapter: ISA adapter Core 1: +44.0C (high = +76.0C, crit = +100.0C)  GUI:
-sudo apt-get install psensor  http://wpitchoune.net/psensor/</p>
+sudo apt-get install lm-sensors Then, starts the detection of your hardware sensors:
+sudo sensors-detect Verify that it works:
+sensors It should display something like:
+coretemp-isa-0000 Adapter: ISA adapter Core 0: +46.0C (high = +76.0C, crit = +100.0C) coretemp-isa-0001 Adapter: ISA adapter Core 1: +44.0C (high = +76.0C, crit = +100.0C) GUI:
+sudo apt-get install psensor http://wpitchoune.net/psensor/</p>
             <p style="text-align: right;"><a class="read-more" href="/post/2017/cpu-temperature-in-ubuntu/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
@@ -295,8 +323,8 @@ sudo apt-get install psensor  http://wpitchoune.net/psensor/</p>
     <section class="post-excerpt">
         
             <p>Install
-sudo apt-get install xsel  To put the contents of the clipboard/Ctrl+C to a file use,
-xsel -b &gt; some.txt  I am putting the clipboard contents to the some.txt file.</p>
+sudo apt-get install xsel To put the contents of the clipboard/Ctrl+C to a file use,
+xsel -b &gt; some.txt I am putting the clipboard contents to the some.txt file.</p>
             <p style="text-align: right;"><a class="read-more" href="/post/2017/xsel/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
@@ -389,29 +417,6 @@ Whonix is the only operating system designed to be run inside a VM and paired wi
 </article>
 
 	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/devtools-for-redux/">DevTools for Redux</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>https://github.com/gaearon/redux-devtools https://www.youtube.com/watch?v=xsSnOQynTHs</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/devtools-for-redux/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2017-01-21T05:34:00Z">
-            21 Jan 2017
-        </time>
-    </footer>
-</article>
-
-	
 
 	<nav class="pagination" role="navigation">
 	
@@ -429,8 +434,6 @@ Whonix is the only operating system designed to be run inside a VM and paired wi
 
     <footer class="site-footer clearfix">
         <section class="copyright"><a href=""></a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
         
     </footer>
     </div>

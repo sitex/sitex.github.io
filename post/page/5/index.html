@@ -48,6 +48,11 @@
     
 
     
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
 
     
       
@@ -57,7 +62,7 @@
         <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="Publications &middot; " />
       
     
-    <meta name="generator" content="Hugo 0.57.2" />
+    <meta name="generator" content="Hugo 0.67.0" />
 
     <link rel="canonical" href="/post/" />
 
@@ -164,12 +169,35 @@
 	
 	   <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/post/2018/project-url-to-youtube/">Project: URL to YouTube</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Create a web interface with all YouTube options (inc. video categories and playlists) that allow to upload video by URL.</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2018/project-url-to-youtube/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2018-10-19T02:38:19Z">
+            19 Oct 2018
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/post/2018/docker-default-images-location/">Docker default images location</a></h2>
     </header>
     <section class="post-excerpt">
         
             <p>Prepare your new block storage, this will house the moved docker folder
-# format the new block storage device mkfs.ext4 /dev/sdx # create a mount point mkdir /mnt/diskX # mount the file or do equivalent mount in /etc/fstab mount /dev/sdx1 /mnt/diskX # create a new folder to house docker mkdir /mnt/diskX/docker chmod 700 /mnt/diskX/docker  Setup the move
+# format the new block storage device mkfs.ext4 /dev/sdx # create a mount point mkdir /mnt/diskX # mount the file or do equivalent mount in /etc/fstab mount /dev/sdx1 /mnt/diskX # create a new folder to house docker mkdir /mnt/diskX/docker chmod 700 /mnt/diskX/docker Setup the move
 # stop containers and docker daemon docker ps -q | xargs docker kill service docker stop # if devicemapper exists cd /var/lib/docker/devicemapper/mnt umount .</p>
             <p style="text-align: right;"><a class="read-more" href="/post/2018/docker-default-images-location/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
@@ -193,7 +221,7 @@
     </header>
     <section class="post-excerpt">
         
-            <p> Configure ./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-x86asm  Build make -j 10  Example - Extract Frames ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -vf &quot;hwupload_cuda,thumbnail_cuda=100,hwdownload,format=nv12,fps=1/2&quot; -q:v 2 frames/%05d.jpg  Links  Nvidia Official Page ffmpeg generate thumbnails on GPU  PDF: Nvidia Video Technologies  </p>
+            <p>Configure ./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-x86asm Build make -j 10 Example - Extract Frames ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -vf &quot;hwupload_cuda,thumbnail_cuda=100,hwdownload,format=nv12,fps=1/2&quot; -q:v 2 frames/%05d.jpg Links  Nvidia Official Page ffmpeg generate thumbnails on GPU  PDF: Nvidia Video Technologies  </p>
             <p style="text-align: right;"><a class="read-more" href="/post/2018/ffmpeg-using-cuda/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
@@ -264,7 +292,7 @@ Results summary As of October 8, 2018, the NVIDIA RTX 2080 Ti is the best GPU fo
     </header>
     <section class="post-excerpt">
         
-            <p> Install git clone https://github.com/magnific0/wondershaper.git
+            <p>Install git clone https://github.com/magnific0/wondershaper.git
 Use sudo wondershaper eth0 1000 200
 Reset sudo wondershaper clear eth0
  GitHub magnific0/wondershaper  </p>
@@ -290,7 +318,7 @@ Reset sudo wondershaper clear eth0
     </header>
     <section class="post-excerpt">
         
-            <p> Install sudo apt-get install trickle
+            <p>Install sudo apt-get install trickle
 Run trickle -s -d 10 -u 10 firefox
  GitHub mariusae/trickle  </p>
             <p style="text-align: right;"><a class="read-more" href="/post/2018/trickle/">&raquo;&nbsp;Read&nbsp;more</a></p>
@@ -315,8 +343,8 @@ Run trickle -s -d 10 -u 10 firefox
     </header>
     <section class="post-excerpt">
         
-            <p>Examples  youtube-upload --title=&quot;A.S. Mutter&quot; anne_sophie_mutter.flv ./youtubeuploader -filename blob.mp4  tokland/youtube-upload Command-line script to upload videos to Youtube using theYoutube APIv3. It should work on any platform (GNU/Linux, BSD, OS X, Windows, &hellip;) that runs Python.
-Install $ sudo pip install --upgrade google-api-python-client oauth2client progressbar2 $ wget https://github.com/tokland/youtube-upload/archive/master.zip $ unzip master.zip $ cd youtube-upload-master $ sudo python setup.py install  Setup The package used to include a default client_secrets.json file.</p>
+            <p>Examples  youtube-upload --title=&quot;A.S. Mutter&quot; anne_sophie_mutter.flv ./youtubeuploader -filename blob.mp4   tokland/youtube-upload Command-line script to upload videos to Youtube using theYoutube APIv3. It should work on any platform (GNU/Linux, BSD, OS X, Windows, &hellip;) that runs Python.
+Install $ sudo pip install --upgrade google-api-python-client oauth2client progressbar2 $ wget https://github.com/tokland/youtube-upload/archive/master.zip $ unzip master.zip $ cd youtube-upload-master $ sudo python setup.py install Setup The package used to include a default client_secrets.json file. It does not work anymore, Google has revoked it.</p>
             <p style="text-align: right;"><a class="read-more" href="/post/2018/youtube-upload/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
@@ -341,7 +369,7 @@ Install $ sudo pip install --upgrade google-api-python-client oauth2client progr
         
             <p>First thing first, the command used here for both Apache and Nginx were designed to be use in cron because TOR ip often change. But make sure that it’s scheduled for 1 hour at minimum to respect those that gives you free service to lookup tor ip =)
  TorList  If you only have access to .htaccess file For Apache 2.2
-This will append new lines to your .</p>
+This will append new lines to your .htaccess file and will block all access from TOR ips to all section of your site by default.</p>
             <p style="text-align: right;"><a class="read-more" href="/post/2018/block-tor-from-your-website/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
@@ -381,29 +409,6 @@ This will append new lines to your .</p>
 </article>
 
 	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/accelerated-mobile-pages/">Accelerated Mobile Pages</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p> Docs  Accelerated Mobile Pages Project  Examples  Accelerated Mobile Pages for eCommerce  SEO  SEO: Accelerated Mobile Pages for Ecommerce  Learn  AMP Conf 2018 Learn AMP by Example AMP Start  Integration  Lavavel AMP  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/accelerated-mobile-pages/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-04-21T15:59:00Z">
-            21 Apr 2018
-        </time>
-    </footer>
-</article>
-
-	
 
 	<nav class="pagination" role="navigation">
 	
@@ -421,8 +426,6 @@ This will append new lines to your .</p>
 
     <footer class="site-footer clearfix">
         <section class="copyright"><a href=""></a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
         
     </footer>
     </div>
