@@ -5,10 +5,19 @@
     <link>/tags/php/</link>
     <description>Recent content in php on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 24 Dec 2017 00:07:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>After Effects course</title>
+      <link>/post/2020/after-effects-course/</link>
+      <pubDate>Thu, 12 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/after-effects-course/</guid>
+      <description>&lt;p&gt;Psalm is an open-source static analysis tool for PHP that helps you identify both obvious and hard-to-spot bugs in your code.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>PHP 7.2 for Ubuntu</title>

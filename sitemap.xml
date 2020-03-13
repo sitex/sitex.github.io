@@ -3,6 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/ae/</loc>
+    <lastmod>2020-03-13T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/after-effects-course-2/</loc>
+    <lastmod>2020-03-13T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-03-13T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-13T12:00:00+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-13T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/after-effects-course/</loc>
+    <lastmod>2020-03-12T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/php/</loc>
+    <lastmod>2020-03-12T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dev-summit/</loc>
+    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ml/</loc>
+    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/tf-dev-summit-2020/</loc>
+    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020/any-do/</loc>
     <lastmod>2020-03-10T12:00:00+00:00</lastmod>
   </url>
@@ -10,27 +61,6 @@
   <url>
     <loc>/tags/links/</loc>
     <lastmod>2020-03-10T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-03-10T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-03-10T12:00:00+00:00</lastmod>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-03-10T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ae/</loc>
-    <lastmod>2020-03-06T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -406,11 +436,6 @@
   <url>
     <loc>/post/2017/react-table/</loc>
     <lastmod>2017-12-24T00:12:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/php/</loc>
-    <lastmod>2017-12-24T00:07:02+00:00</lastmod>
   </url>
   
   <url>

@@ -5,10 +5,37 @@
     <link>/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Mar 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>After Effects course 2</title>
+      <link>/post/2020/after-effects-course-2/</link>
+      <pubDate>Fri, 13 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/after-effects-course-2/</guid>
+      <description>&lt;p&gt;Started the After Effects course.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>After Effects course</title>
+      <link>/post/2020/after-effects-course/</link>
+      <pubDate>Thu, 12 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/after-effects-course/</guid>
+      <description>&lt;p&gt;Psalm is an open-source static analysis tool for PHP that helps you identify both obvious and hard-to-spot bugs in your code.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TensorFlow Dev Summit 2020</title>
+      <link>/post/2020/tf-dev-summit-2020/</link>
+      <pubDate>Wed, 11 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/tf-dev-summit-2020/</guid>
+      <description>&lt;p&gt;TensorFlow Dev Summit 2020&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Any Do</title>
