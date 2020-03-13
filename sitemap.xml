@@ -29,22 +29,22 @@
   </url>
   
   <url>
-    <loc>/post/2020/after-effects-course/</loc>
-    <lastmod>2020-03-12T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/php/</loc>
     <lastmod>2020-03-12T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dev-summit/</loc>
-    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
+    <loc>/post/2020/psalm-dev/</loc>
+    <lastmod>2020-03-12T12:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/ml/</loc>
+    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tensorflow/</loc>
     <lastmod>2020-03-11T12:00:00+00:00</lastmod>
   </url>
   

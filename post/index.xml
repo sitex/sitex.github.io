@@ -20,11 +20,11 @@
     </item>
     
     <item>
-      <title>After Effects course</title>
-      <link>/post/2020/after-effects-course/</link>
+      <title>Psalm static analysis tool</title>
+      <link>/post/2020/psalm-dev/</link>
       <pubDate>Thu, 12 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>/post/2020/after-effects-course/</guid>
+      <guid>/post/2020/psalm-dev/</guid>
       <description>&lt;p&gt;Psalm is an open-source static analysis tool for PHP that helps you identify both obvious and hard-to-spot bugs in your code.&lt;/p&gt;</description>
     </item>
     
