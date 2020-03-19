@@ -5,10 +5,46 @@
     <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Mar 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Wed, 18 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
+      <link>/tags/study/</link>
+      <pubDate>Tue, 17 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ae</title>
+      <link>/tags/ae/</link>
+      <pubDate>Sun, 15 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/ae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scripts</title>
+      <link>/tags/scripts/</link>
+      <pubDate>Sun, 15 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/scripts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>
@@ -16,15 +52,6 @@
       <pubDate>Sat, 14 Mar 2020 12:00:00 +0000</pubDate>
       
       <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ae</title>
-      <link>/tags/ae/</link>
-      <pubDate>Fri, 13 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/ae/</guid>
       <description></description>
     </item>
     

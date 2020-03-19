@@ -196,11 +196,116 @@
 	
 	    <a class="newer-posts" href="/page/11/">&larr; Newer Posts</a>
 	
-	<span class="page-number">Page 12 of 12</span>
+	<span class="page-number">Page 12 of 13</span>
+	
+	    <a class="older-posts" href="/page/13/">Older Posts &rarr;</a>
 	
 </nav>
 
     </div>
+
+    
+        <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2017/how-to-create-a-symbolic-link-in-cpanel/">How to create a symbolic link in cPanel</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Symlinks, short for symbolic links, are basically shortcuts to individual files or folders. One of the advantages of a symlink is that it can cross filesystems, as it references abstract filenames/directories and not physical locations.
+There is a number of ways to create a symlink in cPanel:
+1. Via SSH  ln -s /path/to/target /path/to/shortcut 2. Cron Using the same command NOTE: Make sure that you delete the cronjob once the symlink has been created.</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/how-to-create-a-symbolic-link-in-cpanel/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2017-02-15T21:30:00Z">
+            15 Feb 2017
+        </time>
+    </footer>
+</article>
+
+    
+        <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2017/13-laravel-admin-panel-generators/">13 Laravel Admin Panel Generators</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>https://laravel-news.com/13-laravel-admin-panel-generators</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/13-laravel-admin-panel-generators/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+            
+                <a href="/tags/laravel/">#laravel</a>
+            
+        
+        <time class="post-date" datetime="2017-02-10T17:07:00Z">
+            10 Feb 2017
+        </time>
+    </footer>
+</article>
+
+    
+        <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2017/cpu-temperature-in-ubuntu/">CPU Temperature In Ubuntu</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>First step is to install lm-sensors.
+sudo apt-get install lm-sensors Then, starts the detection of your hardware sensors:
+sudo sensors-detect Verify that it works:
+sensors It should display something like:
+coretemp-isa-0000 Adapter: ISA adapter Core 0: +46.0C (high = +76.0C, crit = +100.0C) coretemp-isa-0001 Adapter: ISA adapter Core 1: +44.0C (high = +76.0C, crit = +100.0C) GUI:
+sudo apt-get install psensor http://wpitchoune.net/psensor/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/cpu-temperature-in-ubuntu/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2017-02-03T20:38:00Z">
+            3 Feb 2017
+        </time>
+    </footer>
+</article>
+
+    
+        <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2017/piat-bazovykh-uprazhnienii/">Пять базовых упражнений</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Становая тяга Приседания Жим штанги лежа Тяга штанги к поясу Жим штанги стоя  http://fitseven.ru/myschtsy/atlas-uprajneyniy/bazovyie-uprazhneniya</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/piat-bazovykh-uprazhnienii/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2017-02-01T09:16:00Z">
+            1 Feb 2017
+        </time>
+    </footer>
+</article>
 
     
         <article class="post post">
@@ -350,109 +455,14 @@ Whonix is the only operating system designed to be run inside a VM and paired wi
 </article>
 
     
-        <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/data-to-react-app/">Data to React App</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>1 Conventional Method: Client fetches data via Ajax after initial page load. 2 Less conventional method: Server serializes data as global Javascript variable in the inital HTML payload (see Instagram). 3 Server side rendering: Let the server render the output HTML with data and send it to the client.
- CHENG&rsquo;S BLOG - Data to your React App Julien Phalip - DjangoCon US 2015  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/data-to-react-app/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2017-01-21T05:20:00Z">
-            21 Jan 2017
-        </time>
-    </footer>
-</article>
-
-    
-        <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/thunk/">Thunk</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>Thunk middleware for Redux.
-Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState as parameters.
- Introduction to thunks in Redux GitHub.com/gaearon/redux-thunk Example: Reddit API  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/thunk/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2017-01-21T05:12:00Z">
-            21 Jan 2017
-        </time>
-    </footer>
-</article>
-
-    
-        <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/gosha-arinich/">Gosha Arinich</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>Articles about:
- React Forms in React React Native  https://goshakkk.name/</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/gosha-arinich/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2017-01-21T05:08:00Z">
-            21 Jan 2017
-        </time>
-    </footer>
-</article>
-
-    
-        <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2016/dropmyemail/">Dropmyemail</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>Backing up your Email
-https://www.dropmyemail.com/</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2016/dropmyemail/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2016-05-23T08:55:00Z">
-            23 May 2016
-        </time>
-    </footer>
-</article>
-
-    
 
     <nav class="pagination" role="navigation">
 	
 	    <a class="newer-posts" href="/page/11/">&larr; Newer Posts</a>
 	
-	<span class="page-number">Page 12 of 12</span>
+	<span class="page-number">Page 12 of 13</span>
+	
+	    <a class="older-posts" href="/page/13/">Older Posts &rarr;</a>
 	
 </nav>
 
