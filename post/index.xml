@@ -5,10 +5,32 @@
     <link>/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 18 Mar 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RPi YouTube Livestream</title>
+      <link>/post/2020/rpi-youtube-livestream/</link>
+      <pubDate>Mon, 23 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/rpi-youtube-livestream/</guid>
+      <description>&lt;p&gt;By adding a camera module to your Raspberry Pi, you essentially get a portable, lightweight, and easy-to-hold-or-mount internet-connected camera.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>After Effects course. Lesson 3.</title>
+      <link>/post/2020/after-effects-course-3/</link>
+      <pubDate>Fri, 20 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/after-effects-course-3/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ping Pong Animation&lt;/li&gt;
+&lt;li&gt;Keyframe Interpolation&lt;/li&gt;
+&lt;li&gt;Morphing&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>Little Big</title>
