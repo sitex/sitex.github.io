@@ -5,10 +5,82 @@
     <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Mar 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>gamification</title>
+      <link>/tags/gamification/</link>
+      <pubDate>Mon, 30 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/gamification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>w14</title>
+      <link>/tags/w14/</link>
+      <pubDate>Mon, 30 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workout</title>
+      <link>/tags/workout/</link>
+      <pubDate>Mon, 30 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/workout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>email</title>
+      <link>/tags/email/</link>
+      <pubDate>Sun, 29 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>w13</title>
+      <link>/tags/w13/</link>
+      <pubDate>Sun, 29 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sat, 28 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>/tags/php/</link>
+      <pubDate>Sat, 28 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ae</title>
+      <link>/tags/ae/</link>
+      <pubDate>Fri, 27 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/ae/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>rpi</title>
@@ -20,11 +92,11 @@
     </item>
     
     <item>
-      <title>ae</title>
-      <link>/tags/ae/</link>
+      <title>w12</title>
+      <link>/tags/w12/</link>
       <pubDate>Fri, 20 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>/tags/ae/</guid>
+      <guid>/tags/w12/</guid>
       <description></description>
     </item>
     
@@ -65,11 +137,11 @@
     </item>
     
     <item>
-      <title>php</title>
-      <link>/tags/php/</link>
-      <pubDate>Thu, 12 Mar 2020 12:00:00 +0000</pubDate>
+      <title>w11</title>
+      <link>/tags/w11/</link>
+      <pubDate>Sat, 14 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>/tags/php/</guid>
+      <guid>/tags/w11/</guid>
       <description></description>
     </item>
     
@@ -97,6 +169,15 @@
       <pubDate>Tue, 10 Mar 2020 12:00:00 +0000</pubDate>
       
       <guid>/tags/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>w10</title>
+      <link>/tags/w10/</link>
+      <pubDate>Fri, 06 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w10/</guid>
       <description></description>
     </item>
     

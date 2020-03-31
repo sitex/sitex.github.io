@@ -3,14 +3,89 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/gamification/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week14/gamification-people/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-    <lastmod>2020-03-23T12:00:00+00:00</lastmod>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-03-23T12:00:00+00:00</lastmod>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
     <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/w14/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/workout/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week14/x3-program-week-1-workout-1/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week13/email-to-pdf/</loc>
+    <lastmod>2020-03-29T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/email/</loc>
+    <lastmod>2020-03-29T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/w13/</loc>
+    <lastmod>2020-03-29T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2020-03-28T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week13/docker-apache-php/</loc>
+    <lastmod>2020-03-28T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/php/</loc>
+    <lastmod>2020-03-28T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ae/</loc>
+    <lastmod>2020-03-27T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week13/after-effects-course-04/</loc>
+    <lastmod>2020-03-27T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week13/gamification-book/</loc>
+    <lastmod>2020-03-24T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,27 +94,22 @@
   </url>
   
   <url>
-    <loc>/post/2020/rpi-youtube-livestream/</loc>
+    <loc>/post/2020/week13/rpi-youtube-livestream/</loc>
     <lastmod>2020-03-23T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-03-23T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ae/</loc>
+    <loc>/post/2020/week12/after-effects-course-03/</loc>
     <lastmod>2020-03-20T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020/after-effects-course-3/</loc>
+    <loc>/tags/w12/</loc>
     <lastmod>2020-03-20T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020/little-big/</loc>
+    <loc>/post/2020/week12/little-big/</loc>
     <lastmod>2020-03-18T12:00:00+00:00</lastmod>
   </url>
   
@@ -49,7 +119,7 @@
   </url>
   
   <url>
-    <loc>/post/2020/self-development-stage-1/</loc>
+    <loc>/post/2020/week12/self-development-stage-1/</loc>
     <lastmod>2020-03-17T12:00:00+00:00</lastmod>
   </url>
   
@@ -59,12 +129,12 @@
   </url>
   
   <url>
-    <loc>/post/2020/robert-mckee/</loc>
+    <loc>/post/2020/week12/robert-mckee/</loc>
     <lastmod>2020-03-16T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020/after-effects-scripts/</loc>
+    <loc>/post/2020/week12/after-effects-scripts/</loc>
     <lastmod>2020-03-15T12:00:00+00:00</lastmod>
   </url>
   
@@ -79,22 +149,22 @@
   </url>
   
   <url>
-    <loc>/post/2020/hugo-shortcodes/</loc>
+    <loc>/post/2020/week11/hugo-shortcodes/</loc>
     <lastmod>2020-03-14T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020/after-effects-course-2/</loc>
+    <loc>/tags/w11/</loc>
+    <lastmod>2020-03-14T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week11/after-effects-course-02/</loc>
     <lastmod>2020-03-13T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/php/</loc>
-    <lastmod>2020-03-12T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2020/psalm-dev/</loc>
+    <loc>/post/2020/week11/psalm-dev/</loc>
     <lastmod>2020-03-12T12:00:00+00:00</lastmod>
   </url>
   
@@ -109,12 +179,12 @@
   </url>
   
   <url>
-    <loc>/post/2020/tf-dev-summit-2020/</loc>
+    <loc>/post/2020/week11/tf-dev-summit-2020/</loc>
     <lastmod>2020-03-11T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020/any-do/</loc>
+    <loc>/post/2020/week11/any-do/</loc>
     <lastmod>2020-03-10T12:00:00+00:00</lastmod>
   </url>
   
@@ -124,7 +194,12 @@
   </url>
   
   <url>
-    <loc>/post/2020/after-effects-course/</loc>
+    <loc>/post/2020/week10/after-effects-course-01/</loc>
+    <lastmod>2020-03-06T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/w10/</loc>
     <lastmod>2020-03-06T12:00:00+00:00</lastmod>
   </url>
   

@@ -5,17 +5,30 @@
     <link>/tags/php/</link>
     <description>Recent content in php on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 Mar 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>docker-apache-php</title>
+      <link>/post/2020/week13/docker-apache-php/</link>
+      <pubDate>Sat, 28 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week13/docker-apache-php/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;paths&lt;/li&gt;
+&lt;li&gt;versions&lt;/li&gt;
+&lt;li&gt;extensions&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Psalm static analysis tool</title>
-      <link>/post/2020/psalm-dev/</link>
+      <link>/post/2020/week11/psalm-dev/</link>
       <pubDate>Thu, 12 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>/post/2020/psalm-dev/</guid>
+      <guid>/post/2020/week11/psalm-dev/</guid>
       <description>&lt;p&gt;Psalm is an open-source static analysis tool for PHP that helps you identify both obvious and hard-to-spot bugs in your code.&lt;/p&gt;</description>
     </item>
     

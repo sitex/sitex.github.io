@@ -158,13 +158,186 @@
 	
 	    <a class="newer-posts" href="/post/page/3/">&larr; Newer Posts</a>
 	
-	<span class="page-number">Page 4 of 13</span>
+	<span class="page-number">Page 4 of 14</span>
 	
 	    <a class="older-posts" href="/post/page/5/">Older Posts &rarr;</a>
 	
 </nav>
 
 	</div>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2019/all-files-in-amazon-s3/">All files in Amazon S3</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>$ s3cmd ls -r s3://yourbucket/ | awk '{print $4}' &gt; objects_in_bucket </p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/all-files-in-amazon-s3/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+            
+                <a href="/tags/terminal/">#terminal</a>
+            
+                <a href="/tags/amazon/">#amazon</a>
+            
+        
+        <time class="post-date" datetime="2019-03-06T14:15:00Z">
+            6 Mar 2019
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2019/expose-jupyter-notebook/">Expose jupyter notebook</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>The notebook is available over the network with two changes in the configuration file.
+Create configuration file jupyter notebook --generate-config Config IP c.NotebookApp.ip = '192.168.0.101'. Config password Run to generate a password:
+from the notebook.auth import passwd; passwd() Add the password to config:
+c.NotebookApp.password = '' Source: http://kracekumar.com/post/156322146345/expose-jupyter-notebook-over-the-network</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/expose-jupyter-notebook/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+            
+                <a href="/tags/jupyter/">#jupyter</a>
+            
+        
+        <time class="post-date" datetime="2019-03-05T14:20:00Z">
+            5 Mar 2019
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2019/laravel-mailing-from-terminal/">Laravel mailing from terminal</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Run:
+php artisan tinker and then:
+Mail::send('emails.test', [], function($message) { $message-&gt;to('youremail@domain.com')-&gt;subject('Testing email'); }); Change emails.test to point to a blade that works and populate the email you want to test.
+Source: https://www.gregoryvarghese.com/tag/email/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/laravel-mailing-from-terminal/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+            
+                <a href="/tags/laravel/">#laravel</a>
+            
+        
+        <time class="post-date" datetime="2019-03-01T14:29:00Z">
+            1 Mar 2019
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2019/sonic-candle/">Sonic Candle</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Given a music file, generates a video file with a visualization of frequency spectrum bars generated for the music. Outputs high-quality, rendered video. Intended for publishing your own music on YouTube and stuff.
+http://soniccandle.sourceforge.net/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/sonic-candle/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+            
+                <a href="/tags/audio/">#audio</a>
+            
+        
+        <time class="post-date" datetime="2019-02-06T18:36:00Z">
+            6 Feb 2019
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2019/app-for-multi-factor-auth/">App for multi-factor auth</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>A simple application for multi-factor authentication, written in HTML using jQuery Mobile, jsSHA, LocalStorage and Application Cache.
+It implements the TOTP (Time-Based One-Time Password) algorithm according to RFC6238 and has been tested to work with Google Authenticator, Dropbox, Dreamhost, Amazon, Linode, Okta and many other services.
+https://github.com/gbraad/gauth/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/app-for-multi-factor-auth/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+            
+                <a href="/tags/auth/">#auth</a>
+            
+        
+        <time class="post-date" datetime="2019-02-06T18:35:03Z">
+            6 Feb 2019
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/2019/webpagetest/">webpagetest</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p><p>Run a free website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds. Your results will provide rich diagnostic information including</p></p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2019/webpagetest/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+            
+                <a href="/tags/links/">#links</a>
+            
+        
+        <time class="post-date" datetime="2019-02-03T17:43:00Z">
+            3 Feb 2019
+        </time>
+    </footer>
+</article>
 
 	
 	   <article class="post post">
@@ -271,156 +444,12 @@ Reverse Engineering the iOS Backup https://www.richinfante.com/2017/3/16/reverse
 </article>
 
 	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/deblurgan/">DeblurGAN</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>DeblurGAN: Conditional Adversarial Networks for Blind Image Deblurring, Орест Купин
-https://www.youtube.com/watch?v=4Xbz_wKX2Gw</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/deblurgan/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-12-31T19:11:00Z">
-            31 Dec 2018
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/super-slomo/">Super SloMo</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>https://github.com/avinashpaliwal/Super-SloMo
-Super SloMo fun. Or how you can make awesome YouTube videos with AI
-https://towardsdatascience.com/super-slomo-fun-or-how-you-can-make-awesome-youtube-videos-with-ai-2d6459f6de14</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/super-slomo/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-12-31T19:05:00Z">
-            31 Dec 2018
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/php-compatibility-check-for-php_codesniffer/">PHP Compatibility check for PHP_CodeSniffer</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>This is a set of sniffs for PHP CodeSniffer that checks for PHP cross-version compatibility. It will allow you to analyse your code for compatibility with higher and lower versions of PHP.
- https://github.com/PHPCompatibility/PHPCompatibility https://www.sitepoint.com/quick-intro-phpcompatibility-standard-for-phpcs-are-you-php7-ready/  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/php-compatibility-check-for-php_codesniffer/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-12-29T17:52:00Z">
-            29 Dec 2018
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/game-hitman-2-fastrun/">Game: Hitman 2 - Fastrun</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p> https://www.youtube.com/channel/UCOG3T3wMNiUrVGEAZglJS1g/videos  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/game-hitman-2-fastrun/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-12-25T17:59:00Z">
-            25 Dec 2018
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/pomodoro-timer-for-ubuntu/">Pomodoro Timer for Ubuntu</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>This GNOME app helps to manage time according to Pomodoro Technique. It intends to improve productivity and quality of work by reminding you to take short breaks.
-Pomodoro Technique is based on two principles:
- focusing on work for limited time, about half an hour, clearing your mind during breaks.  This workflow can improve focus, physical health and mental agility depending on how you spend your breaks and how strictly you follow the routine.</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/pomodoro-timer-for-ubuntu/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-12-25T17:56:00Z">
-            25 Dec 2018
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/catboost-vs-light-gbm-vs-xgboost/">CatBoost vs. Light GBM vs. XGBoost</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>https://www.kdnuggets.com/2018/03/catboost-vs-light-gbm-vs-xgboost.html</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/catboost-vs-light-gbm-vs-xgboost/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2018-12-18T18:58:00Z">
-            18 Dec 2018
-        </time>
-    </footer>
-</article>
-
-	
 
 	<nav class="pagination" role="navigation">
 	
 	    <a class="newer-posts" href="/post/page/3/">&larr; Newer Posts</a>
 	
-	<span class="page-number">Page 4 of 13</span>
+	<span class="page-number">Page 4 of 14</span>
 	
 	    <a class="older-posts" href="/post/page/5/">Older Posts &rarr;</a>
 	
