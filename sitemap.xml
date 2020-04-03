@@ -3,38 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/w14/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/workout/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/week14/x3-program-week-1-workout-2/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/gamification/</loc>
     <lastmod>2020-03-30T12:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/2020/week14/gamification-people/</loc>
-    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/w14/</loc>
-    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/workout/</loc>
     <lastmod>2020-03-30T12:00:00+00:00</lastmod>
   </url>
   

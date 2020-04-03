@@ -169,6 +169,31 @@
 	
 	   <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/post/2017/auryn-dependency-injector/">Auryn Dependency Injector</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>A dependency injector resolves the dependencies of your class and makes sure that the correct objects are injected when the class is instantiated.
+Basic Instantiation If a class only asks for concrete dependencies you can use the Injector to inject them without specifying any injection definitions:
+class SomeDep {} class AnotherDep {} class MyClass { public $dep1; public $dep2; public function __construct(SomeDep $dep1, AnotherDep $dep2) { $this-&gt;dep1 = $dep1; $this-&gt;dep2 = $dep2; } } $injector = new Auryn\Injector; $myObj = $injector-&gt;make('MyClass'); In this scenario you can use the Injector to automatically provision MyClass with the required SomeDependency and AnotherDependency class instances.</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/auryn-dependency-injector/">&raquo;&nbsp;Read&nbsp;more</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+
+        
+        <time class="post-date" datetime="2017-12-19T02:01:26Z">
+            19 Dec 2017
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/post/2017/virtualenv/">virtualenv</a></h2>
     </header>
     <section class="post-excerpt">
@@ -386,30 +411,6 @@ https://www.online-convert.com/</p>
         
         <time class="post-date" datetime="2017-08-05T07:37:02Z">
             5 Aug 2017
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/ekstriemalnoie-proghrammirovaniie/">Экстремальное программирование</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>Изящный, гибкий и понятный код, который легко модифицировать, который корректно работает и который не подкидывает своим создателям неприятных сюрпризов. Неужели, подобное возможно? Чтобы достичь цели, попробуйте тестировать программу еще до того, как она написана. Именно такая парадоксальная идея положена в основу методики TDD (Test-Driven-Development — разработка, основанная на тестировании).
-Бессмыслица? Не спешите делать скороспелых выводов. Рассматривая применение TDD на примере разработки реального программного кода, автор демонстрирует простоту и мощь этой новой методики.</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/ekstriemalnoie-proghrammirovaniie/">&raquo;&nbsp;Read&nbsp;more</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-
-        
-        <time class="post-date" datetime="2017-08-04T18:51:42Z">
-            4 Aug 2017
         </time>
     </footer>
 </article>
