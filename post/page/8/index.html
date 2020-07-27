@@ -62,7 +62,7 @@
         <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts &middot; " />
       
     
-    <meta name="generator" content="Hugo 0.67.0" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="/post/" />
 
@@ -158,7 +158,7 @@
 	
 	    <a class="newer-posts" href="/post/page/7/">&larr; Newer Posts</a>
 	
-	<span class="page-number">Page 8 of 14</span>
+	<span class="page-number">Page 8 of 13</span>
 	
 	    <a class="older-posts" href="/post/page/9/">Older Posts &rarr;</a>
 	
@@ -169,12 +169,14 @@
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/wget-yandex-disk/">wget Yandex Disk</a></h2>
+        <h2 class="post-title"><a href="/post/2017/auryn-dependency-injector/">Auryn Dependency Injector</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>wget &quot;https://downloader.disk.yandex.ru/disk/...&quot; -O archive.tar </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/wget-yandex-disk/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>A dependency injector resolves the dependencies of your class and makes sure that the correct objects are injected when the class is instantiated.
+Basic Instantiation If a class only asks for concrete dependencies you can use the Injector to inject them without specifying any injection definitions:
+class SomeDep {} class AnotherDep {} class MyClass { public $dep1; public $dep2; public function __construct(SomeDep $dep1, AnotherDep $dep2) { $this-&gt;dep1 = $dep1; $this-&gt;dep2 = $dep2; } } $injector = new Auryn\Injector; $myObj = $injector-&gt;make('MyClass'); In this scenario you can use the Injector to automatically provision MyClass with the required SomeDependency and AnotherDependency class instances.</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/auryn-dependency-injector/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -183,8 +185,8 @@
         
 
         
-        <time class="post-date" datetime="2018-04-16T05:00:00Z">
-            16 Apr 2018
+        <time class="post-date" datetime="2017-12-19T02:01:26Z">
+            19 Dec 2017
         </time>
     </footer>
 </article>
@@ -192,12 +194,15 @@
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/matiematichieskii-analiz/">Практикум по математическому анализу</a></h2>
+        <h2 class="post-title"><a href="/post/2017/virtualenv/">virtualenv</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p> Практикум по математическому анализу YouTube  </p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/matiematichieskii-analiz/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>virtualenv lets you create virtual Python environments. Everything you install or remove in that environment stays there and other environments are not affected.
+Most importantly, you don&rsquo;t pollute the global package directory of your system.
+Create an Environment virtualenv my_blog_environment Exploring the Virtual Environment cd my_blog_environment/ source bin/activate The activate script will also modify your shell prompt to indicate which environment is currently active.
+To undo these changes to your path (and prompt), just run:</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/virtualenv/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -206,8 +211,8 @@
         
 
         
-        <time class="post-date" datetime="2018-04-16T05:00:00Z">
-            16 Apr 2018
+        <time class="post-date" datetime="2017-12-10T01:55:15Z">
+            10 Dec 2017
         </time>
     </footer>
 </article>
@@ -215,12 +220,15 @@
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/wordpress-forms-plugin/">WordPress Forms Plugin</a></h2>
+        <h2 class="post-title"><a href="/post/2017/pywatch/">Automated Tests with pywatch</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>https://calderaforms.com/doc/multi-page-form/</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/wordpress-forms-plugin/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>Run My tests require SQLite. Let&rsquo;s install it first:
+sudo apt-get install php-sqlite3 Now we can run tests with:
+./vendor/bin/phpunit Automate We can use a utility called pywatch to run a command when files are changed. Here&rsquo;s how we create a new Laravel project and run unit tests automatically when they&rsquo;re updated:
+cd ~/Sites composer create project laravel/laravel docker-testing cd docker-testing virtualenv .venv source .venv/bin/activate pip install pywatch pywatch ./vendor/bin/phpunit .</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/pywatch/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -229,8 +237,8 @@
         
 
         
-        <time class="post-date" datetime="2018-04-09T05:00:00Z">
-            9 Apr 2018
+        <time class="post-date" datetime="2017-12-10T00:59:38Z">
+            10 Dec 2017
         </time>
     </footer>
 </article>
@@ -238,12 +246,12 @@
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/gitignore-for-wordpress/">.gitignore for WordPress</a></h2>
+        <h2 class="post-title"><a href="/post/2017/deploy-php-series/">Deploy PHP Series</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p># ----------------------------------------------------------------- # .gitignore # Bare Minimum Git # http://ironco.de/bare-minimum-git/ # ver 20170502 # # From the root of your project run # curl -O https://gist.githubusercontent.com/salcode/10017553/raw/.gitignore # to download this file # # This file is tailored for a general web project, it # is NOT optimized for a WordPress project. See # https://gist.github.com/salcode/b515f520d3f8207ecd04 # for a WordPress specific .gitignore # # This file specifies intentionally untracked files to ignore # http://git-scm.</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/gitignore-for-wordpress/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>https://deploy.serversforhackers.com/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/deploy-php-series/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -252,8 +260,8 @@
         
 
         
-        <time class="post-date" datetime="2018-04-08T05:00:00Z">
-            8 Apr 2018
+        <time class="post-date" datetime="2017-11-18T00:50:00Z">
+            18 Nov 2017
         </time>
     </footer>
 </article>
@@ -261,15 +269,14 @@
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/styled-components/">Styled Components</a></h2>
+        <h2 class="post-title"><a href="/post/2017/spintax/">spintax</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS, styled-components allows you to write actual CSS code to style your components. It also removes the mapping between components and styles – using components as a low-level styling construct could not be easier!
-https://www.styled-components.com/
-Video Dmitry Barabash: Brief Intro to Styled Components
-A lightweight toolset for writing styles in JavaScript polished</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/styled-components/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>Use spintax to write variations of an article description. So product descriptions should be:
+ well written grammatically correct fairly unique  Link: http://www.spintaxtool.com/
+Examples: https://searchwilderness.com/blackhat-article-spinning-spintax-white-seo</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/spintax/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -278,8 +285,8 @@ A lightweight toolset for writing styles in JavaScript polished</p>
         
 
         
-        <time class="post-date" datetime="2018-04-08T05:00:00Z">
-            8 Apr 2018
+        <time class="post-date" datetime="2017-11-08T06:22:00Z">
+            8 Nov 2017
         </time>
     </footer>
 </article>
@@ -287,13 +294,13 @@ A lightweight toolset for writing styles in JavaScript polished</p>
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2018/php-replacement-for-intl-extension/">PHP replacement for Intl extension</a></h2>
+        <h2 class="post-title"><a href="/post/2017/python-seo-analyzer/">python-seo-analyzer</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>This plugin library was created to help developers that do not have access to install the PHP intl extension. It is not met to be a full replace for the PHP extension since it is limited in functionality and should be used with caution.
-https://github.com/CakeDC/Intl</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2018/php-replacement-for-intl-extension/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>seoanalyze http://www.domain.com/ --sitemap path/to/sitemap.xml
+https://github.com/sethblack/python-seo-analyzer</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/python-seo-analyzer/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -302,8 +309,8 @@ https://github.com/CakeDC/Intl</p>
         
 
         
-        <time class="post-date" datetime="2018-03-10T05:00:00Z">
-            10 Mar 2018
+        <time class="post-date" datetime="2017-11-08T06:19:00Z">
+            8 Nov 2017
         </time>
     </footer>
 </article>
@@ -311,12 +318,15 @@ https://github.com/CakeDC/Intl</p>
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/proxy-by-amazon-ec2/">Proxy by Amazon EC2</a></h2>
+        <h2 class="post-title"><a href="/post/2017/bem/">BEM</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>Navigate to the EC2 console by following https://console.aws.amazon.com/ec2 You will need to logon your AWS account. If you have not got account create one. It’s free! Once you’ve logged Create a Key Pair by selecting Key Pairs which is near the bottom of the menu on the left. 2.1. Select Create a Key pair, 2.2 enter a name and save the file onto your local file system. 2.3 Change the permission to make it read only (chmod 400 &lt;filename&gt;) Create a new Elastic IP Address Launch a new Instance.</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/proxy-by-amazon-ec2/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>BEM (Block, Element, Modifier) is an open source technology for developing websites that need to be created quickly and maintained over many years. BEM is used in the frontend development of all Yandex services.
+https://tech.yandex.com/bem/
+Block A functionally independent page component that can be reused. In HTML, blocks are represented by the class attribute.
+&lt;!-- Correct. The `error` block is semantically meaningful --&gt; &lt;div class=&quot;error&quot;&gt;&lt;/div&gt; &lt;!-- Incorrect. It describes the appearance --&gt; &lt;div class=&quot;red-text&quot;&gt;&lt;/div&gt; Element A composite part of a block that can&rsquo;t be used separately from it.</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/bem/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -325,8 +335,8 @@ https://github.com/CakeDC/Intl</p>
         
 
         
-        <time class="post-date" datetime="2017-12-25T01:27:27Z">
-            25 Dec 2017
+        <time class="post-date" datetime="2017-08-27T21:27:00Z">
+            27 Aug 2017
         </time>
     </footer>
 </article>
@@ -334,13 +344,13 @@ https://github.com/CakeDC/Intl</p>
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/amazon-lightsail/">Amazon Lightsail</a></h2>
+        <h2 class="post-title"><a href="/post/2017/frozentimelocal-for-cakephp/">FrozenTimeLocal for CakePHP</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>The user-friendly VPS solution from AWS. It is directly competing with the budget cloud VPS providers such as Digital Ocean, Linode, etc.
- Amazon Lightsail AWS re:Invent 2016: NEW LAUNCH! Introducing Amazon Lightsail (CMP206)  Source: https://ayesh.me/amazon-lightsail-review</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/amazon-lightsail/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>Modify default DateTime type to return localized date with timezone.
+class FrozenTimeLocal extends FrozenTime { public function __toString() { return $this-&gt;i18nFormat('dd MMM HH:mm', 'Asia/Dhaka', 'ru_Ru'); } } External: Stackoverflow - CakePHP 3 time column gets date added</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/frozentimelocal-for-cakephp/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -349,8 +359,8 @@ https://github.com/CakeDC/Intl</p>
         
 
         
-        <time class="post-date" datetime="2017-12-24T01:46:32Z">
-            24 Dec 2017
+        <time class="post-date" datetime="2017-08-13T20:07:33Z">
+            13 Aug 2017
         </time>
     </footer>
 </article>
@@ -358,13 +368,13 @@ https://github.com/CakeDC/Intl</p>
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/react-table/">React Table</a></h2>
+        <h2 class="post-title"><a href="/post/2017/online-convert/">Online Convert</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>React Table - A lightweight, fast and extendable datagrid for React.
-https://github.com/react-tools/react-table https://react-table.js.org/#/story/readme</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/react-table/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>Convert media files online from one format into another.
+https://www.online-convert.com/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/online-convert/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -373,8 +383,8 @@ https://github.com/react-tools/react-table https://react-table.js.org/#/story/re
         
 
         
-        <time class="post-date" datetime="2017-12-24T00:12:14Z">
-            24 Dec 2017
+        <time class="post-date" datetime="2017-08-09T21:19:00Z">
+            9 Aug 2017
         </time>
     </footer>
 </article>
@@ -382,13 +392,15 @@ https://github.com/react-tools/react-table https://react-table.js.org/#/story/re
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/post/2017/php-7-2-for-ubuntu/">PHP 7.2 for Ubuntu</a></h2>
+        <h2 class="post-title"><a href="/post/2017/megatools-for-mega-nz/">Megatools for Mega.nz</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>1. Add PPA ondrej/php sudo add-apt-repository ppa:ondrej/php sudo apt update 2. Current PHP packages dpkg -l | grep php | tee packages.txt 3. Install PHP 7.2 sudo apt install php7.2 php7.2-common php7.2-cli php7.2-fpm If you are using Apache with prefork MPM (type apachectl -V to see the MPM used), you&rsquo;d need to install libapache2-mod-php7.2 instead of php7.2-fpm.
-4. Install additional modules Take a look at the packages.txt file we created at step #2</p>
-            <p style="text-align: right;"><a class="read-more" href="/post/2017/php-7-2-for-ubuntu/">&raquo;&nbsp;Read&nbsp;more</a></p>
+            <p>Megatools is a collection of programs for accessing Mega.nz service from a command line of your desktop or server.
+ sudo apt install megatools
+  megadl [url]
+ https://megatools.megous.com/</p>
+            <p style="text-align: right;"><a class="read-more" href="/post/2017/megatools-for-mega-nz/">&raquo;&nbsp;Read&nbsp;more</a></p>
         
     </section>
     <footer class="post-meta">
@@ -397,14 +409,8 @@ https://github.com/react-tools/react-table https://react-table.js.org/#/story/re
         
 
         
-            
-                <a href="/tags/ubuntu/">#ubuntu</a>
-            
-                <a href="/tags/php/">#php</a>
-            
-        
-        <time class="post-date" datetime="2017-12-24T00:07:02Z">
-            24 Dec 2017
+        <time class="post-date" datetime="2017-08-05T07:37:02Z">
+            5 Aug 2017
         </time>
     </footer>
 </article>
@@ -415,7 +421,7 @@ https://github.com/react-tools/react-table https://react-table.js.org/#/story/re
 	
 	    <a class="newer-posts" href="/post/page/7/">&larr; Newer Posts</a>
 	
-	<span class="page-number">Page 8 of 14</span>
+	<span class="page-number">Page 8 of 13</span>
 	
 	    <a class="older-posts" href="/post/page/9/">Older Posts &rarr;</a>
 	

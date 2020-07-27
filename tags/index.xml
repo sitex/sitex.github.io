@@ -5,35 +5,35 @@
     <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 31 Mar 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>w14</title>
-      <link>/tags/w14/</link>
-      <pubDate>Tue, 31 Mar 2020 12:00:00 +0000</pubDate>
+      <title>book</title>
+      <link>/tags/book/</link>
+      <pubDate>Sun, 10 May 2020 12:00:00 +0000</pubDate>
       
-      <guid>/tags/w14/</guid>
+      <guid>/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>workout</title>
-      <link>/tags/workout/</link>
-      <pubDate>Tue, 31 Mar 2020 12:00:00 +0000</pubDate>
+      <title>mafia</title>
+      <link>/tags/mafia/</link>
+      <pubDate>Sun, 10 May 2020 12:00:00 +0000</pubDate>
       
-      <guid>/tags/workout/</guid>
+      <guid>/tags/mafia/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gamification</title>
-      <link>/tags/gamification/</link>
-      <pubDate>Mon, 30 Mar 2020 12:00:00 +0000</pubDate>
+      <title>w19</title>
+      <link>/tags/w19/</link>
+      <pubDate>Sun, 10 May 2020 12:00:00 +0000</pubDate>
       
-      <guid>/tags/gamification/</guid>
+      <guid>/tags/w19/</guid>
       <description></description>
     </item>
     
@@ -74,29 +74,11 @@
     </item>
     
     <item>
-      <title>ae</title>
-      <link>/tags/ae/</link>
-      <pubDate>Fri, 27 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/ae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>rpi</title>
       <link>/tags/rpi/</link>
       <pubDate>Mon, 23 Mar 2020 12:00:00 +0000</pubDate>
       
       <guid>/tags/rpi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>w12</title>
-      <link>/tags/w12/</link>
-      <pubDate>Fri, 20 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/w12/</guid>
       <description></description>
     </item>
     
@@ -110,20 +92,11 @@
     </item>
     
     <item>
-      <title>study</title>
-      <link>/tags/study/</link>
-      <pubDate>Tue, 17 Mar 2020 12:00:00 +0000</pubDate>
+      <title>w12</title>
+      <link>/tags/w12/</link>
+      <pubDate>Wed, 18 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>/tags/study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scripts</title>
-      <link>/tags/scripts/</link>
-      <pubDate>Sun, 15 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/scripts/</guid>
+      <guid>/tags/w12/</guid>
       <description></description>
     </item>
     
@@ -169,15 +142,6 @@
       <pubDate>Tue, 10 Mar 2020 12:00:00 +0000</pubDate>
       
       <guid>/tags/links/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>w10</title>
-      <link>/tags/w10/</link>
-      <pubDate>Fri, 06 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/w10/</guid>
       <description></description>
     </item>
     
