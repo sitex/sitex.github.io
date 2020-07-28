@@ -5,10 +5,19 @@
     <link>/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 May 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SharpKeys</title>
+      <link>/post/2020/week31/sharpkeys/</link>
+      <pubDate>Mon, 27 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week31/sharpkeys/</guid>
+      <description>&lt;p&gt;SharpKeys is a utility that manages a Registry key that allows Windows to remap one key to any other key.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Mafia Book</title>

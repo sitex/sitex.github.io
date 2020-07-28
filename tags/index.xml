@@ -5,10 +5,28 @@
     <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 May 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>toos</title>
+      <link>/tags/toos/</link>
+      <pubDate>Mon, 27 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/toos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>w31</title>
+      <link>/tags/w31/</link>
+      <pubDate>Mon, 27 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w31/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>book</title>
