@@ -65,7 +65,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2018/docker-default-images-location/" />
 
@@ -78,13 +78,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -96,23 +96,23 @@
             
         ]
     },
-    "headline": "Docker default images location",
-    "name": "Docker default images location",
-    "wordCount":  133 ,
+    "headline": Docker default images location,
+    "name": Docker default images location,
+    "wordCount": 133,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2018/docker-default-images-location/",
-    "datePublished": "2018-10-15T23:15Z",
-    "dateModified": "2018-10-15T23:15Z",
+    "url": /post/2018/docker-default-images-location/,
+    "datePublished": 2018-10-15T23:15Z,
+    "dateModified": 2018-10-15T23:15Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2018/docker-default-images-location/"
+        "@id": /post/2018/docker-default-images-location/
     }
 }
     </script>
@@ -184,6 +184,7 @@
 
     <section class="post-content">
       <p>Prepare your new block storage, this will house the moved docker folder</p>
+
 <pre><code># format the new block storage device
 mkfs.ext4 /dev/sdx
 
@@ -196,7 +197,10 @@ mount /dev/sdx1 /mnt/diskX
 # create a new folder to house docker
 mkdir /mnt/diskX/docker
 chmod 700 /mnt/diskX/docker
-</code></pre><p>Setup the move</p>
+</code></pre>
+
+<p>Setup the move</p>
+
 <pre><code># stop containers and docker daemon
 docker ps -q | xargs docker kill
 service docker stop
@@ -214,7 +218,10 @@ e.g. DOCKER_OPTS=&quot;--dns 8.8.8.8 --dns 8.8.4.4 -g /mnt/diskX/docker&quot;
 
 # restart docker daemon
 sudo /etc/init.d/docker restart
-</code></pre><p>Test that when you create a container the hash appears in /mnt/diskX/docker/containers</p>
+</code></pre>
+
+<p>Test that when you create a container the hash appears in /mnt/diskX/docker/containers</p>
+
 <ul>
 <li>Source <a href="https://groups.google.com/forum/#!topic/docker-user/AKqf_qIhFL4">google forum</a></li>
 </ul>

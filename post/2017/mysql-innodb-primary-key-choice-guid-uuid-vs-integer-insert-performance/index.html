@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/mysql-innodb-primary-key-choice-guid-uuid-vs-integer-insert-performance/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "MySQL InnoDB Primary Key Choice: GUID/UUID vs Integer Insert Performance",
-    "name": "MySQL InnoDB Primary Key Choice: GUID/UUID vs Integer Insert Performance",
-    "wordCount":  98 ,
+    "headline": MySQL InnoDB Primary Key Choice: GUID/UUID vs Integer Insert Performance,
+    "name": MySQL InnoDB Primary Key Choice: GUID/UUID vs Integer Insert Performance,
+    "wordCount": 98,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/mysql-innodb-primary-key-choice-guid-uuid-vs-integer-insert-performance/",
-    "datePublished": "2017-06-30T05:37Z",
-    "dateModified": "2017-06-30T05:37Z",
+    "url": /post/2017/mysql-innodb-primary-key-choice-guid-uuid-vs-integer-insert-performance/,
+    "datePublished": 2017-06-30T05:37Z,
+    "dateModified": 2017-06-30T05:37Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/mysql-innodb-primary-key-choice-guid-uuid-vs-integer-insert-performance/"
+        "@id": /post/2017/mysql-innodb-primary-key-choice-guid-uuid-vs-integer-insert-performance/
     }
 }
     </script>
@@ -182,10 +182,16 @@
     </header>
 
     <section class="post-content">
-      <h3 id="conclusion">Conclusion</h3>
+      
+
+<h3 id="conclusion">Conclusion</h3>
+
 <p>As you can see innodb_uuid_no_key performs closely to its integer counterparts, innodb_uuid_no_key_indexed exhibits the same trend as innodb_uuid to a much less severe degree and innodb_uuid_no_key_unique_indexed is nearly identical to innodb_uuid. So the unique index appears to be the issue here. But why? Well, given the above information, I&rsquo;d say that MySQL is unable to buffer enough data to guarantee a value is unique and is therefore caused to perform a tremendous amount of reading for each insert to guarantee uniqueness.</p>
+
 <h3 id="what-about-myisam">What About MyISAM?</h3>
+
 <p>The MyISAM results were virtually identical (in scale) to that of InnoDB.</p>
+
 <p><a href="http://kccoder.com/mysql/uuid-vs-int-insert-performance/">http://kccoder.com/mysql/uuid-vs-int-insert-performance/</a></p>
 
     </section>

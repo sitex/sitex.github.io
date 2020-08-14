@@ -38,8 +38,8 @@
 
     
     <meta name="description" content="Run My tests require SQLite. Let&amp;rsquo;s install it first:
-sudo apt-get install php-sqlite3 Now we can run tests with:
-./vendor/bin/phpunit Automate We can use " />
+sudo apt-get install php-sqlite3  Now we can run tests with:
+./vendor/bin/phpunit  Automate We can us" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -66,7 +66,7 @@ sudo apt-get install php-sqlite3 Now we can run tests with:
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/pywatch/" />
 
@@ -79,13 +79,13 @@ sudo apt-get install php-sqlite3 Now we can run tests with:
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -97,23 +97,23 @@ sudo apt-get install php-sqlite3 Now we can run tests with:
             
         ]
     },
-    "headline": "Automated Tests with pywatch",
-    "name": "Automated Tests with pywatch",
-    "wordCount":  87 ,
+    "headline": Automated Tests with pywatch,
+    "name": Automated Tests with pywatch,
+    "wordCount": 87,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/pywatch/",
-    "datePublished": "2017-12-10T00:59Z",
-    "dateModified": "2017-12-10T00:59Z",
+    "url": /post/2017/pywatch/,
+    "datePublished": 2017-12-10T00:59Z,
+    "dateModified": 2017-12-10T00:59Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/pywatch/"
+        "@id": /post/2017/pywatch/
     }
 }
     </script>
@@ -184,13 +184,24 @@ sudo apt-get install php-sqlite3 Now we can run tests with:
     </header>
 
     <section class="post-content">
-      <h3 id="run">Run</h3>
+      
+
+<h3 id="run">Run</h3>
+
 <p>My tests require <code>SQLite</code>. Let&rsquo;s install it first:</p>
+
 <pre><code>sudo apt-get install php-sqlite3
-</code></pre><p>Now we can run tests with:</p>
+</code></pre>
+
+<p>Now we can run tests with:</p>
+
 <pre><code>./vendor/bin/phpunit
-</code></pre><h3 id="automate">Automate</h3>
+</code></pre>
+
+<h3 id="automate">Automate</h3>
+
 <p>We can use a utility called <code>pywatch</code> to run a command when files are changed. Here&rsquo;s how we create a new Laravel project and run unit tests automatically when they&rsquo;re updated:</p>
+
 <pre><code>cd ~/Sites
 composer create project laravel/laravel docker-testing
 
@@ -201,8 +212,12 @@ source .venv/bin/activate
 pip install pywatch
 
 pywatch ./vendor/bin/phpunit ./tests/*.php
-</code></pre><h3 id="what-next">What Next</h3>
+</code></pre>
+
+<h3 id="what-next">What Next</h3>
+
 <p>Use <code>Docker</code> if we want to test a specific version of PHP</p>
+
 <p>Source: <a href="https://serversforhackers.com/c/testing-in-containers">https://serversforhackers.com/c/testing-in-containers</a></p>
 
     </section>

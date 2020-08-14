@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/how-to-create-a-symbolic-link-in-cpanel/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "How to create a symbolic link in cPanel",
-    "name": "How to create a symbolic link in cPanel",
-    "wordCount":  87 ,
+    "headline": How to create a symbolic link in cPanel,
+    "name": How to create a symbolic link in cPanel,
+    "wordCount": 87,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/how-to-create-a-symbolic-link-in-cpanel/",
-    "datePublished": "2017-02-15T21:30Z",
-    "dateModified": "2017-02-15T21:30Z",
+    "url": /post/2017/how-to-create-a-symbolic-link-in-cpanel/,
+    "datePublished": 2017-02-15T21:30Z,
+    "dateModified": 2017-02-15T21:30Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/how-to-create-a-symbolic-link-in-cpanel/"
+        "@id": /post/2017/how-to-create-a-symbolic-link-in-cpanel/
     }
 }
     </script>
@@ -182,19 +182,31 @@
     </header>
 
     <section class="post-content">
-      <p>Symlinks, short for symbolic links, are basically shortcuts to individual files or folders. One of the advantages of a symlink is that it can cross filesystems, as it references abstract filenames/directories and not physical locations.</p>
+      
+
+<p>Symlinks, short for symbolic links, are basically shortcuts to individual files or folders. One of the advantages of a symlink is that it can cross filesystems, as it references abstract filenames/directories and not physical locations.</p>
+
 <p>There is a number of ways to create a symlink in cPanel:</p>
+
 <h2 id="1-via-ssh">1. Via SSH</h2>
+
 <pre><code> ln -s /path/to/target /path/to/shortcut 
-</code></pre><h2 id="2-cron">2. Cron</h2>
+</code></pre>
+
+<h2 id="2-cron">2. Cron</h2>
+
 <p>Using the same command
 <strong>NOTE</strong>: Make sure that you delete the cronjob once the symlink has been created.</p>
+
 <h2 id="3-php-function">3. PHP function</h2>
+
 <pre><code>&lt;?php
 $target = '/home/cPanelusername/public_html/index.html'; 
 $shortcut = 'script.html'; 
 symlink($target, $shortcut); 
-</code></pre><p><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9561/29/how-to-create-a-symbolic-link-in-cpanel">https://www.namecheap.com/support/knowledgebase/article.aspx/9561/29/how-to-create-a-symbolic-link-in-cpanel</a></p>
+</code></pre>
+
+<p><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9561/29/how-to-create-a-symbolic-link-in-cpanel">https://www.namecheap.com/support/knowledgebase/article.aspx/9561/29/how-to-create-a-symbolic-link-in-cpanel</a></p>
 
     </section>
 

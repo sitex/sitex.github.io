@@ -1,56 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-27T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week14/x3-program-week-1-workout-2/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-07-27T12:00:00+00:00</lastmod>
-    <priority>0.6</priority>
+    <loc>/post/2020/week14/gamification-people/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020/week31/sharpkeys/</loc>
-    <lastmod>2020-07-27T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-07-27T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/toos/</loc>
-    <lastmod>2020-07-27T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/w31/</loc>
-    <lastmod>2020-07-27T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/book/</loc>
-    <lastmod>2020-05-10T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/mafia/</loc>
-    <lastmod>2020-05-10T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2020/week19/mafia-book/</loc>
-    <lastmod>2020-05-10T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/w19/</loc>
-    <lastmod>2020-05-10T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week14/x3-program-week-1-workout-1/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,33 +23,18 @@
   </url>
   
   <url>
-    <loc>/tags/email/</loc>
-    <lastmod>2020-03-29T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/w13/</loc>
-    <lastmod>2020-03-29T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/docker/</loc>
-    <lastmod>2020-03-28T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2020/week13/docker-apache-php/</loc>
     <lastmod>2020-03-28T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/php/</loc>
-    <lastmod>2020-03-28T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week13/after-effects-course-04/</loc>
+    <lastmod>2020-03-27T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rpi/</loc>
-    <lastmod>2020-03-23T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week13/gamification-book/</loc>
+    <lastmod>2020-03-24T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -94,23 +43,28 @@
   </url>
   
   <url>
+    <loc>/post/2020/week12/after-effects-course-03/</loc>
+    <lastmod>2020-03-20T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020/week12/little-big/</loc>
     <lastmod>2020-03-18T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/music/</loc>
-    <lastmod>2020-03-18T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week12/self-development-stage-1/</loc>
+    <lastmod>2020-03-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/w12/</loc>
-    <lastmod>2020-03-18T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week12/robert-mckee/</loc>
+    <lastmod>2020-03-16T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2020-03-14T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week12/after-effects-scripts/</loc>
+    <lastmod>2020-03-15T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -119,23 +73,13 @@
   </url>
   
   <url>
-    <loc>/tags/w11/</loc>
-    <lastmod>2020-03-14T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week11/after-effects-course-02/</loc>
+    <lastmod>2020-03-13T12:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/2020/week11/psalm-dev/</loc>
     <lastmod>2020-03-12T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ml/</loc>
-    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tensorflow/</loc>
-    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -149,8 +93,8 @@
   </url>
   
   <url>
-    <loc>/tags/links/</loc>
-    <lastmod>2020-03-10T12:00:00+00:00</lastmod>
+    <loc>/post/2020/week10/after-effects-course-01/</loc>
+    <lastmod>2020-03-06T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -159,22 +103,7 @@
   </url>
   
   <url>
-    <loc>/tags/reactjs/</loc>
-    <lastmod>2020-02-23T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/elixir/</loc>
-    <lastmod>2020-02-12T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2020/elixir-development-on-windows-10/</loc>
-    <lastmod>2020-02-12T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/windows/</loc>
     <lastmod>2020-02-12T12:00:00+00:00</lastmod>
   </url>
   
@@ -184,32 +113,12 @@
   </url>
   
   <url>
-    <loc>/tags/photos/</loc>
-    <lastmod>2019-12-04T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/software/</loc>
-    <lastmod>2019-12-04T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/hardware/</loc>
-    <lastmod>2019-12-03T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2019/intel-ax200ngw/</loc>
     <lastmod>2019-12-03T17:30:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/2019/small-sharp-software-tools/</loc>
-    <lastmod>2019-12-02T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/books/</loc>
     <lastmod>2019-12-02T17:30:00+00:00</lastmod>
   </url>
   
@@ -224,11 +133,6 @@
   </url>
   
   <url>
-    <loc>/tags/terminal/</loc>
-    <lastmod>2019-11-10T17:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2019/software/</loc>
     <lastmod>2019-10-06T07:05:00+00:00</lastmod>
   </url>
@@ -236,11 +140,6 @@
   <url>
     <loc>/post/2019/vertical-reordering-of-blocks-with-css/</loc>
     <lastmod>2019-10-02T18:39:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/laravel/</loc>
-    <lastmod>2019-03-07T14:35:00+00:00</lastmod>
   </url>
   
   <url>
@@ -264,17 +163,7 @@
   </url>
   
   <url>
-    <loc>/tags/amazon/</loc>
-    <lastmod>2019-03-06T14:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2019/expose-jupyter-notebook/</loc>
-    <lastmod>2019-03-05T14:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/jupyter/</loc>
     <lastmod>2019-03-05T14:20:00+00:00</lastmod>
   </url>
   
@@ -284,22 +173,12 @@
   </url>
   
   <url>
-    <loc>/tags/audio/</loc>
-    <lastmod>2019-02-06T18:36:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2019/sonic-candle/</loc>
     <lastmod>2019-02-06T18:36:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/2019/app-for-multi-factor-auth/</loc>
-    <lastmod>2019-02-06T18:35:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/auth/</loc>
     <lastmod>2019-02-06T18:35:03+00:00</lastmod>
   </url>
   
@@ -356,11 +235,6 @@
   <url>
     <loc>/post/2018/catboost-vs-light-gbm-vs-xgboost/</loc>
     <lastmod>2018-12-18T18:58:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ubuntu/</loc>
-    <lastmod>2018-12-17T18:59:00+00:00</lastmod>
   </url>
   
   <url>
@@ -794,11 +668,228 @@
   </url>
   
   <url>
+    <loc>/tags/ae/</loc>
+    <lastmod>2020-03-27T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/amazon/</loc>
+    <lastmod>2019-03-06T14:15:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/audio/</loc>
+    <lastmod>2019-02-06T18:36:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/auth/</loc>
+    <lastmod>2019-02-06T18:35:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/books/</loc>
+    <lastmod>2019-12-02T17:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2020-03-28T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/elixir/</loc>
+    <lastmod>2020-02-12T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/email/</loc>
+    <lastmod>2020-03-29T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gamification/</loc>
+    <lastmod>2020-03-30T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hardware/</loc>
+    <lastmod>2019-12-03T17:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-03-14T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jupyter/</loc>
+    <lastmod>2019-03-05T14:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/laravel/</loc>
+    <lastmod>2019-03-07T14:35:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/links/</loc>
+    <lastmod>2020-03-10T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ml/</loc>
+    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/music/</loc>
+    <lastmod>2020-03-18T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/photos/</loc>
+    <lastmod>2019-12-04T17:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/php/</loc>
+    <lastmod>2020-03-28T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reactjs/</loc>
+    <lastmod>2020-02-23T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rpi/</loc>
+    <lastmod>2020-03-23T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/scripts/</loc>
+    <lastmod>2020-03-15T12:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/search/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/software/</loc>
+    <lastmod>2019-12-04T17:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/study/</loc>
+    <lastmod>2020-03-17T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-27T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tensorflow/</loc>
+    <lastmod>2020-03-11T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/terminal/</loc>
+    <lastmod>2019-11-10T17:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ubuntu/</loc>
+    <lastmod>2018-12-17T18:59:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/w10/</loc>
+    <lastmod>2020-03-06T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/w11/</loc>
+    <lastmod>2020-03-14T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/w12/</loc>
+    <lastmod>2020-03-20T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/w13/</loc>
+    <lastmod>2020-03-29T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/w14/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2020-02-12T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/workout/</loc>
+    <lastmod>2020-03-31T12:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

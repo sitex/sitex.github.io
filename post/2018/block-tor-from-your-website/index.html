@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2018/block-tor-from-your-website/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "Block TOR from your website",
-    "name": "Block TOR from your website",
-    "wordCount":  138 ,
+    "headline": Block TOR from your website,
+    "name": Block TOR from your website,
+    "wordCount": 138,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2018/block-tor-from-your-website/",
-    "datePublished": "2018-07-11T22:44Z",
-    "dateModified": "2018-07-11T22:44Z",
+    "url": /post/2018/block-tor-from-your-website/,
+    "datePublished": 2018-07-11T22:44Z,
+    "dateModified": 2018-07-11T22:44Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2018/block-tor-from-your-website/"
+        "@id": /post/2018/block-tor-from-your-website/
     }
 }
     </script>
@@ -182,15 +182,24 @@
     </header>
 
     <section class="post-content">
-      <p>First thing first, the command used here for both Apache and Nginx were designed to be use in <code>cron</code> because TOR ip often change. But make sure that it’s scheduled for <code>1 hour</code> at minimum to respect those that gives you free service to lookup tor ip =)</p>
+      
+
+<p>First thing first, the command used here for both Apache and Nginx were designed to be use in <code>cron</code> because TOR ip often change. But make sure that it’s scheduled for <code>1 hour</code> at minimum to respect those that gives you free service to lookup tor ip =)</p>
+
 <ul>
 <li><a href="https://www.dan.me.uk/torlist/">TorList</a></li>
 </ul>
+
 <h4 id="if-you-only-have-access-to-htaccess-file">If you only have access to <code>.htaccess</code> file</h4>
+
 <p>For <code>Apache 2.2</code></p>
+
 <p>This will append new lines to your .htaccess file and will block all access from TOR ips to all section of your site by default.</p>
+
 <pre><code>sed -i '/#\ REAPER-TOR/,/#\ END-REAPER-TOR/d' /your/www/directory/.htaccess; wget -q https://www.dan.me.uk/torlist/ -O - | sed &quot;s/^/deny from /g; 1i# REAPER-TOR&quot; | sed '$a# END-REAPER-TOR' &gt;&gt; /your/www/directory/.htaccess
-</code></pre><p>Run this once before putting it in cron if you have ssh access otherwise put it in cron directly but make sure to set a minimum of 1 hour</p>
+</code></pre>
+
+<p>Run this once before putting it in cron if you have ssh access otherwise put it in cron directly but make sure to set a minimum of 1 hour</p>
 
     </section>
 

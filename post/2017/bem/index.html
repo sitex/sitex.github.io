@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/bem/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "BEM",
-    "name": "BEM",
-    "wordCount":  168 ,
+    "headline": BEM,
+    "name": BEM,
+    "wordCount": 168,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/bem/",
-    "datePublished": "2017-08-27T21:27Z",
-    "dateModified": "2017-08-27T21:27Z",
+    "url": /post/2017/bem/,
+    "datePublished": 2017-08-27T21:27Z,
+    "dateModified": 2017-08-27T21:27Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/bem/"
+        "@id": /post/2017/bem/
     }
 }
     </script>
@@ -182,17 +182,27 @@
     </header>
 
     <section class="post-content">
-      <p>BEM (Block, Element, Modifier) is an open source technology for developing websites that need to be created quickly and maintained over many years. BEM is used in the frontend development of all Yandex services.</p>
+      
+
+<p>BEM (Block, Element, Modifier) is an open source technology for developing websites that need to be created quickly and maintained over many years. BEM is used in the frontend development of all Yandex services.</p>
+
 <p><a href="https://tech.yandex.com/bem/">https://tech.yandex.com/bem/</a></p>
+
 <h3 id="block">Block</h3>
+
 <p>A functionally independent page component that can be reused. In HTML, blocks are represented by the class attribute.</p>
+
 <pre><code>&lt;!-- Correct. The `error` block is semantically meaningful --&gt;
 &lt;div class=&quot;error&quot;&gt;&lt;/div&gt;
 
 &lt;!-- Incorrect. It describes the appearance --&gt;
 &lt;div class=&quot;red-text&quot;&gt;&lt;/div&gt;
-</code></pre><h3 id="element">Element</h3>
+</code></pre>
+
+<h3 id="element">Element</h3>
+
 <p>A composite part of a block that can&rsquo;t be used separately from it.</p>
+
 <pre><code>&lt;!-- `search-form` block --&gt;
 &lt;form class=&quot;search-form&quot;&gt;
     &lt;!-- `input` element in the `search-form` block --&gt;
@@ -201,8 +211,12 @@
     &lt;!-- `button` element in the `search-form` block --&gt;
     &lt;button class=&quot;search-form__button&quot;&gt;Search&lt;/button&gt;
 &lt;/form&gt;
-</code></pre><h3 id="modifier">Modifier</h3>
+</code></pre>
+
+<h3 id="modifier">Modifier</h3>
+
 <p>An entity that defines the appearance, state, or behavior of a block or element.</p>
+
 <pre><code>&lt;!--
     Correct. The `search-form` block has the `theme` modifier with
     the value `islands`
@@ -220,6 +234,7 @@
     &lt;button class=&quot;search-form__button&quot;&gt;Search&lt;/button&gt;
 &lt;/form&gt;
 </code></pre>
+
     </section>
 
 

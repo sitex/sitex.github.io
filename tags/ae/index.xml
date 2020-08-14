@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ae on </title>
+    <link>/tags/ae/</link>
+    <description>Recent content in Ae on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 27 Mar 2020 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ae/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>After Effects course. Lesson 4.</title>
+      <link>/post/2020/week13/after-effects-course-04/</link>
+      <pubDate>Fri, 27 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week13/after-effects-course-04/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Edit Keyboard Shortcuts&lt;/li&gt;
+&lt;li&gt;Shape Effects&lt;/li&gt;
+&lt;li&gt;Graph Editor&lt;/li&gt;
+&lt;li&gt;Adjustment Layer&lt;/li&gt;
+&lt;li&gt;Pen Tool&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>After Effects course. Lesson 3.</title>
+      <link>/post/2020/week12/after-effects-course-03/</link>
+      <pubDate>Fri, 20 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week12/after-effects-course-03/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ping Pong Animation&lt;/li&gt;
+&lt;li&gt;Keyframe Interpolation&lt;/li&gt;
+&lt;li&gt;Morphing&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>After Effects scripts</title>
+      <link>/post/2020/week12/after-effects-scripts/</link>
+      <pubDate>Sun, 15 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week12/after-effects-scripts/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;centerAnchorPoint.jsx&lt;/li&gt;
+&lt;li&gt;convertToKeyframe.jsx&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>After Effects course. Lesson 2.</title>
+      <link>/post/2020/week11/after-effects-course-02/</link>
+      <pubDate>Fri, 13 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week11/after-effects-course-02/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Shapes&lt;/li&gt;
+&lt;li&gt;Anchor Point&lt;/li&gt;
+&lt;li&gt;Easing&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>After Effects course. Lesson 1.</title>
+      <link>/post/2020/week10/after-effects-course-01/</link>
+      <pubDate>Fri, 06 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week10/after-effects-course-01/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;FX Types&lt;/li&gt;
+&lt;li&gt;Transforms&lt;/li&gt;
+&lt;li&gt;Rule of middle&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

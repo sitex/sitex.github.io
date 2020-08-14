@@ -65,7 +65,7 @@ class FrozenTimeLocal extends FrozenTime { public function __toString() { return
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/frozentimelocal-for-cakephp/" />
 
@@ -78,13 +78,13 @@ class FrozenTimeLocal extends FrozenTime { public function __toString() { return
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -96,23 +96,23 @@ class FrozenTimeLocal extends FrozenTime { public function __toString() { return
             
         ]
     },
-    "headline": "FrozenTimeLocal for CakePHP",
-    "name": "FrozenTimeLocal for CakePHP",
-    "wordCount":  37 ,
+    "headline": FrozenTimeLocal for CakePHP,
+    "name": FrozenTimeLocal for CakePHP,
+    "wordCount": 37,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/frozentimelocal-for-cakephp/",
-    "datePublished": "2017-08-13T20:07Z",
-    "dateModified": "2017-08-13T20:07Z",
+    "url": /post/2017/frozentimelocal-for-cakephp/,
+    "datePublished": 2017-08-13T20:07Z,
+    "dateModified": 2017-08-13T20:07Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/frozentimelocal-for-cakephp/"
+        "@id": /post/2017/frozentimelocal-for-cakephp/
     }
 }
     </script>
@@ -184,6 +184,7 @@ class FrozenTimeLocal extends FrozenTime { public function __toString() { return
 
     <section class="post-content">
       <p>Modify default DateTime type to return localized date with timezone.</p>
+
 <pre><code>class FrozenTimeLocal extends FrozenTime
 {
     public function __toString()
@@ -191,7 +192,9 @@ class FrozenTimeLocal extends FrozenTime { public function __toString() { return
         return $this-&gt;i18nFormat('dd MMM HH:mm', 'Asia/Dhaka', 'ru_Ru');
     }
 }
-</code></pre><p>External:
+</code></pre>
+
+<p>External:
 <a href="https://stackoverflow.com/questions/30960843/cakephp-3-time-column-gets-date-added#30965562">Stackoverflow - CakePHP 3 time column gets date added</a></p>
 
     </section>

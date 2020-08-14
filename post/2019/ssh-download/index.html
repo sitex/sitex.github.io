@@ -66,7 +66,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2019/ssh-download/" />
 
@@ -79,13 +79,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -97,23 +97,23 @@
             
         ]
     },
-    "headline": "Download a file through an SSH server",
-    "name": "Download a file through an SSH server",
-    "wordCount":  46 ,
+    "headline": Download a file through an SSH server,
+    "name": Download a file through an SSH server,
+    "wordCount": 46,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2019/ssh-download/",
-    "datePublished": "2019-11-10T17:30Z",
-    "dateModified": "2019-11-10T17:30Z",
+    "url": /post/2019/ssh-download/,
+    "datePublished": 2019-11-10T17:30Z,
+    "dateModified": 2019-11-10T17:30Z,
     
-    "keywords": "terminal",
-    "description": "",
+    "keywords": terminal,
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2019/ssh-download/"
+        "@id": /post/2019/ssh-download/
     }
 }
     </script>
@@ -187,8 +187,12 @@
 
     <section class="post-content">
       <p>Just pipe the file to stdout on the server, and read it from stdin on your workstation.</p>
+
 <pre><code>ssh address-of-B 'wget -O - http://server-C/whatever' &gt;&gt; whatever
-</code></pre><p>i.e. redirection the wget-fetched output to stdout, and redirecting the local output (from ssh running wget remotely) to a file.</p>
+</code></pre>
+
+<p>i.e. redirection the wget-fetched output to stdout, and redirecting the local output (from ssh running wget remotely) to a file.</p>
+
 <p><a href="https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server">https://unix.stackexchange.com/questions/38755/how-to-download-a-file-through-an-ssh-server</a></p>
     </section>
 

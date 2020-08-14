@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>w11 on </title>
+    <title>W11 on </title>
     <link>/tags/w11/</link>
-    <description>Recent content in w11 on </description>
+    <description>Recent content in W11 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 14 Mar 2020 12:00:00 +0000</lastBuildDate>
     
@@ -17,6 +17,19 @@
       
       <guid>/post/2020/week11/hugo-shortcodes/</guid>
       <description>&lt;p&gt;Shortcodes are simple snippets inside your content files calling built-in or custom templates.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>After Effects course. Lesson 2.</title>
+      <link>/post/2020/week11/after-effects-course-02/</link>
+      <pubDate>Fri, 13 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week11/after-effects-course-02/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Shapes&lt;/li&gt;
+&lt;li&gt;Anchor Point&lt;/li&gt;
+&lt;li&gt;Easing&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>

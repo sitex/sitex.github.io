@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/proxy-by-amazon-ec2/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "Proxy by Amazon EC2",
-    "name": "Proxy by Amazon EC2",
-    "wordCount":  232 ,
+    "headline": Proxy by Amazon EC2,
+    "name": Proxy by Amazon EC2,
+    "wordCount": 232,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/proxy-by-amazon-ec2/",
-    "datePublished": "2017-12-25T01:27Z",
-    "dateModified": "2017-12-25T01:27Z",
+    "url": /post/2017/proxy-by-amazon-ec2/,
+    "datePublished": 2017-12-25T01:27Z,
+    "dateModified": 2017-12-25T01:27Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/proxy-by-amazon-ec2/"
+        "@id": /post/2017/proxy-by-amazon-ec2/
     }
 }
     </script>
@@ -195,12 +195,18 @@
 <li>Associate your instance to the previously create Elastic IP Address</li>
 <li>Press the <code>Connect</code> button and follow the instructions to connect. If you have previously connected using the same Elastic IP address you will need to remove the entry in the .ssh/known_hosts file. (If you’re not connecting to anything else using SSH you can just remove the known_hosts file as this will be regenerated).</li>
 <li>Once connected, you will need to install Squid (<code>yum install squid</code>)</li>
-<li>Once installed edit the <code>/etc/squid/squid.conf</code> to allow access from all machines. The configuration I am suggesting should be changed but I am using it initially to get things working. The conf file can be edited with:</li>
-</ol>
+
+<li><p>Once installed edit the <code>/etc/squid/squid.conf</code> to allow access from all machines. The configuration I am suggesting should be changed but I am using it initially to get things working. The conf file can be edited with:</p>
+
 <pre><code>#http_access allow manager localhost
 http_access allow all
-</code></pre><p>Start Proxy with: <code>/etc/init.d/squid start</code></p>
-<hr>
+</code></pre></li>
+</ol>
+
+<p>Start Proxy with: <code>/etc/init.d/squid start</code></p>
+
+<hr />
+
 <p>Source: <a href="https://pumpkineater.org/creating-a-proxy-using-amazon-ec2/">https://pumpkineater.org/creating-a-proxy-using-amazon-ec2/</a></p>
 
     </section>

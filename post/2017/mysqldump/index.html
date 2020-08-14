@@ -66,7 +66,7 @@ Us" />
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/mysqldump/" />
 
@@ -79,13 +79,13 @@ Us" />
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -97,23 +97,23 @@ Us" />
             
         ]
     },
-    "headline": "mysqldump",
-    "name": "mysqldump",
-    "wordCount":  33 ,
+    "headline": mysqldump,
+    "name": mysqldump,
+    "wordCount": 33,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/mysqldump/",
-    "datePublished": "2017-05-09T05:07Z",
-    "dateModified": "2017-05-09T05:07Z",
+    "url": /post/2017/mysqldump/,
+    "datePublished": 2017-05-09T05:07Z,
+    "dateModified": 2017-05-09T05:07Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/mysqldump/"
+        "@id": /post/2017/mysqldump/
     }
 }
     </script>
@@ -185,10 +185,17 @@ Us" />
 
     <section class="post-content">
       <p>Simple usage of mysqldump:</p>
-<p><code>mysqldump  --user='user' --password='password'  --skip-lock-tables  db_name table_name | gzip -c &gt; /home/hosting/table_name.sql.gz</code></p>
+
+<p><code>mysqldump 
+--user='user' --password='password' 
+--skip-lock-tables 
+db_name table_name | gzip -c &gt; /home/hosting/table_name.sql.gz</code></p>
+
 <p>Use <code>--skip-lock-tables</code>.
 Note that <code>%</code> should be <code>\%</code>.</p>
+
 <p><strong>ToDo</strong></p>
+
 <ol>
 <li>Automate using Cron</li>
 <li>Copy to backup a cloud storage</li>

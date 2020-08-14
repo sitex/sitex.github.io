@@ -74,7 +74,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2020/week13/docker-apache-php/" />
 
@@ -87,13 +87,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -105,23 +105,23 @@
             
         ]
     },
-    "headline": "docker-apache-php",
-    "name": "docker-apache-php",
-    "wordCount":  80 ,
+    "headline": docker-apache-php,
+    "name": docker-apache-php,
+    "wordCount": 80,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2020/week13/docker-apache-php/",
-    "datePublished": "2020-03-28T12:00Z",
-    "dateModified": "2020-03-28T12:00Z",
+    "url": /post/2020/week13/docker-apache-php/,
+    "datePublished": 2020-03-28T12:00Z,
+    "dateModified": 2020-03-28T12:00Z,
     
-    "keywords": "docker, php, w13",
-    "description": "",
+    "keywords": docker, php, w13,
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2020/week13/docker-apache-php/"
+        "@id": /post/2020/week13/docker-apache-php/
     }
 }
     </script>
@@ -203,14 +203,24 @@
 <li>versions</li>
 <li>extensions</li>
 </ul>
+
 <pre><code>docker run --name app -d -p 8080:80 \
   -v /host/to/path/app:/var/www/app/ \
   romeoz/docker-apache-php
-</code></pre><h3 id="see-installed-php-extension">See installed php-extension</h3>
+</code></pre>
+
+<h3 id="see-installed-php-extension">See installed php-extension</h3>
+
 <pre><code>docker exec -it app php -m
-</code></pre><h3 id="adding-php-extension">Adding PHP-extension</h3>
+</code></pre>
+
+<h3 id="adding-php-extension">Adding PHP-extension</h3>
+
 <pre><code>docker exec -it app bash -c 'apt-get update &amp;&amp; apt-get install php-mongo &amp;&amp; rm -rf /var/lib/apt/lists/*'
-</code></pre><h3 id="or">or</h3>
+</code></pre>
+
+<h3 id="or">or</h3>
+
 <pre><code>FROM romeoz/docker-apache-php:5.6
 
 RUN apt-get update \
@@ -222,7 +232,10 @@ WORKDIR /var/www/app/
 EXPOSE 80 443
 
 CMD [&quot;/sbin/entrypoint.sh&quot;]
-</code></pre><h3 id="and">and</h3>
+</code></pre>
+
+<h3 id="and">and</h3>
+
 <pre><code>docker build -t php-5.6 .
 docker run --name app -d -p 8080:80 php-5.6
 </code></pre>
@@ -284,9 +297,9 @@ docker run --name app -d -p 8080:80 php-5.6
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/post/2020/week13/rpi-youtube-livestream/">
+      <a class="read-next-story prev" style="no-cover" href="/post/2020/week13/after-effects-course-04/">
           <section class="post">
-              <h2>RPi YouTube Livestream</h2>
+              <h2>After Effects course. Lesson 4.</h2>
           </section>
       </a>
   

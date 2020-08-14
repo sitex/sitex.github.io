@@ -37,7 +37,7 @@
     <title>FFmpeg using Cuda &middot; </title>
 
     
-    <meta name="description" content="Configure ./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp" />
+    <meta name="description" content=" Configure ./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnp" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2018/ffmpeg-using-cuda/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "FFmpeg using Cuda",
-    "name": "FFmpeg using Cuda",
-    "wordCount":  45 ,
+    "headline": FFmpeg using Cuda,
+    "name": FFmpeg using Cuda,
+    "wordCount": 45,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2018/ffmpeg-using-cuda/",
-    "datePublished": "2018-10-15T03:59Z",
-    "dateModified": "2018-10-15T03:59Z",
+    "url": /post/2018/ffmpeg-using-cuda/,
+    "datePublished": 2018-10-15T03:59Z,
+    "dateModified": 2018-10-15T03:59Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2018/ffmpeg-using-cuda/"
+        "@id": /post/2018/ffmpeg-using-cuda/
     }
 }
     </script>
@@ -182,13 +182,25 @@
     </header>
 
     <section class="post-content">
-      <h4 id="configure">Configure</h4>
+      
+
+<h4 id="configure">Configure</h4>
+
 <pre><code>./configure --enable-cuda-sdk --enable-filter=scale_cuda --enable-filter=thumbnail_cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-x86asm
-</code></pre><h4 id="build">Build</h4>
+</code></pre>
+
+<h4 id="build">Build</h4>
+
 <pre><code>make -j 10
-</code></pre><h4 id="example---extract-frames">Example - Extract Frames</h4>
+</code></pre>
+
+<h4 id="example-extract-frames">Example - Extract Frames</h4>
+
 <pre><code>ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -vf &quot;hwupload_cuda,thumbnail_cuda=100,hwdownload,format=nv12,fps=1/2&quot; -q:v 2 frames/%05d.jpg
-</code></pre><h4 id="links">Links</h4>
+</code></pre>
+
+<h4 id="links">Links</h4>
+
 <ul>
 <li><a href="https://developer.nvidia.com/ffmpeg">Nvidia Official Page</a></li>
 <li><a href="https://stackoverflow.com/questions/48120440/ffmpeg-generate-thumbnails-on-gpu">ffmpeg generate thumbnails on GPU

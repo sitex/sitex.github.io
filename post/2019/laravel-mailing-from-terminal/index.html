@@ -40,8 +40,8 @@
 
     
     <meta name="description" content="Run:
-php artisan tinker and then:
-Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&#39;youremail@domain.com&#39;)-&amp;gt;subject(&#39;Testing email&#39;); }); C" />
+php artisan tinker  and then:
+Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&#39;youremail@domain.com&#39;)-&amp;gt;subject(&#39;Testing email&#39;); }); " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -68,7 +68,7 @@ Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2019/laravel-mailing-from-terminal/" />
 
@@ -81,13 +81,13 @@ Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -99,23 +99,23 @@ Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&
             
         ]
     },
-    "headline": "Laravel mailing from terminal",
-    "name": "Laravel mailing from terminal",
-    "wordCount":  32 ,
+    "headline": Laravel mailing from terminal,
+    "name": Laravel mailing from terminal,
+    "wordCount": 32,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2019/laravel-mailing-from-terminal/",
-    "datePublished": "2019-03-01T14:29Z",
-    "dateModified": "2019-03-01T14:29Z",
+    "url": /post/2019/laravel-mailing-from-terminal/,
+    "datePublished": 2019-03-01T14:29Z,
+    "dateModified": 2019-03-01T14:29Z,
     
-    "keywords": "laravel",
-    "description": "",
+    "keywords": laravel,
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2019/laravel-mailing-from-terminal/"
+        "@id": /post/2019/laravel-mailing-from-terminal/
     }
 }
     </script>
@@ -189,10 +189,17 @@ Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&
 
     <section class="post-content">
       <p>Run:</p>
+
 <pre><code>php artisan tinker
-</code></pre><p>and then:</p>
+</code></pre>
+
+<p>and then:</p>
+
 <pre><code>Mail::send('emails.test', [], function($message) { $message-&gt;to('youremail@domain.com')-&gt;subject('Testing email'); });
-</code></pre><p>Change <code>emails.test</code> to point to a blade that works and populate the email you want to test.</p>
+</code></pre>
+
+<p>Change <code>emails.test</code> to point to a blade that works and populate the email you want to test.</p>
+
 <p>Source:
 <a href="https://www.gregoryvarghese.com/tag/email/">https://www.gregoryvarghese.com/tag/email/</a></p>
 

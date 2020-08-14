@@ -40,7 +40,7 @@
 
     
     <meta name="description" content="The notebook is available over the network with two changes in the configuration file.
-Create configuration file jupyter notebook --generate-config Config IP c." />
+Create configuration file jupyter notebook --generate-config  Config IP c" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -67,7 +67,7 @@ Create configuration file jupyter notebook --generate-config Config IP c." />
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2019/expose-jupyter-notebook/" />
 
@@ -80,13 +80,13 @@ Create configuration file jupyter notebook --generate-config Config IP c." />
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -98,23 +98,23 @@ Create configuration file jupyter notebook --generate-config Config IP c." />
             
         ]
     },
-    "headline": "Expose jupyter notebook",
-    "name": "Expose jupyter notebook",
-    "wordCount":  48 ,
+    "headline": Expose jupyter notebook,
+    "name": Expose jupyter notebook,
+    "wordCount": 48,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2019/expose-jupyter-notebook/",
-    "datePublished": "2019-03-05T14:20Z",
-    "dateModified": "2019-03-05T14:20Z",
+    "url": /post/2019/expose-jupyter-notebook/,
+    "datePublished": 2019-03-05T14:20Z,
+    "dateModified": 2019-03-05T14:20Z,
     
-    "keywords": "jupyter",
-    "description": "",
+    "keywords": jupyter,
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2019/expose-jupyter-notebook/"
+        "@id": /post/2019/expose-jupyter-notebook/
     }
 }
     </script>
@@ -187,17 +187,33 @@ Create configuration file jupyter notebook --generate-config Config IP c." />
     </header>
 
     <section class="post-content">
-      <p>The notebook is available over the network with two changes in the configuration file.</p>
+      
+
+<p>The notebook is available over the network with two changes in the configuration file.</p>
+
 <h3 id="create-configuration-file">Create configuration file</h3>
+
 <pre><code>jupyter notebook --generate-config
-</code></pre><h3 id="config-ip">Config IP</h3>
+</code></pre>
+
+<h3 id="config-ip">Config IP</h3>
+
 <pre><code>c.NotebookApp.ip = '192.168.0.101'.
-</code></pre><h3 id="config-password">Config password</h3>
+</code></pre>
+
+<h3 id="config-password">Config password</h3>
+
 <p>Run to generate a password:</p>
+
 <pre><code>from the notebook.auth import passwd; passwd() 
-</code></pre><p>Add the password to config:</p>
+</code></pre>
+
+<p>Add the password to config:</p>
+
 <pre><code>c.NotebookApp.password = ''
-</code></pre><p>Source:
+</code></pre>
+
+<p>Source:
 <a href="http://kracekumar.com/post/156322146345/expose-jupyter-notebook-over-the-network">http://kracekumar.com/post/156322146345/expose-jupyter-notebook-over-the-network</a></p>
 
     </section>

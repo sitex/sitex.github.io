@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>laravel on </title>
+    <title>Laravel on </title>
     <link>/tags/laravel/</link>
-    <description>Recent content in laravel on </description>
+    <description>Recent content in Laravel on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 07 Mar 2019 14:35:00 +0000</lastBuildDate>
     
@@ -26,8 +26,8 @@
       
       <guid>/post/2019/laravel-mailing-from-terminal/</guid>
       <description>Run:
-php artisan tinker and then:
-Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&#39;youremail@domain.com&#39;)-&amp;gt;subject(&#39;Testing email&#39;); }); Change emails.test to point to a blade that works and populate the email you want to test.
+php artisan tinker  and then:
+Mail::send(&#39;emails.test&#39;, [], function($message) { $message-&amp;gt;to(&#39;youremail@domain.com&#39;)-&amp;gt;subject(&#39;Testing email&#39;); });  Change emails.test to point to a blade that works and populate the email you want to test.
 Source: https://www.gregoryvarghese.com/tag/email/</description>
     </item>
     

@@ -68,7 +68,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2020/week13/rpi-youtube-livestream/" />
 
@@ -81,13 +81,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -99,23 +99,23 @@
             
         ]
     },
-    "headline": "RPi YouTube Livestream",
-    "name": "RPi YouTube Livestream",
-    "wordCount":  84 ,
+    "headline": RPi YouTube Livestream,
+    "name": RPi YouTube Livestream,
+    "wordCount": 84,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2020/week13/rpi-youtube-livestream/",
-    "datePublished": "2020-03-23T12:00Z",
-    "dateModified": "2020-03-23T12:00Z",
+    "url": /post/2020/week13/rpi-youtube-livestream/,
+    "datePublished": 2020-03-23T12:00Z,
+    "dateModified": 2020-03-23T12:00Z,
     
-    "keywords": "rpi, w13",
-    "description": "",
+    "keywords": rpi, w13,
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2020/week13/rpi-youtube-livestream/"
+        "@id": /post/2020/week13/rpi-youtube-livestream/
     }
 }
     </script>
@@ -191,9 +191,14 @@
 
     <section class="post-content">
       <p>By adding a camera module to your Raspberry Pi, you essentially get a portable, lightweight, and easy-to-hold-or-mount internet-connected camera.</p>
+
 <h2 id="command">Command</h2>
+
 <pre><code>raspivid -o - -t 0 -w 1920 -h 1080 -fps 40 -b 8000000 -g 40 | ffmpeg -re -ar 44100 -ac 2 -acodec pcm_s16le -f s16le -ac 2 -i /dev/zero -f h264 -i pipe:0 -c:v copy -c:a aac -ab 128k -g 40 -strict experimental -f flv -r 30 rtmp://a.rtmp.youtube.com/live2/[your-secret-key-here]
-</code></pre><h2 id="links">Links</h2>
+</code></pre>
+
+<h2 id="links">Links</h2>
+
 <ul>
 <li><a href="https://www.raspberrypi.org/blog/youtube-live-streaming-docker/">YouTube live-streaming made easy</a></li>
 <li><a href="https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/">How to Live Stream to YouTube With a Raspberry Pi</a></li>
@@ -248,17 +253,17 @@
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/post/2020/week13/docker-apache-php/">
+      <a class="read-next-story" style="no-cover" href="/post/2020/week13/gamification-book/">
           <section class="post">
-              <h2>docker-apache-php</h2>
+              <h2>Gamification Book</h2>
               
           </section>
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/post/2020/week12/little-big/">
+      <a class="read-next-story prev" style="no-cover" href="/post/2020/week12/after-effects-course-03/">
           <section class="post">
-              <h2>Little Big</h2>
+              <h2>After Effects course. Lesson 3.</h2>
           </section>
       </a>
   

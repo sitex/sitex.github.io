@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/virtualenv/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "virtualenv",
-    "name": "virtualenv",
-    "wordCount":  78 ,
+    "headline": virtualenv,
+    "name": virtualenv,
+    "wordCount": 78,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/virtualenv/",
-    "datePublished": "2017-12-10T01:55Z",
-    "dateModified": "2017-12-10T01:55Z",
+    "url": /post/2017/virtualenv/,
+    "datePublished": 2017-12-10T01:55Z,
+    "dateModified": 2017-12-10T01:55Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/virtualenv/"
+        "@id": /post/2017/virtualenv/
     }
 }
     </script>
@@ -182,17 +182,31 @@
     </header>
 
     <section class="post-content">
-      <p><code>virtualenv</code> lets you create virtual Python environments. Everything you install or remove in that environment stays there and other environments are not affected.</p>
+      
+
+<p><code>virtualenv</code> lets you create virtual Python environments. Everything you install or remove in that environment stays there and other environments are not affected.</p>
+
 <p>Most importantly, you don&rsquo;t pollute the global package directory of your system.</p>
+
 <h3 id="create-an-environment">Create an Environment</h3>
+
 <pre><code>virtualenv my_blog_environment
-</code></pre><h3 id="exploring-the-virtual-environment">Exploring the Virtual Environment</h3>
+</code></pre>
+
+<h3 id="exploring-the-virtual-environment">Exploring the Virtual Environment</h3>
+
 <pre><code>cd my_blog_environment/
 source bin/activate
-</code></pre><p>The activate script will also modify your shell prompt to indicate which environment is currently active.</p>
+</code></pre>
+
+<p>The activate script will also modify your shell prompt to indicate which environment is currently active.</p>
+
 <p>To undo these changes to your path (and prompt), just run:</p>
+
 <pre><code>deactivate
-</code></pre><ul>
+</code></pre>
+
+<ul>
 <li><a href="https://www.pythoncentral.io/how-to-install-virtualenv-python/">https://www.pythoncentral.io/how-to-install-virtualenv-python/</a></li>
 <li><a href="https://virtualenv.pypa.io/en/stable/userguide/">https://virtualenv.pypa.io/en/stable/userguide/</a></li>
 </ul>

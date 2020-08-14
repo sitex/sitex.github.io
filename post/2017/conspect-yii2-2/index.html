@@ -37,7 +37,7 @@
     <title>Магазин на Yii2 - урок 2 &middot; </title>
 
     
-    <meta name="description" content="Архитектура и пользователи  Подготовка архитектуры Разделение ответственностей Выделение доменного ядра Введение репозиториев Выделение сервисов Управление доме" />
+    <meta name="description" content="Архитектура и пользователи  Подготовка архитектуры  Разделение ответственностей Выделение доменного ядра Введение репозиториев Выделение сервисов Управление дом" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -64,7 +64,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="/post/2017/conspect-yii2-2/" />
 
@@ -77,13 +77,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": 
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": ,
         
-        "url":  null ,
+        "url": ,
         "sameAs": [
             
             
@@ -95,23 +95,23 @@
             
         ]
     },
-    "headline": "Магазин на Yii2 - урок 2",
-    "name": "Магазин на Yii2 - урок 2",
-    "wordCount":  222 ,
+    "headline": Магазин на Yii2 - урок 2,
+    "name": Магазин на Yii2 - урок 2,
+    "wordCount": 222,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": "en"
+      "alternateName": en
     },
-    "url": "/post/2017/conspect-yii2-2/",
-    "datePublished": "2017-05-17T15:39Z",
-    "dateModified": "2017-05-17T15:39Z",
+    "url": /post/2017/conspect-yii2-2/,
+    "datePublished": 2017-05-17T15:39Z,
+    "dateModified": 2017-05-17T15:39Z,
     
     
-    "description": "",
+    "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/post/2017/conspect-yii2-2/"
+        "@id": /post/2017/conspect-yii2-2/
     }
 }
     </script>
@@ -182,23 +182,33 @@
     </header>
 
     <section class="post-content">
-      <h1 id="архитектура-и-пользователи">Архитектура и пользователи</h1>
+      
+
+<h1 id="архитектура-и-пользователи">Архитектура и пользователи</h1>
+
 <ul>
-<li>Подготовка архитектуры</li>
+<li>Подготовка архитектуры
+
+<ul>
 <li>Разделение ответственностей</li>
 <li>Выделение доменного ядра</li>
 <li>Введение репозиториев</li>
 <li>Выделение сервисов</li>
 <li>Управление доменными событиями</li>
-<li>Пользователи</li>
+</ul></li>
+<li>Пользователи
+
+<ul>
 <li>Сущность User</li>
 <li>Подтверждение регистрации по Email</li>
 <li>Регистрация через соцсети</li>
 <li>Новый пользователь</li>
 <li>Привязка соцсетей к существующему</li>
+</ul></li>
 <li>Личный кабинет пользователя</li>
 <li>Администрирование пользователей</li>
 </ul>
+
 <p>2:04 continue
 2:16 PasswordResetService
 2:16 (&ldquo;throw new \Exception&rdquo; vs &ldquo;return false&rdquo;)
@@ -207,7 +217,7 @@
 2:53 PasswordResetService _construct with Mailer
 2:56 ContactForm - Service
 3:05 (Private vs Protected)
-3:07 Instance:of('')
+3:07 Instance:of(&ldquo;)
 3:13 Подтверждение регистрации по Email
 3:21 Промежуточный обзор - что получили
 3:25 Подготовка к использованию Репозиториев
@@ -220,7 +230,9 @@
 3:50 Делим SiteController на мелкие Контроллеры
 3:54 Маршрутизация мелких Контроллеров
 3:57 Представление писем по папкам</p>
+
 <h4 id="регистрация-через-соцсети">Регистрация через соцсети</h4>
+
 <p>3:59 Регистрация через соц.сети
 4:08 <a href="https://github.com/webmozart/assert">https://github.com/webmozart/assert</a>
 4:09 Создание вместе User и Network
@@ -233,7 +245,9 @@
 4:34 Demo Network Login
 4:38 Demo Network Login - check DB
 4:41 Кабинет пользователя с другими соц.сетями</p>
+
 <h4 id="администрирование-пользователей">Администрирование пользователей</h4>
+
 <p>4:50 CRUD пользователей через gii, allowedIPs
 4:55 Настройка полученного CRUD
 4:57 Модель поиска и GridView

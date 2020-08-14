@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>terminal on </title>
+    <title>Terminal on </title>
     <link>/tags/terminal/</link>
-    <description>Recent content in terminal on </description>
+    <description>Recent content in Terminal on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 10 Nov 2019 17:30:00 +0000</lastBuildDate>
     
@@ -25,7 +25,7 @@
       <pubDate>Thu, 07 Mar 2019 14:19:00 +0000</pubDate>
       
       <guid>/post/2019/all-files-and-folders-recursively-via-terminal/</guid>
-      <description>find . -type f &amp;gt; ../files-all.txt </description>
+      <description>find . -type f &amp;gt; ../files-all.txt  </description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Wed, 06 Mar 2019 14:17:00 +0000</pubDate>
       
       <guid>/post/2019/all-files-from-subfolders-to-parent-folder/</guid>
-      <description>find . -mindepth 2 -type f -print -exec mv {} . \; </description>
+      <description>find . -mindepth 2 -type f -print -exec mv {} . \;  </description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
       <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
       
       <guid>/post/2019/all-files-in-amazon-s3/</guid>
-      <description>$ s3cmd ls -r s3://yourbucket/ | awk &#39;{print $4}&#39; &amp;gt; objects_in_bucket </description>
+      <description>$ s3cmd ls -r s3://yourbucket/ | awk &#39;{print $4}&#39; &amp;gt; objects_in_bucket  </description>
     </item>
     
   </channel>

@@ -1,251 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
     <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 27 Jul 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>toos</title>
-      <link>/tags/toos/</link>
-      <pubDate>Mon, 27 Jul 2020 12:00:00 +0000</pubDate>
+      <title>Ae</title>
+      <link>/tags/ae/</link>
+      <pubDate>Fri, 27 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>/tags/toos/</guid>
+      <guid>/tags/ae/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>w31</title>
-      <link>/tags/w31/</link>
-      <pubDate>Mon, 27 Jul 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/w31/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>book</title>
-      <link>/tags/book/</link>
-      <pubDate>Sun, 10 May 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mafia</title>
-      <link>/tags/mafia/</link>
-      <pubDate>Sun, 10 May 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/mafia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>w19</title>
-      <link>/tags/w19/</link>
-      <pubDate>Sun, 10 May 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/w19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>email</title>
-      <link>/tags/email/</link>
-      <pubDate>Sun, 29 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>w13</title>
-      <link>/tags/w13/</link>
-      <pubDate>Sun, 29 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/w13/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>/tags/docker/</link>
-      <pubDate>Sat, 28 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>php</title>
-      <link>/tags/php/</link>
-      <pubDate>Sat, 28 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rpi</title>
-      <link>/tags/rpi/</link>
-      <pubDate>Mon, 23 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/rpi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>/tags/music/</link>
-      <pubDate>Wed, 18 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>w12</title>
-      <link>/tags/w12/</link>
-      <pubDate>Wed, 18 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/w12/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Sat, 14 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>w11</title>
-      <link>/tags/w11/</link>
-      <pubDate>Sat, 14 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/w11/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ml</title>
-      <link>/tags/ml/</link>
-      <pubDate>Wed, 11 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tensorflow</title>
-      <link>/tags/tensorflow/</link>
-      <pubDate>Wed, 11 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/tensorflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>links</title>
-      <link>/tags/links/</link>
-      <pubDate>Tue, 10 Mar 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/links/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reactjs</title>
-      <link>/tags/reactjs/</link>
-      <pubDate>Sun, 23 Feb 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/reactjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>elixir</title>
-      <link>/tags/elixir/</link>
-      <pubDate>Wed, 12 Feb 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/elixir/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>/tags/windows/</link>
-      <pubDate>Wed, 12 Feb 2020 12:00:00 +0000</pubDate>
-      
-      <guid>/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photos</title>
-      <link>/tags/photos/</link>
-      <pubDate>Wed, 04 Dec 2019 17:30:00 +0000</pubDate>
-      
-      <guid>/tags/photos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>/tags/software/</link>
-      <pubDate>Wed, 04 Dec 2019 17:30:00 +0000</pubDate>
-      
-      <guid>/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hardware</title>
-      <link>/tags/hardware/</link>
-      <pubDate>Tue, 03 Dec 2019 17:30:00 +0000</pubDate>
-      
-      <guid>/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>books</title>
-      <link>/tags/books/</link>
-      <pubDate>Mon, 02 Dec 2019 17:30:00 +0000</pubDate>
-      
-      <guid>/tags/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>terminal</title>
-      <link>/tags/terminal/</link>
-      <pubDate>Sun, 10 Nov 2019 17:30:00 +0000</pubDate>
-      
-      <guid>/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>laravel</title>
-      <link>/tags/laravel/</link>
-      <pubDate>Thu, 07 Mar 2019 14:35:00 +0000</pubDate>
-      
-      <guid>/tags/laravel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>amazon</title>
+      <title>Amazon</title>
       <link>/tags/amazon/</link>
       <pubDate>Wed, 06 Mar 2019 14:15:00 +0000</pubDate>
       
@@ -254,16 +29,7 @@
     </item>
     
     <item>
-      <title>jupyter</title>
-      <link>/tags/jupyter/</link>
-      <pubDate>Tue, 05 Mar 2019 14:20:00 +0000</pubDate>
-      
-      <guid>/tags/jupyter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>audio</title>
+      <title>Audio</title>
       <link>/tags/audio/</link>
       <pubDate>Wed, 06 Feb 2019 18:36:00 +0000</pubDate>
       
@@ -272,7 +38,7 @@
     </item>
     
     <item>
-      <title>auth</title>
+      <title>Auth</title>
       <link>/tags/auth/</link>
       <pubDate>Wed, 06 Feb 2019 18:35:03 +0000</pubDate>
       
@@ -281,11 +47,263 @@
     </item>
     
     <item>
-      <title>ubuntu</title>
+      <title>Books</title>
+      <link>/tags/books/</link>
+      <pubDate>Mon, 02 Dec 2019 17:30:00 +0000</pubDate>
+      
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sat, 28 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elixir</title>
+      <link>/tags/elixir/</link>
+      <pubDate>Wed, 12 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Email</title>
+      <link>/tags/email/</link>
+      <pubDate>Sun, 29 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gamification</title>
+      <link>/tags/gamification/</link>
+      <pubDate>Mon, 30 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/gamification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>/tags/hardware/</link>
+      <pubDate>Tue, 03 Dec 2019 17:30:00 +0000</pubDate>
+      
+      <guid>/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Sat, 14 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>/tags/jupyter/</link>
+      <pubDate>Tue, 05 Mar 2019 14:20:00 +0000</pubDate>
+      
+      <guid>/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>/tags/laravel/</link>
+      <pubDate>Thu, 07 Mar 2019 14:35:00 +0000</pubDate>
+      
+      <guid>/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/tags/links/</link>
+      <pubDate>Tue, 10 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ml</title>
+      <link>/tags/ml/</link>
+      <pubDate>Wed, 11 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>/tags/music/</link>
+      <pubDate>Wed, 18 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>/tags/photos/</link>
+      <pubDate>Wed, 04 Dec 2019 17:30:00 +0000</pubDate>
+      
+      <guid>/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>/tags/php/</link>
+      <pubDate>Sat, 28 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reactjs</title>
+      <link>/tags/reactjs/</link>
+      <pubDate>Sun, 23 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/reactjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rpi</title>
+      <link>/tags/rpi/</link>
+      <pubDate>Mon, 23 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/rpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>/tags/scripts/</link>
+      <pubDate>Sun, 15 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/tags/software/</link>
+      <pubDate>Wed, 04 Dec 2019 17:30:00 +0000</pubDate>
+      
+      <guid>/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study</title>
+      <link>/tags/study/</link>
+      <pubDate>Tue, 17 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorflow</title>
+      <link>/tags/tensorflow/</link>
+      <pubDate>Wed, 11 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>/tags/terminal/</link>
+      <pubDate>Sun, 10 Nov 2019 17:30:00 +0000</pubDate>
+      
+      <guid>/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
       <link>/tags/ubuntu/</link>
       <pubDate>Mon, 17 Dec 2018 18:59:00 +0000</pubDate>
       
       <guid>/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>W10</title>
+      <link>/tags/w10/</link>
+      <pubDate>Fri, 06 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>W11</title>
+      <link>/tags/w11/</link>
+      <pubDate>Sat, 14 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>W12</title>
+      <link>/tags/w12/</link>
+      <pubDate>Fri, 20 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>W13</title>
+      <link>/tags/w13/</link>
+      <pubDate>Sun, 29 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>W14</title>
+      <link>/tags/w14/</link>
+      <pubDate>Tue, 31 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/w14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Wed, 12 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workout</title>
+      <link>/tags/workout/</link>
+      <pubDate>Tue, 31 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/workout/</guid>
       <description></description>
     </item>
     
