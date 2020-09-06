@@ -5,10 +5,24 @@
     <link>/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 31 Mar 2020 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Delete all your messages in Discord channel</title>
+      <link>/post/2020/week14/delete-all-your-messages-in-discord-channel/</link>
+      <pubDate>Wed, 01 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/week14/delete-all-your-messages-in-discord-channel/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Open Discord in a browser like Chrome or Firefox;&lt;/li&gt;
+&lt;li&gt;Open DevTools pressing F12 or ⌘ command+option+J;&lt;/li&gt;
+&lt;li&gt;Copy the deleteDiscordMessages.js script and paste it in the Console, then press ENTER;&lt;/li&gt;
+&lt;li&gt;Edit the following text, then paste it in the console:&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>X3 Program Week 1 Workout 2</title>
