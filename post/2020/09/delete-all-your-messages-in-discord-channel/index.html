@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Delete all your messages in Discord channel"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@"/>
+
+
+
+  	<meta property="og:title" content="Delete all your messages in Discord channel &middot; " />
+  	<meta property="og:site_name" content="" />
+  	<meta property="og:url" content="/post/2020/09/delete-all-your-messages-in-discord-channel/" />
+
+    
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-09-06T12:00:00Z" />
+
+    
+    <meta property="article:tag" content="tools" />
+    
+    
+
+    <title>Delete all your messages in Discord channel &middot; </title>
+
+    
+    <meta name="description" content="&lt;ul&gt;
+&lt;li&gt;Open Discord in a browser like Chrome or Firefox;&lt;/li&gt;
+&lt;li&gt;Open DevTools pressing F12 or ⌘ command&#43;option&#43;J;&lt;/li&gt;
+&lt;li&gt;Copy the deleteDiscordMessages.js" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+
+    
+
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+      
+          <link href="/index.xml" rel="alternate" type="application/rss+xml" title="" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.54.0" />
+
+    <link rel="canonical" href="/post/2020/09/delete-all-your-messages-in-discord-channel/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": 
+    },
+    "author": {
+        "@type": "Person",
+        "name": ,
+        
+        "url": ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ]
+    },
+    "headline": Delete all your messages in Discord channel,
+    "name": Delete all your messages in Discord channel,
+    "wordCount": 885,
+    "timeRequired": "PT5M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": en
+    },
+    "url": /post/2020/09/delete-all-your-messages-in-discord-channel/,
+    "datePublished": 2020-09-06T12:00Z,
+    "dateModified": 2020-09-06T12:00Z,
+    
+    "keywords": tools,
+    "description": ,
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": /post/2020/09/delete-all-your-messages-in-discord-channel/
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button icon-feed" href="/index.xml" >&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Delete all your messages in Discord channel</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2020-09-06T12:00:00Z">
+            Sep 6, 2020
+          </time>
+        
+         
+          <span class="post-tag small"><a href="/tags/tools/">#tools</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <ul>
+<li>Open Discord in a browser like Chrome or Firefox;</li>
+<li>Open DevTools pressing F12 or ⌘ command+option+J;</li>
+<li>Copy the deleteDiscordMessages.js script and paste it in the Console, then press ENTER;</li>
+<li>Edit the following text, then paste it in the console:</li>
+</ul>
+
+<pre><code class="language-javascript">// fill with your info
+var authToken = &quot;MTX5MzQ1MjAyMjU0NjA2MzM2.ROFLMAO.UvqZqBMXLpDuOY3Z456J3JRIfbk&quot;;
+var authorId = &quot;112233445566778899&quot;;
+var channelId = &quot;112233445566778899&quot;;
+var firstMessageId = &quot;&quot;;
+
+deleteMessages(authToken, authorId, channelId, firstMessageId); //start
+</code></pre>
+
+<ul>
+<li>It will start to delete messages. You will be able to follow the progress and the remaining time in a popup window.</li>
+</ul>
+
+<h3 id="abort-stop">Abort / Stop</h3>
+
+<p>Inside the console, type (uppercase) STOP=1 and press ENTER.</p>
+
+<h3 id="variables">Variables</h3>
+
+<h4 id="authtoken">authToken</h4>
+
+<ol>
+<li>Open the dev tools (F12), open the Network tab. (You should clear all requests for better readability if you see some.)</li>
+<li>Delete one message manually. In the request log, you will see a request with a DELETE method.</li>
+<li>Click on the request to open the details, and on the Headers tab, copy the &lsquo;authorization&rsquo; token. It&rsquo;s a long text &gt; with dots like MTX5MzQ1MjAyMjU0NjA2MzM2.ROFLMAO&hellip;</li>
+</ol>
+
+<h4 id="authorid">authorId</h4>
+
+<p>Right click your avatar in a message you sent in the chat, Copy ID</p>
+
+<h4 id="channelid">channelId</h4>
+
+<ul>
+<li>For public channels: Right click a channel, Copy ID</li>
+<li>For a DM/Direct messages: copy the number after /@me/ in the URL)</li>
+</ul>
+
+<h4 id="firstmessageid">firstMessageId</h4>
+
+<ul>
+<li>Delete messages after one message - Right click a message, Copy ID</li>
+<li>Delete since the begining of a channel - Leave this variable empty &ldquo;&rdquo;.</li>
+</ul>
+
+<h3 id="deletediscordmessages-js">deleteDiscordMessages.js</h3>
+
+<pre><code class="language-javascript">//Paste this function in DevTools console inside Discord
+
+/**
+ * Delete all messages in a Discord channel or DM
+ * @param {string} authToken Your authorization token
+ * @param {string} authorId Author of the messages you want to delete
+ * @param {string} channelId Channel were the messages are located
+ * @param {string} afterMessageId Only delete messages after this, leave blank do delete all
+ * @author Victornpb &lt;https://www.github.com/victornpb&gt;
+ * @see https://gist.github.com/victornpb/135f5b346dea4decfc8f63ad7d9cc182
+ */
+function deleteMessages(authToken, authorId, channelId, afterMessageId) {
+    const start = new Date();
+    let delayDelete = 500;
+    let delaySearch = 1000;
+    let delCount = 0;
+    let failCount = 0;
+    let estimatedPing = 220;
+    let grandTotal;
+    let throttledCount = 0;
+    let throttledTotalTime = 0;
+    const history = [];
+
+    const wait = async (ms) =&gt; new Promise(done =&gt; setTimeout(done, ms));
+    const msToHMS = (s) =&gt; `${s / 3.6e6 | 0}h ${(s % 3.6e6) / 6e4 | 0}m ${(s % 6e4) / 1000 | 0}s`;
+    function logger(type, args, style = '') {
+        console[type].apply(console, args);
+        history.push(args);
+        pp.insertAdjacentHTML('beforeend', `&lt;div style=&quot;${style}&quot;&gt;${Array.from(args).map(o =&gt; typeof o === 'object' ? JSON.stringify(o) : o).join('\t')}&lt;/div&gt;`);
+        popup.scrollBy(0, 1e10);
+    }
+    function log() { logger('log', arguments, 'black'); }
+    function log_info() { logger('info', arguments, 'color:darkturquoise;'); }
+    function log_verb() { logger('debug', arguments, 'color:gray;'); }
+    function log_warn() { logger('warn', arguments, 'color:orange;'); }
+    function log_error() { logger('error', arguments, 'color:red;'); }
+    function log_success() { logger('log', arguments, 'color:green;'); }
+
+    var popup = window.open('', '', 'width=800,height=1000,top=0,left=0');
+    if (!popup) return console.error('Popup blocked! Please allow popups and try again.');
+    popup.document.write('&lt;span&gt;...&lt;/span&gt;');
+    popup.document.body.innerHTML = '&lt;pre&gt;&lt;/pre&gt;';
+    const pp = popup.document.getElementsByTagName('pre')[0];
+    
+
+    log_info(`Started at ${start.toLocaleString()}`);
+    log(`channelId=${channelId} authorId=${authorId} firstMessageId=${afterMessageId}`);
+    log_info(`---- You can abort by setting STOP=1 on the console ----`);
+    recurse();
+
+    async function recurse() {
+        const headers = {
+            &quot;Authorization&quot;: authToken
+        };
+        const deleteAfter = `search?author_id=${authorId}` + (afterMessageId ? `&amp;min_id=${afterMessageId}` : '');
+        const baseURL = `https://discordapp.com/api/v6/channels/${channelId}/messages/`;
+
+        let resp;
+        try {
+            resp = await fetch(baseURL + deleteAfter, {
+                headers
+            });
+        } catch (err) {
+            log_error('Something went wrong!', err);
+            return;
+        }
+
+        // not indexed yet
+        if (resp.status === 202) {
+            const w = (await resp.json()).retry_after;
+            throttledCount++;
+            throttledTotalTime += w;
+            log_warn(`This channel wasn't indexed, waiting ${w} ms for discord to index it...`);
+            await wait(w);
+            return recurse();
+        }
+
+        if (!resp.ok) {
+            if (resp.status === 429) {
+                const r = await resp.json();
+                const x = r.retry_after;
+                throttledCount++;
+                throttledTotalTime += x;
+                log_warn(`! Rate limited by the API! Waiting ${x} ms ...`);
+                await wait(x);
+                return recurse();
+            } else {
+                log_error('API respondend with non OK status!', await resp.json());
+                return;
+            }
+        }
+
+        const result = await resp.json();
+
+        const total = result.total_results;
+        if (!grandTotal) grandTotal = total;
+        log_info(`Messages to delete: ${result.total_results}`, `Time remaining: ${msToHMS((delaySearch * Math.round(total / 25)) + ((delayDelete + estimatedPing) * total))} (ping: ${estimatedPing &lt;&lt; 0}ms)`);
+
+        if (result.total_results &gt; 0) {
+            for (let i = 0; i &lt; result.messages.length; i++) {
+                const element = result.messages[i];
+                for (let j = 0; j &lt; element.length; j++) {
+                    const message = element[j];
+
+                    if (window.STOP) return log_error('STOPPED! (If you want to continue set STOP=0 and run again!');
+
+                    if (message.type === 3) {
+                        log_verb('Found a System message!? skipping it...', message);
+                    } else if (message.author.id == authorId &amp;&amp; message.hit == true) {
+
+                        log(`${((delCount + 1) / grandTotal * 100).toFixed(2)}% (${delCount + 1}/${grandTotal}) Deleting ID:${message.id}`,
+                            `[${new Date(message.timestamp).toLocaleString()}] ${message.author.username}#${message.author.discriminator}: ${message.content}`,
+                            message.attachments.length ? message.attachments : '');
+                        const s = Date.now();
+
+                        let resp;
+                        try {
+                            resp = await fetch(baseURL + message.id, {
+                                headers,
+                                method: &quot;DELETE&quot;
+                            });
+                            delCount++;
+                        } catch (err) {
+                            log_error('Failed to delete message:', message, 'Error:', err);
+                            failCount++;
+                        }
+
+                        if (!resp.ok) {
+                            if (resp.status === 429) {
+                                const r = await resp.json();
+                                const x = r.retry_after;
+                                throttledCount++;
+                                throttledTotalTime += x;
+                                log_warn(`! Rate limited by the API! Waiting ${x} ms ...`);
+                                await wait(x);
+                                i--;
+                            } else {
+                                log_error('API respondend with non OK status!', resp);
+                            }
+                        }
+                        estimatedPing = (estimatedPing + (Date.now() - s)) / 2;
+                        await wait(delayDelete);
+                    }
+                }
+            }
+            log_verb('Getting next messages...');
+            await wait(delaySearch);
+            return recurse();
+        } else {
+            log_success('---- DONE! ----');
+            log_info(`Ended at ${new Date().toLocaleString()}! Total time: ${msToHMS(Date.now() - start.getTime())}`);
+            log(`Rate Limited: ${throttledCount} times. Total time throttled: ${msToHMS(throttledTotalTime)}`);
+            log(`Deleted ${delCount} messages , ${failCount} failed.`);
+            return result;
+        }
+    }
+}
+
+//END.
+</code></pre>
+
+<h3 id="links">Links</h3>
+
+<ul>
+<li><a href="https://bl.ocks.org/hyonschu/6ac0133deda18411bfc942c4d3c2d685">Source</a></li>
+<li><a href="https://github.com/victornpb/deleteDiscordMessages">GitHub</a></li>
+</ul>
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Delete%20all%20your%20messages%20in%20Discord%20channel&nbsp;-&nbsp;&amp;url=%2fpost%2f2020%2f09%2fdelete-all-your-messages-in-discord-channel%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2f2020%2f09%2fdelete-all-your-messages-in-discord-channel%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2f2020%2f09%2fdelete-all-your-messages-in-discord-channel%2f&amp;description=Delete%20all%20your%20messages%20in%20Discord%20channel"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2f2020%2f09%2fdelete-all-your-messages-in-discord-channel%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+      <a class="read-next-story" style="no-cover" href="/post/2020/09/boris-fx-optics/">
+          <section class="post">
+              <h2>Boris FX Optics</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="/post/2020/03/x3-program-week-1-workout-2/">
+          <section class="post">
+              <h2>X3 Program Week 1 Workout 2</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href=""></a> </section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+

@@ -12,10 +12,10 @@
     
     <item>
       <title>Data from HTML to ReactJS</title>
-      <link>/post/2020/data-from-html-to-reactjs/</link>
+      <link>/post/2020/02/data-from-html-to-reactjs/</link>
       <pubDate>Sun, 23 Feb 2020 12:00:00 +0000</pubDate>
       
-      <guid>/post/2020/data-from-html-to-reactjs/</guid>
+      <guid>/post/2020/02/data-from-html-to-reactjs/</guid>
       <description>&lt;p&gt;How to pass data into a React app from the HTML to parameterise it.&lt;/p&gt;</description>
     </item>
     
